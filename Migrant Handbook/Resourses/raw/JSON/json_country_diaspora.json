@@ -1,0 +1,68 @@
+// 20170316194807
+// http://176.126.167.249/api/v1/country_diaspora/?format=json
+
+{
+  "meta": {
+    "limit": 20,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 9
+  },
+  "objects": [
+    {
+      "country": "Германия",
+      "id": 4,
+      "image": "/media/images/germany.png",
+      "resource_uri": "/api/v1/country_diaspora/2/"
+    },
+    {
+      "country": "Италия",
+      "id": 5,
+      "image": "/media/images/Italy.png",
+      "resource_uri": "/api/v1/country_diaspora/5/"
+    },
+    {
+      "country": "Казахстан",
+      "id": 1,
+      "image": "/media/images/Kazakhstan_1.png",
+      "resource_uri": "/api/v1/country_diaspora/6/"
+    },
+    {
+      "country": "ОАЭ",
+      "id": 6,
+      "image": "/media/images/oae.png",
+      "resource_uri": "/api/v1/country_diaspora/8/"
+    },
+    {
+      "country": "Россия",
+      "id": 2,
+      "image": "/media/images/rus.png",
+      "resource_uri": "/api/v1/country_diaspora/4/"
+    },
+    {
+      "country": "США",
+      "id": 7,
+      "image": "/media/images/usa.png",
+      "resource_uri": "/api/v1/country_diaspora/9/"
+    },
+    {
+      "country": "Украина",
+      "id": 3,
+      "image": "/media/images/ukraine.png",
+      "resource_uri": "/api/v1/country_diaspora/10/"
+    },
+    {
+      "country": "Швейцария",
+      "id": 8,
+      "image": "/media/images/sweden.png",
+      "resource_uri": "/api/v1/country_diaspora/3/"
+    },
+    {
+      "country": "Япония",
+      "id": 9,
+      "image": "/media/images/japan.png",
+      "resource_uri": "/api/v1/country_diaspora/7/"
+    }
+  ]
+}

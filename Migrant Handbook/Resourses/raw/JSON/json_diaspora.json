@@ -1,0 +1,2446 @@
+// 20170316194959
+// http://176.126.167.249/api/v1/diaspora/?offset=0&limit=0&format=json
+
+{
+  "meta": {
+    "limit": 1000,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 128
+  },
+  "objects": [
+    {
+      "address": "Wilhelmstr. 47, 10117 Berlin",
+      "city": "г. Берлин",
+      "country": {
+        "country": "Германия",
+        "id": 2,
+        "image": "/media/images/germany.png",
+        "resource_uri": "/api/v1/country_diaspora/2/"
+      },
+      "created_at": "2016-11-09T19:08:57.978168",
+      "email": "martin.k.hartwig@t-online.de",
+      "id": 2,
+      "manager": "Супруги Мартин и Галия Хартвиг",
+      "map_link": "https://www.google.ru/maps/place/Wilhelmstra%C3%9Fe,+Berlin,+%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F/@52.5070425,13.384354,17.46z/data=!4m5!3m4!1s0x47a851ce1c541537:0xe8ff9a72a44e35d2!8m2!3d52.5082006!4d13.3851262",
+      "phone_number": "+4915150744917",
+      "place": "(члены Кыргызско-германского культурного общества)",
+      "resource_uri": "/api/v1/diaspora/2/",
+      "updated_at": "2016-12-01T11:53:03.905504"
+    },
+    {
+      "address": "Kaiser-Friedrich Str. 61, 10627 Berlin",
+      "city": "г. Берлин",
+      "country": {
+        "country": "Германия",
+        "id": 2,
+        "image": "/media/images/germany.png",
+        "resource_uri": "/api/v1/country_diaspora/2/"
+      },
+      "created_at": "2016-11-09T19:08:57.978858",
+      "email": "zunwas@gmail.com",
+      "id": 3,
+      "manager": "Цунваз Арбуду",
+      "map_link": "",
+      "phone_number": "+4915773743899",
+      "place": "(предприниматель, активист дунганской диаспоры в КР)",
+      "resource_uri": "/api/v1/diaspora/3/",
+      "updated_at": "2016-12-01T11:58:16.553824"
+    },
+    {
+      "address": "\"Mariannenstr. 31\r\n10999 Berlin\r\n\"",
+      "city": "г. Берлин",
+      "country": {
+        "country": "Германия",
+        "id": 2,
+        "image": "/media/images/germany.png",
+        "resource_uri": "/api/v1/country_diaspora/2/"
+      },
+      "created_at": "2016-11-09T19:08:57.979296",
+      "email": "shirin.madanova@dkk-verein.com",
+      "id": 4,
+      "manager": "Ширин Маданова",
+      "map_link": "",
+      "phone_number": "+4917678172356",
+      "place": "(член Кыргызско-германского культурного общества)",
+      "resource_uri": "/api/v1/diaspora/4/",
+      "updated_at": "2016-12-01T11:58:16.554864"
+    },
+    {
+      "address": "",
+      "city": "г.Болонья",
+      "country": {
+        "country": "Италия",
+        "id": 5,
+        "image": "/media/images/Italy.png",
+        "resource_uri": "/api/v1/country_diaspora/5/"
+      },
+      "created_at": "2016-11-17T14:06:41.830130",
+      "email": "nazika0505@mail.ru",
+      "id": 9,
+      "manager": "Назгуль Толобаева",
+      "map_link": "",
+      "phone_number": "393292215885",
+      "place": "вице-президент",
+      "resource_uri": "/api/v1/diaspora/9/",
+      "updated_at": "2016-11-17T14:06:41.830186"
+    },
+    {
+      "address": "",
+      "city": "г.Рим, регион Лацио",
+      "country": {
+        "country": "Италия",
+        "id": 5,
+        "image": "/media/images/Italy.png",
+        "resource_uri": "/api/v1/country_diaspora/5/"
+      },
+      "created_at": "2016-11-17T14:06:41.830754",
+      "email": "",
+      "id": 10,
+      "manager": "Миргуль Омуралиева",
+      "map_link": "",
+      "phone_number": "393206395258",
+      "place": "«Associazione  popolo  del  Kirgizistan» - председатель",
+      "resource_uri": "/api/v1/diaspora/10/",
+      "updated_at": "2016-11-17T14:06:41.830785"
+    },
+    {
+      "address": "",
+      "city": "г.Неаполь",
+      "country": {
+        "country": "Италия",
+        "id": 5,
+        "image": "/media/images/Italy.png",
+        "resource_uri": "/api/v1/country_diaspora/5/"
+      },
+      "created_at": "2016-11-17T14:06:41.831194",
+      "email": "",
+      "id": 11,
+      "manager": "Болот Абдыкадыров",
+      "map_link": "",
+      "phone_number": "393894376688",
+      "place": "Ассоциация «Мекен» - председатель",
+      "resource_uri": "/api/v1/diaspora/11/",
+      "updated_at": "2016-11-17T14:06:41.831225"
+    },
+    {
+      "address": "",
+      "city": "г. Алмата",
+      "country": {
+        "country": "Казахстан",
+        "id": 6,
+        "image": "/media/images/Kazakhstan_1.png",
+        "resource_uri": "/api/v1/country_diaspora/6/"
+      },
+      "created_at": "2016-11-17T14:18:51.858300",
+      "email": "",
+      "id": 12,
+      "manager": "Стамалиев Заирбек Шарипбекович",
+      "map_link": "",
+      "phone_number": "83272988735, 87025601875",
+      "place": "Председатель ОО “Кыргыз-Ата”",
+      "resource_uri": "/api/v1/diaspora/12/",
+      "updated_at": "2016-11-17T14:18:51.858368"
+    },
+    {
+      "address": "",
+      "city": "Астана",
+      "country": {
+        "country": "Казахстан",
+        "id": 6,
+        "image": "/media/images/Kazakhstan_1.png",
+        "resource_uri": "/api/v1/country_diaspora/6/"
+      },
+      "created_at": "2016-11-17T14:18:51.858978",
+      "email": "sai-17@mail.ru",
+      "id": 13,
+      "manager": "Исмаилов ШавкатАбдулаевич",
+      "map_link": "",
+      "phone_number": "87771870184  раб 200140 дом 571047",
+      "place": "Председатель  Кыргызского этнокультурного  центра \"Кыргызстан-Астана\"",
+      "resource_uri": "/api/v1/diaspora/13/",
+      "updated_at": "2016-11-17T14:18:51.859015"
+    },
+    {
+      "address": "",
+      "city": "Павлодар",
+      "country": {
+        "country": "Казахстан",
+        "id": 6,
+        "image": "/media/images/Kazakhstan_1.png",
+        "resource_uri": "/api/v1/country_diaspora/6/"
+      },
+      "created_at": "2016-11-17T14:18:51.859405",
+      "email": "",
+      "id": 14,
+      "manager": "Орузбаев Болат",
+      "map_link": "",
+      "phone_number": "87015263274 дом 87182",
+      "place": "Кыргызский этнокультурный центр \"Кыргызстан\"",
+      "resource_uri": "/api/v1/diaspora/14/",
+      "updated_at": "2016-11-17T14:18:51.859437"
+    },
+    {
+      "address": "",
+      "city": "Алматинская обл.",
+      "country": {
+        "country": "Казахстан",
+        "id": 6,
+        "image": "/media/images/Kazakhstan_1.png",
+        "resource_uri": "/api/v1/country_diaspora/6/"
+      },
+      "created_at": "2016-11-18T03:35:11.025048",
+      "email": "",
+      "id": 106,
+      "manager": "Мамыров  Руслан Кыдырбаевич",
+      "map_link": "",
+      "phone_number": "87072888312",
+      "place": "Председатель Кыргызского этнокультурного  объединения «Мурас»",
+      "resource_uri": "/api/v1/diaspora/106/",
+      "updated_at": "2016-11-18T03:35:11.025107"
+    },
+    {
+      "address": "",
+      "city": "Алматинская обл.",
+      "country": {
+        "country": "Казахстан",
+        "id": 6,
+        "image": "/media/images/Kazakhstan_1.png",
+        "resource_uri": "/api/v1/country_diaspora/6/"
+      },
+      "created_at": "2016-11-18T03:35:11.025642",
+      "email": "ksydyk@yahoo.com",
+      "id": 107,
+      "manager": "Сыдыков Кубат",
+      "map_link": "",
+      "phone_number": "+87017200648",
+      "place": "Заместитель председателя  Кыргызского этнокультурного объединения «Мурас»",
+      "resource_uri": "/api/v1/diaspora/107/",
+      "updated_at": "2016-11-18T03:35:11.025672"
+    },
+    {
+      "address": "",
+      "city": "Актау",
+      "country": {
+        "country": "Казахстан",
+        "id": 6,
+        "image": "/media/images/Kazakhstan_1.png",
+        "resource_uri": "/api/v1/country_diaspora/6/"
+      },
+      "created_at": "2016-11-18T03:35:11.026092",
+      "email": "",
+      "id": 108,
+      "manager": "Газибеков Курбанали",
+      "map_link": "",
+      "phone_number": "+87023106421",
+      "place": "Кыргызский этнокультурный центр \"Ала-Тоо\"",
+      "resource_uri": "/api/v1/diaspora/108/",
+      "updated_at": "2016-11-18T03:35:11.026122"
+    },
+    {
+      "address": "",
+      "city": "Костанай",
+      "country": {
+        "country": "Казахстан",
+        "id": 6,
+        "image": "/media/images/Kazakhstan_1.png",
+        "resource_uri": "/api/v1/country_diaspora/6/"
+      },
+      "created_at": "2016-11-18T03:35:11.026546",
+      "email": "",
+      "id": 109,
+      "manager": "Беделбеков Канатбек",
+      "map_link": "",
+      "phone_number": "87017414076",
+      "place": "Кыргызский этнокультурный центр \"Асаба\"",
+      "resource_uri": "/api/v1/diaspora/109/",
+      "updated_at": "2016-11-18T03:35:11.026576"
+    },
+    {
+      "address": "",
+      "city": "Кызылорда",
+      "country": {
+        "country": "Казахстан",
+        "id": 6,
+        "image": "/media/images/Kazakhstan_1.png",
+        "resource_uri": "/api/v1/country_diaspora/6/"
+      },
+      "created_at": "2016-11-18T03:35:11.027181",
+      "email": "",
+      "id": 110,
+      "manager": "Жубатканов Сактапберген",
+      "map_link": "",
+      "phone_number": "+87776639466",
+      "place": "Кыргызский этнокультурный центр",
+      "resource_uri": "/api/v1/diaspora/110/",
+      "updated_at": "2016-11-18T03:35:11.027211"
+    },
+    {
+      "address": "",
+      "city": "Петрапавловск",
+      "country": {
+        "country": "Казахстан",
+        "id": 6,
+        "image": "/media/images/Kazakhstan_1.png",
+        "resource_uri": "/api/v1/country_diaspora/6/"
+      },
+      "created_at": "2016-11-18T03:35:11.027588",
+      "email": "",
+      "id": 111,
+      "manager": "Болтруков Майрамбек",
+      "map_link": "",
+      "phone_number": "+87013428820",
+      "place": "Кыргызский этнокультурный центр \"Манас-Петропавловск\"",
+      "resource_uri": "/api/v1/diaspora/111/",
+      "updated_at": "2016-11-18T03:35:11.027618"
+    },
+    {
+      "address": "",
+      "city": "Тараз",
+      "country": {
+        "country": "Казахстан",
+        "id": 6,
+        "image": "/media/images/Kazakhstan_1.png",
+        "resource_uri": "/api/v1/country_diaspora/6/"
+      },
+      "created_at": "2016-11-18T03:35:11.028010",
+      "email": "",
+      "id": 112,
+      "manager": "Мерикан",
+      "map_link": "",
+      "phone_number": "87757955750",
+      "place": "Кыргызский этнокультурный центр \"Манас Ата\"",
+      "resource_uri": "/api/v1/diaspora/112/",
+      "updated_at": "2016-11-18T03:35:11.028041"
+    },
+    {
+      "address": "",
+      "city": "г. Алмата",
+      "country": {
+        "country": "Казахстан",
+        "id": 6,
+        "image": "/media/images/Kazakhstan_1.png",
+        "resource_uri": "/api/v1/country_diaspora/6/"
+      },
+      "created_at": "2016-11-18T03:35:11.028426",
+      "email": "",
+      "id": 113,
+      "manager": "Нурдиеев Нурлан Акимбекович",
+      "map_link": "",
+      "phone_number": "+87023106421",
+      "place": "менеджер офиса   ОО “Кыргыз-Ата”",
+      "resource_uri": "/api/v1/diaspora/113/",
+      "updated_at": "2016-11-18T03:35:11.028458"
+    },
+    {
+      "address": "",
+      "city": "г. Алмата",
+      "country": {
+        "country": "Казахстан",
+        "id": 6,
+        "image": "/media/images/Kazakhstan_1.png",
+        "resource_uri": "/api/v1/country_diaspora/6/"
+      },
+      "created_at": "2016-11-18T03:35:11.028849",
+      "email": "",
+      "id": 114,
+      "manager": "АманбаевТуратбек Баракбаевич",
+      "map_link": "",
+      "phone_number": "+77021730472",
+      "place": "Представитель МККиС   «Замандаш»",
+      "resource_uri": "/api/v1/diaspora/114/",
+      "updated_at": "2016-11-18T03:35:11.028879"
+    },
+    {
+      "address": "",
+      "city": "Мангыстауская область (Актау)",
+      "country": {
+        "country": "Казахстан",
+        "id": 6,
+        "image": "/media/images/Kazakhstan_1.png",
+        "resource_uri": "/api/v1/country_diaspora/6/"
+      },
+      "created_at": "2016-11-18T03:35:11.029262",
+      "email": "koktem-aktau@mail.ru",
+      "id": 115,
+      "manager": "Газибеков Курбанали Газибекович",
+      "map_link": "",
+      "phone_number": "+87023106421",
+      "place": "Председатель  Кыргызского этнокультурного  объединения \"Ала-Тоо\"",
+      "resource_uri": "/api/v1/diaspora/115/",
+      "updated_at": "2016-11-18T03:35:11.029292"
+    },
+    {
+      "address": "",
+      "city": "Костанайская область (Костанай)",
+      "country": {
+        "country": "Казахстан",
+        "id": 6,
+        "image": "/media/images/Kazakhstan_1.png",
+        "resource_uri": "/api/v1/country_diaspora/6/"
+      },
+      "created_at": "2016-11-18T03:35:11.029680",
+      "email": "stroyplast@gmail.com",
+      "id": 116,
+      "manager": "Бедельбеков Канатбек Усенгазиевич",
+      "map_link": "",
+      "phone_number": "+77017414076",
+      "place": "Председатель Кыргызского этнокультурного  объединения \"Асаба",
+      "resource_uri": "/api/v1/diaspora/116/",
+      "updated_at": "2016-11-18T03:35:11.029710"
+    },
+    {
+      "address": "",
+      "city": "Костанайская область (Костанай)",
+      "country": {
+        "country": "Казахстан",
+        "id": 6,
+        "image": "/media/images/Kazakhstan_1.png",
+        "resource_uri": "/api/v1/country_diaspora/6/"
+      },
+      "created_at": "2016-11-18T03:35:11.030108",
+      "email": "",
+      "id": 117,
+      "manager": "Эркин",
+      "map_link": "",
+      "phone_number": "+77015961035",
+      "place": "Помощник председателя Кыргызского этнокультурного  объединения \"Асабс",
+      "resource_uri": "/api/v1/diaspora/117/",
+      "updated_at": "2016-11-18T03:35:11.030138"
+    },
+    {
+      "address": "",
+      "city": "Кызылординская область (Кызылорда)",
+      "country": {
+        "country": "Казахстан",
+        "id": 6,
+        "image": "/media/images/Kazakhstan_1.png",
+        "resource_uri": "/api/v1/country_diaspora/6/"
+      },
+      "created_at": "2016-11-18T03:35:11.030518",
+      "email": "kz-uppkos@mail.ru",
+      "id": 118,
+      "manager": "Жубатканов Сактапберген Анесович",
+      "map_link": "",
+      "phone_number": "+8(724)221-62-35",
+      "place": "Президент Кызылординской  областной  Кыргызско  этнокультурной объединении",
+      "resource_uri": "/api/v1/diaspora/118/",
+      "updated_at": "2016-11-18T03:35:11.030548"
+    },
+    {
+      "address": "",
+      "city": "Северо-Казахстанская область (Петропавловск)",
+      "country": {
+        "country": "Казахстан",
+        "id": 6,
+        "image": "/media/images/Kazakhstan_1.png",
+        "resource_uri": "/api/v1/country_diaspora/6/"
+      },
+      "created_at": "2016-11-18T03:35:11.030954",
+      "email": "",
+      "id": 119,
+      "manager": "Болтуруков Майрамбек Аяпбергенович",
+      "map_link": "",
+      "phone_number": "+77013428820",
+      "place": "Президент Кыргызской  этнокультурной объединении   «Манас»",
+      "resource_uri": "/api/v1/diaspora/119/",
+      "updated_at": "2016-11-18T03:35:11.030985"
+    },
+    {
+      "address": "",
+      "city": "Жамбылская область (Тараз )",
+      "country": {
+        "country": "Казахстан",
+        "id": 6,
+        "image": "/media/images/Kazakhstan_1.png",
+        "resource_uri": "/api/v1/country_diaspora/6/"
+      },
+      "created_at": "2016-11-18T03:35:11.031372",
+      "email": "",
+      "id": 120,
+      "manager": "Намазалиева  Мерикан Бакировна",
+      "map_link": "",
+      "phone_number": "+87262452504",
+      "place": "Председатель Кыргызской этнокультурной  объединении \"Манас Ата\"",
+      "resource_uri": "/api/v1/diaspora/120/",
+      "updated_at": "2016-11-18T03:35:11.031402"
+    },
+    {
+      "address": "",
+      "city": "Жамбылская область (Тараз )",
+      "country": {
+        "country": "Казахстан",
+        "id": 6,
+        "image": "/media/images/Kazakhstan_1.png",
+        "resource_uri": "/api/v1/country_diaspora/6/"
+      },
+      "created_at": "2016-11-18T03:35:11.031799",
+      "email": "",
+      "id": 121,
+      "manager": "Акаеев  Канатбек   Кубанычович",
+      "map_link": "",
+      "phone_number": "+77057331536",
+      "place": "Помощник председателя Кыргызской этнокультурной  объединении \"Манас Ата\"",
+      "resource_uri": "/api/v1/diaspora/121/",
+      "updated_at": "2016-11-18T03:35:11.031829"
+    },
+    {
+      "address": "",
+      "city": "Жамбылская область (Тараз )",
+      "country": {
+        "country": "Казахстан",
+        "id": 6,
+        "image": "/media/images/Kazakhstan_1.png",
+        "resource_uri": "/api/v1/country_diaspora/6/"
+      },
+      "created_at": "2016-11-18T03:35:11.032219",
+      "email": "nur8419@mail.ru",
+      "id": 122,
+      "manager": "Мамытов Нурлан Калбаевич",
+      "map_link": "",
+      "phone_number": "+77779300419",
+      "place": "Актив Кыргызской этнокультурной  объединении \"Манас Ата\"",
+      "resource_uri": "/api/v1/diaspora/122/",
+      "updated_at": "2016-11-18T03:35:11.032250"
+    },
+    {
+      "address": "",
+      "city": "Южно-Казахстанская область (Шымкент)",
+      "country": {
+        "country": "Казахстан",
+        "id": 6,
+        "image": "/media/images/Kazakhstan_1.png",
+        "resource_uri": "/api/v1/country_diaspora/6/"
+      },
+      "created_at": "2016-11-18T03:35:11.032638",
+      "email": "",
+      "id": 123,
+      "manager": "Мамбетакунов Рысбек Турганбаевич",
+      "map_link": "",
+      "phone_number": "+7(701)392-83-05",
+      "place": "Помошник  Председателя  Кыргызской этнокультурной  объединении  ЮКО",
+      "resource_uri": "/api/v1/diaspora/123/",
+      "updated_at": "2016-11-18T03:35:11.032668"
+    },
+    {
+      "address": "",
+      "city": "г. Акмололинской",
+      "country": {
+        "country": "Казахстан",
+        "id": 6,
+        "image": "/media/images/Kazakhstan_1.png",
+        "resource_uri": "/api/v1/country_diaspora/6/"
+      },
+      "created_at": "2016-11-18T03:35:11.033089",
+      "email": "kalabaev.1953@mail.ru",
+      "id": 124,
+      "manager": "Калбаев Зарлык Мойтанович",
+      "map_link": "",
+      "phone_number": "+87051526143",
+      "place": "Представитель кыргызской диаспоры",
+      "resource_uri": "/api/v1/diaspora/124/",
+      "updated_at": "2016-11-18T03:35:11.033119"
+    },
+    {
+      "address": "",
+      "city": "",
+      "country": {
+        "country": "ОАЭ",
+        "id": 8,
+        "image": "/media/images/oae.png",
+        "resource_uri": "/api/v1/country_diaspora/8/"
+      },
+      "created_at": "2016-11-18T03:40:31.222402",
+      "email": "",
+      "id": 126,
+      "manager": "Mars Orozov",
+      "map_link": "",
+      "phone_number": "+971553128000",
+      "place": "..",
+      "resource_uri": "/api/v1/diaspora/126/",
+      "updated_at": "2016-11-18T03:40:31.222452"
+    },
+    {
+      "address": "",
+      "city": "Москва",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-09T19:14:23.790684",
+      "email": "ala-too-06@mail.ru",
+      "id": 6,
+      "manager": "Бегиева  Джамилахан Абжошовна",
+      "map_link": "",
+      "phone_number": "+7(926)528-33-99",
+      "place": "Президент Межрегиональной общественной организации Кыргызстанцев \"Ала-Тоо\"",
+      "resource_uri": "/api/v1/diaspora/6/",
+      "updated_at": "2016-11-09T19:14:23.790764"
+    },
+    {
+      "address": "",
+      "city": "Москва",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-09T19:14:23.791334",
+      "email": "rus-partner3@mail.ru",
+      "id": 7,
+      "manager": "Эшимов Руслан Бейшенович",
+      "map_link": "",
+      "phone_number": "+7(925)020-95-07",
+      "place": "Генеральный директор ООО \"РУС-ПАРТНЕР\"",
+      "resource_uri": "/api/v1/diaspora/7/",
+      "updated_at": "2016-11-09T19:14:23.791365"
+    },
+    {
+      "address": "",
+      "city": "Москва",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-09T19:14:23.791764",
+      "email": "Egemb@mail.ru",
+      "id": 8,
+      "manager": "Мырзабеков Эгемберди Биймырзаевич",
+      "map_link": "",
+      "phone_number": "+7(925)703-82-61",
+      "place": "«Союз Кыргызстанцев» (руководитель)",
+      "resource_uri": "/api/v1/diaspora/8/",
+      "updated_at": "2016-11-09T19:14:23.791795"
+    },
+    {
+      "address": "",
+      "city": "Москва",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T01:49:09.114684",
+      "email": "shakirov01@mail.ru",
+      "id": 15,
+      "manager": "Шакиров  Абдыганы Абжамилович",
+      "map_link": "",
+      "phone_number": "+7(905)534-48-86",
+      "place": "Председатель МежрегиональнойОО \"Кыргызбиримдиги\"",
+      "resource_uri": "/api/v1/diaspora/15/",
+      "updated_at": "2016-11-18T01:49:09.114742"
+    },
+    {
+      "address": "",
+      "city": "Москва",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T01:49:09.115346",
+      "email": "migrant.kg@gmail.com",
+      "id": 16,
+      "manager": "Маданбеков Алишер Сайдиевич",
+      "map_link": "",
+      "phone_number": "+89036275353",
+      "place": "Председатель ОО «Межрегиональное общественное движение трудовых мигрантов»",
+      "resource_uri": "/api/v1/diaspora/16/",
+      "updated_at": "2016-11-18T01:49:09.115377"
+    },
+    {
+      "address": "",
+      "city": "Москва",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T01:49:09.115786",
+      "email": "nurgazeta@mail.ru",
+      "id": 17,
+      "manager": "Бапанов Багыт Шериевич",
+      "map_link": "",
+      "phone_number": "+7(495)625-39-78",
+      "place": "Генеральный директор Президент Газеты «НУР»",
+      "resource_uri": "/api/v1/diaspora/17/",
+      "updated_at": "2016-11-18T01:49:09.115818"
+    },
+    {
+      "address": "",
+      "city": "Москва",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T01:49:09.116215",
+      "email": "",
+      "id": 18,
+      "manager": "Умурзаков Бахтияр",
+      "map_link": "",
+      "phone_number": "+7(926)421-12-41",
+      "place": "(Руководитель)  общины  «Алтын-Казык» Аксы",
+      "resource_uri": "/api/v1/diaspora/18/",
+      "updated_at": "2016-11-18T01:49:09.116246"
+    },
+    {
+      "address": "",
+      "city": "Москва",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T01:49:09.116631",
+      "email": "osmonova312@mail.ru",
+      "id": 19,
+      "manager": "Осмонова  Чолпон Абдрасуловна",
+      "map_link": "",
+      "phone_number": "+7(925)-880-81-54",
+      "place": "Директор  ООО  Юридической  правовой   помощи  «Центр поддержки  мигрантов»",
+      "resource_uri": "/api/v1/diaspora/19/",
+      "updated_at": "2016-11-18T01:49:09.116662"
+    },
+    {
+      "address": "",
+      "city": "Москва",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T01:49:09.117062",
+      "email": "nurgazy111@mail.ru",
+      "id": 20,
+      "manager": "Амиракулов  Нургазы Аттокурович",
+      "map_link": "",
+      "phone_number": "+7(926)551-86-90",
+      "place": "Президент Спортклуба «Айкөл-Манас»      г. Москва",
+      "resource_uri": "/api/v1/diaspora/20/",
+      "updated_at": "2016-11-18T01:49:09.117093"
+    },
+    {
+      "address": "",
+      "city": "Москва",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T01:49:09.117476",
+      "email": "nuradil95@mail.ru",
+      "id": 21,
+      "manager": "Байтерекова Женишкул Саматовна",
+      "map_link": "",
+      "phone_number": "+7(916)470-84-88",
+      "place": "Кыргыз тили жана маданият  борбору",
+      "resource_uri": "/api/v1/diaspora/21/",
+      "updated_at": "2016-11-18T01:49:09.117507"
+    },
+    {
+      "address": "",
+      "city": "Москва",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T01:49:09.117893",
+      "email": "magia-osh@mail.ru",
+      "id": 22,
+      "manager": "Джапарова  Мадина Сатаровна",
+      "map_link": "",
+      "phone_number": "+7(915)006-43-91",
+      "place": "Главный  редактор  социального  проекта-  газета  «Бирге»",
+      "resource_uri": "/api/v1/diaspora/22/",
+      "updated_at": "2016-11-18T01:49:09.117923"
+    },
+    {
+      "address": "",
+      "city": "Москва",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T01:49:09.118347",
+      "email": "",
+      "id": 23,
+      "manager": "Асхатбеков Искендер Асхатбекович",
+      "map_link": "",
+      "phone_number": "+79258438980",
+      "place": "Учредитель «Жаны Муун»  Студент МТИ",
+      "resource_uri": "/api/v1/diaspora/23/",
+      "updated_at": "2016-11-18T01:49:09.118378"
+    },
+    {
+      "address": "",
+      "city": "Москва",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T01:49:09.118759",
+      "email": "",
+      "id": 24,
+      "manager": "Керейтбаева Мээрим.",
+      "map_link": "",
+      "phone_number": "+79169379019",
+      "place": "Представитель «Жаны Муун» Студент РНУ.",
+      "resource_uri": "/api/v1/diaspora/24/",
+      "updated_at": "2016-11-18T01:49:09.118790"
+    },
+    {
+      "address": "",
+      "city": "г. Ярославль",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T01:49:09.119190",
+      "email": "kkairat-66@mail.ru",
+      "id": 25,
+      "manager": "Арыкбаев Керимбек Чилдебаевич",
+      "map_link": "",
+      "phone_number": "+7(905)135-34-98",
+      "place": "Председатель Ярославской  региональной  общественной  организации народов Кыргызстана \"Биримдик Единство\"",
+      "resource_uri": "/api/v1/diaspora/25/",
+      "updated_at": "2016-11-18T01:49:09.119221"
+    },
+    {
+      "address": "",
+      "city": "г. Воронеж",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T01:49:09.119609",
+      "email": "rookvo_muras@mail.ru",
+      "id": 26,
+      "manager": "Намазбеков  Талантбек Намазбекович",
+      "map_link": "",
+      "phone_number": "+ 7(906)670-51-54",
+      "place": "Председатель Региональной общественной  организации кыргызов  Воронежской  области \"Мурас\"",
+      "resource_uri": "/api/v1/diaspora/26/",
+      "updated_at": "2016-11-18T01:49:09.119640"
+    },
+    {
+      "address": "",
+      "city": "г. Воронеж",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T01:49:09.120051",
+      "email": "",
+      "id": 27,
+      "manager": "Назарбаев Каныбек",
+      "map_link": "",
+      "phone_number": "+7(960)260-07-02",
+      "place": "Заместителя  председателя Региональной общественной  организации кыргызов  Воронежской  области \"Мурас\"",
+      "resource_uri": "/api/v1/diaspora/27/",
+      "updated_at": "2016-11-18T01:49:09.120081"
+    },
+    {
+      "address": "",
+      "city": "г. Воронеж",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T01:49:09.120474",
+      "email": "",
+      "id": 28,
+      "manager": "Ташиева Жаннат",
+      "map_link": "",
+      "phone_number": "+7(960)131-43-78",
+      "place": "Менеджер офиса",
+      "resource_uri": "/api/v1/diaspora/28/",
+      "updated_at": "2016-11-18T01:49:09.120504"
+    },
+    {
+      "address": "",
+      "city": "г. Тверь",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T01:49:09.120880",
+      "email": "",
+      "id": 29,
+      "manager": "Ажимаматов Садырбек Касымбекович",
+      "map_link": "",
+      "phone_number": "+7(904)022-56-21",
+      "place": "Руководитель  кыргызской общины",
+      "resource_uri": "/api/v1/diaspora/29/",
+      "updated_at": "2016-11-18T01:49:09.120915"
+    },
+    {
+      "address": "",
+      "city": "г. Иваново",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T01:49:09.121313",
+      "email": "Ivanovo-kyrgyzstan2010@mail.ru",
+      "id": 30,
+      "manager": "Искендеров Борубай Садыбакасович",
+      "map_link": "",
+      "phone_number": "+7(926)945-56-41",
+      "place": "Председатель  Ивановской  области  общественной   организации «Юридическая  защита интересов соотечественников».",
+      "resource_uri": "/api/v1/diaspora/30/",
+      "updated_at": "2016-11-18T01:49:09.121344"
+    },
+    {
+      "address": "",
+      "city": "г. Иваново",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T01:49:09.121734",
+      "email": "",
+      "id": 31,
+      "manager": "Суюнтбеков Дастан Эсенкулович",
+      "map_link": "",
+      "phone_number": "+79203722413",
+      "place": "Представитель «Жаны Муун» Студент ИГСХА",
+      "resource_uri": "/api/v1/diaspora/31/",
+      "updated_at": "2016-11-18T01:49:09.121765"
+    },
+    {
+      "address": "",
+      "city": "г. Самара",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T01:49:09.122160",
+      "email": "bf.manas-ata@mail.ru",
+      "id": 32,
+      "manager": "Кудуев Акылбек Аскарбекович",
+      "map_link": "",
+      "phone_number": "+7(930)711-06-01",
+      "place": "Председатель Благотворительного Фонда  \"Помощь Кыргызскому народу \"МанасАта\"\"",
+      "resource_uri": "/api/v1/diaspora/32/",
+      "updated_at": "2016-11-18T01:49:09.122191"
+    },
+    {
+      "address": "",
+      "city": "г. Нижний Новгород",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T01:49:09.122571",
+      "email": "batyrbek.akylbekov@mail.ru",
+      "id": 33,
+      "manager": "Акылбеков Батырбек Шадыманович",
+      "map_link": "",
+      "phone_number": "+7(903)608-45-51",
+      "place": "Председатель  Национально-культурного  центра   «Кыргызстан»",
+      "resource_uri": "/api/v1/diaspora/33/",
+      "updated_at": "2016-11-18T01:49:09.122602"
+    },
+    {
+      "address": "",
+      "city": "г.  Оренбург",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T01:49:09.123000",
+      "email": "jandaroff75@mail.ru",
+      "id": 34,
+      "manager": "Жандар  уулу Таалайбек",
+      "map_link": "",
+      "phone_number": "+7(909)605+28+05",
+      "place": "Председатель Местной  общественной   организации национально-культурная автономия кыргызов Оренбурга \"Мекендеш\" (\"Соотечественник\")",
+      "resource_uri": "/api/v1/diaspora/34/",
+      "updated_at": "2016-11-18T01:49:09.123031"
+    },
+    {
+      "address": "",
+      "city": "г. Соль-Илецк",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T01:49:09.123438",
+      "email": "urmat-11@mail.ru",
+      "id": 35,
+      "manager": "Жамгырчиев Урмат Адылбекович",
+      "map_link": "",
+      "phone_number": "+7(961)924-96-88.",
+      "place": "Юрист-представитель  МККиС \"Замандаш\" г.Соль-Илецк,  Оренбургской области",
+      "resource_uri": "/api/v1/diaspora/35/",
+      "updated_at": "2016-11-18T01:49:09.123468"
+    },
+    {
+      "address": "",
+      "city": "г. Казань",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.390179",
+      "email": "talant-kazan@mail.ru",
+      "id": 36,
+      "manager": "Муканбетов Бейшенбек Аскебаевич",
+      "map_link": "",
+      "phone_number": "+7(904)764-12-20",
+      "place": "Председатель Национально-культурной  автономии  кыргызов,  Республики Татарстан  \"Ынтымак\"",
+      "resource_uri": "/api/v1/diaspora/36/",
+      "updated_at": "2016-11-18T02:24:45.390241"
+    },
+    {
+      "address": "",
+      "city": "г. Казань",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.390862",
+      "email": "2609760@mail.ru",
+      "id": 37,
+      "manager": "Сариев Закир Акматович",
+      "map_link": "",
+      "phone_number": "+7(966)260-97-60",
+      "place": "Председатель  Фонда содействие трудовым мигрантом",
+      "resource_uri": "/api/v1/diaspora/37/",
+      "updated_at": "2016-11-18T02:24:45.390894"
+    },
+    {
+      "address": "",
+      "city": "г. Пермь",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.391291",
+      "email": "nuri59@mail.ru",
+      "id": 38,
+      "manager": "Алымкулов  Асылбек Алымкулович",
+      "map_link": "",
+      "phone_number": "+7(961)759-75-72",
+      "place": "Председатель Региональной  общественной  организации \"Союз кыргызстанцев\".",
+      "resource_uri": "/api/v1/diaspora/38/",
+      "updated_at": "2016-11-18T02:24:45.391322"
+    },
+    {
+      "address": "",
+      "city": "г. Тольятти",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.391765",
+      "email": "adilbolotov@mail.ru",
+      "id": 39,
+      "manager": "Болотов Адыл",
+      "map_link": "",
+      "phone_number": "+7(960)837-79-59",
+      "place": "Председатель Тольяттинской  городской  общественной  организации.",
+      "resource_uri": "/api/v1/diaspora/39/",
+      "updated_at": "2016-11-18T02:24:45.391797"
+    },
+    {
+      "address": "",
+      "city": "г. Саратов",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.392325",
+      "email": "",
+      "id": 40,
+      "manager": "Чокоев  Токтомамат",
+      "map_link": "",
+      "phone_number": "+7(903)380-59-03",
+      "place": "Представитель кыргызской диаспоры",
+      "resource_uri": "/api/v1/diaspora/40/",
+      "updated_at": "2016-11-18T02:24:45.392356"
+    },
+    {
+      "address": "",
+      "city": "г. Уфа, Республика Башкортостан",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.392756",
+      "email": "sono.alieva@rambler.ru",
+      "id": 41,
+      "manager": "Алиева Соно Абдимаматовна",
+      "map_link": "",
+      "phone_number": "+7(927)331-52-93",
+      "place": "Руководитель  Региональной общественной  организации  «Кыргызский культурный центр «Ала-Тоо»",
+      "resource_uri": "/api/v1/diaspora/41/",
+      "updated_at": "2016-11-18T02:24:45.392787"
+    },
+    {
+      "address": "",
+      "city": "г. Ульяновск",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.393195",
+      "email": "",
+      "id": 42,
+      "manager": "Коноков  Бектемир",
+      "map_link": "",
+      "phone_number": "+7(964)857-82-35",
+      "place": "Представитель кыргызской диаспоры",
+      "resource_uri": "/api/v1/diaspora/42/",
+      "updated_at": "2016-11-18T02:24:45.393226"
+    },
+    {
+      "address": "",
+      "city": "г. Санкт-Петербург",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.393617",
+      "email": "kocha-69@mail.ru",
+      "id": 43,
+      "manager": "Кутунаев Кочкорбай Калдарбаевич",
+      "map_link": "",
+      "phone_number": "+7(905)271-78-45",
+      "place": "Председатель  общественной организации Кыргызская диаспора Ленинградской области \"Ак-Ниет\"",
+      "resource_uri": "/api/v1/diaspora/43/",
+      "updated_at": "2016-11-18T02:24:45.393648"
+    },
+    {
+      "address": "",
+      "city": "г. Санкт-Петербург",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.394054",
+      "email": "saraDjaparova@mail.ru",
+      "id": 44,
+      "manager": "Жапарова Сара Идирисовна",
+      "map_link": "",
+      "phone_number": "+7(952)213-20-03",
+      "place": "Председатель  общественной организации Кыргызская землячества \"Ариэт\" г. Санкт-Петербург",
+      "resource_uri": "/api/v1/diaspora/44/",
+      "updated_at": "2016-11-18T02:24:45.394086"
+    },
+    {
+      "address": "",
+      "city": "г. Санкт-Петербург",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.394473",
+      "email": "mamaeva_om@mail.ru",
+      "id": 45,
+      "manager": "Мамаева Октом",
+      "map_link": "",
+      "phone_number": "+7(981)149-37-12",
+      "place": "Директор ООО «Кыргыз-Тоо», член Союза учёных  г. Санкт-Петербург",
+      "resource_uri": "/api/v1/diaspora/45/",
+      "updated_at": "2016-11-18T02:24:45.394504"
+    },
+    {
+      "address": "",
+      "city": "г. Екатеринбург",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.394912",
+      "email": "satugul@mail.ru",
+      "id": 46,
+      "manager": "Каримов Камчыбек Камбарович",
+      "map_link": "",
+      "phone_number": "+7(922)229-66-66",
+      "place": "Председатель  Свердловской областной общественной  организации     \"Кыргызстан-Урал\"",
+      "resource_uri": "/api/v1/diaspora/46/",
+      "updated_at": "2016-11-18T02:24:45.394944"
+    },
+    {
+      "address": "",
+      "city": "г. Екатеринбург",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.395328",
+      "email": "",
+      "id": 47,
+      "manager": "Полотбеков Матмырза Тагаевич",
+      "map_link": "",
+      "phone_number": "+7(912)298-22-22",
+      "place": "Заместитель председателя  Свердловской области  общественной  организации                                   \"Кыргызстан-Урал\"",
+      "resource_uri": "/api/v1/diaspora/47/",
+      "updated_at": "2016-11-18T02:24:45.395359"
+    },
+    {
+      "address": "",
+      "city": "г. Екатеринбург",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.395772",
+      "email": "Urmat_kurbanbaev@bk.ru",
+      "id": 48,
+      "manager": "Курманбаев  Урматбек Ибрайимович",
+      "map_link": "",
+      "phone_number": "+7(912)298-22-22",
+      "place": "Куратор по вопросам культуры и спорта   Свердловской  областной  общественной организации    \"Кыргызстан-Урал\"",
+      "resource_uri": "/api/v1/diaspora/48/",
+      "updated_at": "2016-11-18T02:24:45.395807"
+    },
+    {
+      "address": "",
+      "city": "г. Екатеринбург",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.396206",
+      "email": "",
+      "id": 49,
+      "manager": "Сатыбеков Жаркынбай Сыйнатович",
+      "map_link": "",
+      "phone_number": "+ 7(902)879-50-93",
+      "place": "Представитель  управлении духовенства мусульман   Кыргызских диаспор Свердловской  области",
+      "resource_uri": "/api/v1/diaspora/49/",
+      "updated_at": "2016-11-18T02:24:45.396236"
+    },
+    {
+      "address": "",
+      "city": "г. Екатеринбург",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.396625",
+      "email": "",
+      "id": 50,
+      "manager": "Мотуев  Жакшылык",
+      "map_link": "",
+      "phone_number": "+7(950)208-21-47",
+      "place": "Представитель аппарата Омбудсмена КР на территории УРФО РФ.",
+      "resource_uri": "/api/v1/diaspora/50/",
+      "updated_at": "2016-11-18T02:24:45.396656"
+    },
+    {
+      "address": "",
+      "city": "г. Челябинск",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.397066",
+      "email": "zyina2011@mail.ru",
+      "id": 51,
+      "manager": "Бакирова Зыйна Арзыматовна",
+      "map_link": "",
+      "phone_number": "+7(908)049-73-08",
+      "place": "Председатель Челябинской городской общественной организации Кыргызско национально - культурная автономия                                  « Мекендештер  ( Соотечественники)",
+      "resource_uri": "/api/v1/diaspora/51/",
+      "updated_at": "2016-11-18T02:24:45.397097"
+    },
+    {
+      "address": "",
+      "city": "г.Магнитогорск",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.397496",
+      "email": "Nur.K-68@mail.ru",
+      "id": 52,
+      "manager": "Кырбашев  Нурбек Доктурбекович",
+      "map_link": "",
+      "phone_number": "+7(906)892-84-54",
+      "place": "Председатель Некоммерческой организации  \"Фонд по  поддержке и развитию культурных связей граждан Киргизии в г. Магнитогорске \"Единство\"",
+      "resource_uri": "/api/v1/diaspora/52/",
+      "updated_at": "2016-11-18T02:24:45.397527"
+    },
+    {
+      "address": "",
+      "city": "г.Магнитогорск",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.397951",
+      "email": "timdav-@mail.ru",
+      "id": 53,
+      "manager": "Батыров  Айбек Касылович",
+      "map_link": "",
+      "phone_number": "+7(904)-976-00-45",
+      "place": "Член молодежного попечительского  совета  МККиС  «Замандаш»",
+      "resource_uri": "/api/v1/diaspora/53/",
+      "updated_at": "2016-11-18T02:24:45.397982"
+    },
+    {
+      "address": "",
+      "city": "г. Сургут",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.398381",
+      "email": "aidarov86_86@mail.ru",
+      "id": 54,
+      "manager": "Айдаров Кубанычбек Кутузович",
+      "map_link": "",
+      "phone_number": "+7(922)4051444",
+      "place": "Председатель Ханты-Мансийской окружной общественной организации Кыргызско национально-культурный центр \"Киргизия-Север\"",
+      "resource_uri": "/api/v1/diaspora/54/",
+      "updated_at": "2016-11-18T02:24:45.398411"
+    },
+    {
+      "address": "",
+      "city": "г. Тюмень г. Курган",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.398838",
+      "email": "hankyrgyz72@mail.ru",
+      "id": 55,
+      "manager": "Сманова Канзада Нурманбетовна",
+      "map_link": "",
+      "phone_number": "+7(963)451-89-00",
+      "place": "Председатель Тюменской РОО \"Биримдик\", Кыргызская диаспора",
+      "resource_uri": "/api/v1/diaspora/55/",
+      "updated_at": "2016-11-18T02:24:45.398868"
+    },
+    {
+      "address": "",
+      "city": "г. Тюмень г. Курган",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.399262",
+      "email": "",
+      "id": 56,
+      "manager": "Абышова Бактыгул Сулайманкуловна",
+      "map_link": "",
+      "phone_number": "+7(905)822-19-67",
+      "place": "Член Тюменской РОО \"Биримдик\", Кыргызская диаспора.",
+      "resource_uri": "/api/v1/diaspora/56/",
+      "updated_at": "2016-11-18T02:24:45.399295"
+    },
+    {
+      "address": "",
+      "city": "г. Тюмень г. Курган",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.399687",
+      "email": "drujba-kurgan@yandex.ru",
+      "id": 57,
+      "manager": "Кекенеев  Рамазан Солтоевич   Какенеева  Асел",
+      "map_link": "",
+      "phone_number": "+7(909)145-91-71",
+      "place": "Председатель Курганского  регионального общественного фонда «Дружба» . Юридическая помощь кыргызам.",
+      "resource_uri": "/api/v1/diaspora/57/",
+      "updated_at": "2016-11-18T02:24:45.399738"
+    },
+    {
+      "address": "",
+      "city": "г. Новый Уренгой",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.400136",
+      "email": "ranis28@mail.ru",
+      "id": 58,
+      "manager": "Худайбергенов Толкунбек  Тойчубекович",
+      "map_link": "",
+      "phone_number": "+7(922)287-21-21",
+      "place": "Председатель Региональной общественной организации Кыргызская диаспора  «БЕК»",
+      "resource_uri": "/api/v1/diaspora/58/",
+      "updated_at": "2016-11-18T02:24:45.400166"
+    },
+    {
+      "address": "",
+      "city": "г.  Нижневартовск",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.400556",
+      "email": "",
+      "id": 59,
+      "manager": "Балбаков  Жаныбек Султаналиевич",
+      "map_link": "",
+      "phone_number": "+7(919)539-71-62",
+      "place": "Региональный национально-культурный центр \"Кыргызстан-Югра\"",
+      "resource_uri": "/api/v1/diaspora/59/",
+      "updated_at": "2016-11-18T02:24:45.400586"
+    },
+    {
+      "address": "",
+      "city": "Ямало-Ненецкий автономный округ г. Салехард",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.401006",
+      "email": "kr.yntymack@yandex.ru",
+      "id": 60,
+      "manager": "Осмонов Жанарбек Мамытбекович",
+      "map_link": "",
+      "phone_number": "+7(961)555-93-62",
+      "place": "Председатель   Автономной                             не  коммерческая    организации  Кыргызская  диаспора  «Ынтымак».",
+      "resource_uri": "/api/v1/diaspora/60/",
+      "updated_at": "2016-11-18T02:24:45.401036"
+    },
+    {
+      "address": "",
+      "city": "Ямало-Ненецкий автономный округ г. Салехард",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.401431",
+      "email": "timka_anara@mail.ru",
+      "id": 61,
+      "manager": "Айткулов Абдималик Камчыбекович",
+      "map_link": "",
+      "phone_number": "+7(961)553-09-96",
+      "place": "Представитель кыргызской  диаспоры",
+      "resource_uri": "/api/v1/diaspora/61/",
+      "updated_at": "2016-11-18T02:24:45.401461"
+    },
+    {
+      "address": "",
+      "city": "Ханты-Мансийск автономный  округ г. Белоярский",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.401868",
+      "email": "Mars-tkd09@mail.ru",
+      "id": 62,
+      "manager": "Абыкеев Марс Орозбаевич",
+      "map_link": "",
+      "phone_number": "+7(950)539-51-66",
+      "place": "Представитель кыргыской диаспоры",
+      "resource_uri": "/api/v1/diaspora/62/",
+      "updated_at": "2016-11-18T02:24:45.401898"
+    },
+    {
+      "address": "",
+      "city": "г.Ростов-на-Дону",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.402285",
+      "email": "",
+      "id": 63,
+      "manager": "Кожомбердиев Жаныбек Аманбекович",
+      "map_link": "",
+      "phone_number": "+7(863)248-68-01",
+      "place": "Председатель Ростовской региональной общественной организации по объединению и поддержке граждан кыргызской национальности \"Манас\"",
+      "resource_uri": "/api/v1/diaspora/63/",
+      "updated_at": "2016-11-18T02:24:45.402316"
+    },
+    {
+      "address": "",
+      "city": "г.Ростов-на-Дону",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.402715",
+      "email": "kyrgyzia-don61@mail.mail.ru",
+      "id": 64,
+      "manager": "Абдылдаев  Курманбек Карыбекович",
+      "map_link": "",
+      "phone_number": "+7(904)344-06-16",
+      "place": "Председатель общественного объединения \"Киргизия Дон\"",
+      "resource_uri": "/api/v1/diaspora/64/",
+      "updated_at": "2016-11-18T02:24:45.402752"
+    },
+    {
+      "address": "",
+      "city": "г.Ростов-на-Дону",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.403139",
+      "email": "",
+      "id": 65,
+      "manager": "Анназаров Эркинбек Кусеинович",
+      "map_link": "",
+      "phone_number": "+7(988)250-14-10",
+      "place": "Помощник председателя \"Киргизия Дон\"",
+      "resource_uri": "/api/v1/diaspora/65/",
+      "updated_at": "2016-11-18T02:24:45.403169"
+    },
+    {
+      "address": "",
+      "city": "Краснодарский край, г. Краснодар",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.403555",
+      "email": "Akak-kg@mail.ru",
+      "id": 66,
+      "manager": "Аргымбаева  Айкан Молдалиевна",
+      "map_link": "",
+      "phone_number": "+7(962)885-37-61",
+      "place": "Заместитель  Председателя  Краснодарской  краевой общественной  организации по содействию  и  возрождения  культуры народов  Центральной  Азии  «Содействие»",
+      "resource_uri": "/api/v1/diaspora/66/",
+      "updated_at": "2016-11-18T02:24:45.403586"
+    },
+    {
+      "address": "",
+      "city": "г. Элиста,    Калмыкская автономная область",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.404004",
+      "email": "baira05@mail.ru",
+      "id": 67,
+      "manager": "Сейденабдилов  Элдияр Матибович",
+      "map_link": "",
+      "phone_number": "+7(847)226-23-88",
+      "place": "Руководитель  Кыргызской   общины  по Калмыкской   области",
+      "resource_uri": "/api/v1/diaspora/67/",
+      "updated_at": "2016-11-18T02:24:45.404034"
+    },
+    {
+      "address": "",
+      "city": "",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.404421",
+      "email": "almaz_075@mail.ru",
+      "id": 68,
+      "manager": "Капарбай уулу Алмазбек",
+      "map_link": "",
+      "phone_number": "+7(909)376-25-68  v",
+      "place": "Председатель Астраханской региональной  ОО сохранению и развитию Кыргызской национальной- культуры  \"Кыргызстан\"",
+      "resource_uri": "/api/v1/diaspora/68/",
+      "updated_at": "2016-11-18T02:24:45.404452"
+    },
+    {
+      "address": "",
+      "city": "Г. Омск",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.404853",
+      "email": "Akimbek-asanov@rambler.ru",
+      "id": 69,
+      "manager": "Асанов  Акимбек Мырзаевич",
+      "map_link": "",
+      "phone_number": "+7(381)277-51-60",
+      "place": "Президент Омской областной общественной организации \"Содружество  кыргызстанцев\"",
+      "resource_uri": "/api/v1/diaspora/69/",
+      "updated_at": "2016-11-18T02:24:45.404884"
+    },
+    {
+      "address": "",
+      "city": "Г. Омск",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.405267",
+      "email": "alatoonsk@mail.ru",
+      "id": 70,
+      "manager": "Болтуруков Ороз Аяпбергенович",
+      "map_link": "",
+      "phone_number": "+7(923)222-58-60",
+      "place": "Глава  Новосибирская областная общественная организация \"Кыргызский культурный центр Ала-Тоо-Новосибирск\". Прошу внести поправку.",
+      "resource_uri": "/api/v1/diaspora/70/",
+      "updated_at": "2016-11-18T02:24:45.405298"
+    },
+    {
+      "address": "",
+      "city": "г.Новосибирск",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.405709",
+      "email": "asman_kg54@mail.ru",
+      "id": 71,
+      "manager": "Чекирбаев Замирбек Сулайманович",
+      "map_link": "",
+      "phone_number": "+7 (913)893-55-03",
+      "place": "Заместитель председателя Новосибирской  городской общественной организации Кыргызско национально- культурного центра \"Ала-ТОО «Новосибирск",
+      "resource_uri": "/api/v1/diaspora/71/",
+      "updated_at": "2016-11-18T02:24:45.405758"
+    },
+    {
+      "address": "",
+      "city": "г.Новосибирск",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.406152",
+      "email": "adiletnsk@mail.ru",
+      "id": 72,
+      "manager": "Тойтуков Жаркынбай Эгемкулович",
+      "map_link": "",
+      "phone_number": "+7(923)237-15-71",
+      "place": "Президент Местной кыргызской  национально-культурной автономии «Адилет»",
+      "resource_uri": "/api/v1/diaspora/72/",
+      "updated_at": "2016-11-18T02:24:45.406183"
+    },
+    {
+      "address": "",
+      "city": "г.Красноярск",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T02:24:45.406567",
+      "email": "nka24@list.ru",
+      "id": 73,
+      "manager": "Батаева Назгул Жанышбековна",
+      "map_link": "",
+      "phone_number": "+7(913)534-44-33",
+      "place": "Председатель Красноярской Региональной  общественной организации  \"Кыргызская  национально-культурная  автономия\"",
+      "resource_uri": "/api/v1/diaspora/73/",
+      "updated_at": "2016-11-18T02:24:45.406598"
+    },
+    {
+      "address": "",
+      "city": "г. Лесосибирск",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T03:06:26.623107",
+      "email": "",
+      "id": 74,
+      "manager": "Турдукулов  Абдыш Асанович",
+      "map_link": "",
+      "phone_number": "7(906)916-09-82",
+      "place": "Председатель кыргызского национально-культурного центра «Энесай»",
+      "resource_uri": "/api/v1/diaspora/74/",
+      "updated_at": "2016-11-18T03:06:26.623173"
+    },
+    {
+      "address": "",
+      "city": "г. Канск",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T03:06:26.623833",
+      "email": "azamatsansyzbaev@mail.ru",
+      "id": 75,
+      "manager": "Сансызбаев  Азамат Депутатович",
+      "map_link": "",
+      "phone_number": "+7(913)551-91-93",
+      "place": "Представитель  кыргызской диаспоры",
+      "resource_uri": "/api/v1/diaspora/75/",
+      "updated_at": "2016-11-18T03:06:26.623864"
+    },
+    {
+      "address": "",
+      "city": "г.Иркутск",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T03:06:26.624300",
+      "email": "",
+      "id": 76,
+      "manager": "Турганов Эрмамат Юсупович",
+      "map_link": "",
+      "phone_number": "+7(964)278-17-41",
+      "place": "Председатель Иркутской областной общественной Кыргызско  национально-культурной организации «Единение»",
+      "resource_uri": "/api/v1/diaspora/76/",
+      "updated_at": "2016-11-18T03:06:26.624331"
+    },
+    {
+      "address": "",
+      "city": "г.Иркутск",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T03:06:26.624752",
+      "email": "",
+      "id": 77,
+      "manager": "Жумаев Талантбек",
+      "map_link": "",
+      "phone_number": "+7(924)602-09-79",
+      "place": "Активист  Иркутской областной общественной Кыргызско национально-культурной организации «Единение»",
+      "resource_uri": "/api/v1/diaspora/77/",
+      "updated_at": "2016-11-18T03:06:26.624786"
+    },
+    {
+      "address": "",
+      "city": "г.Иркутск",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T03:06:26.625197",
+      "email": "tynchtyk79@mail.ru",
+      "id": 78,
+      "manager": "Абдылдаев Тынчтыкбек Анарбаевич",
+      "map_link": "",
+      "phone_number": "+7(964)651-71-89",
+      "place": "Председатель Иркутской областной общественной организации  \"Дружба\"",
+      "resource_uri": "/api/v1/diaspora/78/",
+      "updated_at": "2016-11-18T03:06:26.625228"
+    },
+    {
+      "address": "",
+      "city": "г.Чита",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T03:06:26.625620",
+      "email": "chita-sroock@yandex.ru",
+      "id": 79,
+      "manager": "Турдубаев Бактыбек Дадаевич",
+      "map_link": "",
+      "phone_number": "+3(022)359-1-09",
+      "place": "Председатель Забайкальской региональной общественной организации \"Союз Кыргызов\"",
+      "resource_uri": "/api/v1/diaspora/79/",
+      "updated_at": "2016-11-18T03:06:26.625651"
+    },
+    {
+      "address": "",
+      "city": "г.Чита",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T03:06:26.626071",
+      "email": "",
+      "id": 80,
+      "manager": "Аманов Талант Маматович",
+      "map_link": "",
+      "phone_number": "+7(924)277-65-55",
+      "place": "Помощник ОО  \"Союз Кыргызов\"",
+      "resource_uri": "/api/v1/diaspora/80/",
+      "updated_at": "2016-11-18T03:06:26.626102"
+    },
+    {
+      "address": "",
+      "city": "г.Абакан",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T03:06:26.626496",
+      "email": "aziz_bek8553@mail.ru",
+      "id": 81,
+      "manager": "Чериков Азиз Араппаевич",
+      "map_link": "",
+      "phone_number": "+7(913)449-64-75",
+      "place": "Председатель Хакасской региональной общественной организации \"Кыргызстан\"",
+      "resource_uri": "/api/v1/diaspora/81/",
+      "updated_at": "2016-11-18T03:06:26.626527"
+    },
+    {
+      "address": "",
+      "city": "г.Абакан",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T03:06:26.626937",
+      "email": "turumbekov@bk.ru",
+      "id": 82,
+      "manager": "Турумбеков Нурлан Джумабекович",
+      "map_link": "",
+      "phone_number": "+7(909)525-93-20",
+      "place": "Председатель Хакасской региональной общественной организации народный улус  кыргызов \"Ордо\"",
+      "resource_uri": "/api/v1/diaspora/82/",
+      "updated_at": "2016-11-18T03:06:26.626968"
+    },
+    {
+      "address": "",
+      "city": "Республика Тыва,   г. Кызыл",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T03:06:26.627359",
+      "email": "",
+      "id": 83,
+      "manager": "Туюков Куттубек Шейшеевич",
+      "map_link": "",
+      "phone_number": "+7(906)997-40-91",
+      "place": "Председатель общественной организации «Дружба»",
+      "resource_uri": "/api/v1/diaspora/83/",
+      "updated_at": "2016-11-18T03:06:26.627390"
+    },
+    {
+      "address": "",
+      "city": "г. Улан-Удэ",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T03:06:26.627793",
+      "email": "",
+      "id": 84,
+      "manager": "Абдразаков Доорбек",
+      "map_link": "",
+      "phone_number": "+7(924)390-22-72",
+      "place": "Председатель  региональной общественной организации  Кыргызского  культурного  центра  \"Ала-Тоо\"",
+      "resource_uri": "/api/v1/diaspora/84/",
+      "updated_at": "2016-11-18T03:06:26.627824"
+    },
+    {
+      "address": "",
+      "city": "г. Улан-Удэ",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T03:06:26.628226",
+      "email": "",
+      "id": 85,
+      "manager": "Усенов Ян Замирбекович",
+      "map_link": "",
+      "phone_number": "+(996)550750249",
+      "place": "Заместитель председателя общественной организации  Кыргызского  культурного  центра \"Ала-Тоо",
+      "resource_uri": "/api/v1/diaspora/85/",
+      "updated_at": "2016-11-18T03:06:26.628257"
+    },
+    {
+      "address": "",
+      "city": "г. Улан-Удэ",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T03:06:26.628645",
+      "email": "janbolotdos@mail.ru",
+      "id": 86,
+      "manager": "Досов Джанбулат Абдимаматович",
+      "map_link": "",
+      "phone_number": "+7(924)756-77-77",
+      "place": "Внештатный корреспондент  общественно - политического журнала  \"Замандаш\"",
+      "resource_uri": "/api/v1/diaspora/86/",
+      "updated_at": "2016-11-18T03:06:26.628677"
+    },
+    {
+      "address": "",
+      "city": "г.Томск",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T03:06:26.629087",
+      "email": "talip@sibmail.com",
+      "id": 87,
+      "manager": "Зулпукаров Талип",
+      "map_link": "",
+      "phone_number": "+7(923)448-99-99",
+      "place": "Председатель  Местной   общественной организации  национально-культурной автономии \"Кыргызстан\"",
+      "resource_uri": "/api/v1/diaspora/87/",
+      "updated_at": "2016-11-18T03:06:26.629119"
+    },
+    {
+      "address": "",
+      "city": "г.Томск",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T03:06:26.629506",
+      "email": "manap@mail.ru",
+      "id": 88,
+      "manager": "Абдуманапов  Рустам Абдубаитович",
+      "map_link": "",
+      "phone_number": "+7(923)401-55-39",
+      "place": "Актив  местной  общественной организации  национально-культурной автономии \"Кыргызстан\"",
+      "resource_uri": "/api/v1/diaspora/88/",
+      "updated_at": "2016-11-18T03:06:26.629537"
+    },
+    {
+      "address": "",
+      "city": "г. Барнаул Алтайского края",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T03:06:26.629938",
+      "email": "",
+      "id": 89,
+      "manager": "Толобаев Нурбек Шугурбекович",
+      "map_link": "",
+      "phone_number": "+7(913)213-11-52",
+      "place": "Председатель общества кыргызов Алтайского края",
+      "resource_uri": "/api/v1/diaspora/89/",
+      "updated_at": "2016-11-18T03:06:26.629969"
+    },
+    {
+      "address": "",
+      "city": "г. Барнаул Алтайского края",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T03:06:26.630360",
+      "email": "biek-altai@mail.ru",
+      "id": 90,
+      "manager": "Калыков Азамат",
+      "map_link": "",
+      "phone_number": "+7(923)165-00-55",
+      "place": "Общественный деятель,  член правления  общества кыргызов Алтайского края",
+      "resource_uri": "/api/v1/diaspora/90/",
+      "updated_at": "2016-11-18T03:06:26.630390"
+    },
+    {
+      "address": "",
+      "city": "г.Новокузнецк",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T03:06:26.630802",
+      "email": "",
+      "id": 91,
+      "manager": "Капаров Курманбек Маматалиевич",
+      "map_link": "",
+      "phone_number": "+7(951)162+07+28 v",
+      "place": "Председатель Общественной организации  \"Манас\"",
+      "resource_uri": "/api/v1/diaspora/91/",
+      "updated_at": "2016-11-18T03:06:26.630833"
+    },
+    {
+      "address": "",
+      "city": "Кемеровская область г. Новокузнецк",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T03:06:26.631229",
+      "email": "nurak777@mail.ru",
+      "id": 92,
+      "manager": "Акпаралы  уулу Нуралы",
+      "map_link": "",
+      "phone_number": "+7(923)468-19-84",
+      "place": "Центр поддержки и содействия Кыргызстана",
+      "resource_uri": "/api/v1/diaspora/92/",
+      "updated_at": "2016-11-18T03:06:26.631260"
+    },
+    {
+      "address": "",
+      "city": "г.Северо- Байкальск",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T03:06:26.631647",
+      "email": "Sultanaliev62@mail.ru",
+      "id": 93,
+      "manager": "Султаналиев Абдрашит Назарович",
+      "map_link": "",
+      "phone_number": "+7(924)652-13-92  +7(923)131-64-92  +7(950)388-08-93",
+      "place": "Сопредседатель г.Северо-Байкальского национально-культурного центра  \"Аян\"",
+      "resource_uri": "/api/v1/diaspora/93/",
+      "updated_at": "2016-11-18T03:06:26.631681"
+    },
+    {
+      "address": "",
+      "city": "г.Северо- Байкальск",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T03:06:26.632128",
+      "email": "bakytbay@gmail.com",
+      "id": 94,
+      "manager": "Долотов  Бакытбай Саматович",
+      "map_link": "",
+      "phone_number": "+7(914)281-89-11",
+      "place": "Сопредседатель  Северо-Байкальского национально-культурного центра  \"Аян\"",
+      "resource_uri": "/api/v1/diaspora/94/",
+      "updated_at": "2016-11-18T03:06:26.632159"
+    },
+    {
+      "address": "",
+      "city": "Республика  Саха (Якутия) г.Якутск",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T03:06:26.632551",
+      "email": "esen_1957@mail.ru",
+      "id": 95,
+      "manager": "Сайдыкулов Эсен Какелеевич",
+      "map_link": "",
+      "phone_number": "+7(924)170-61-41",
+      "place": "Почетный консул КР в Якути",
+      "resource_uri": "/api/v1/diaspora/95/",
+      "updated_at": "2016-11-18T03:06:26.632581"
+    },
+    {
+      "address": "",
+      "city": "Республика  Саха (Якутия) г.Якутск",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T03:06:26.632994",
+      "email": "Kg.ykt@mail.ru",
+      "id": 96,
+      "manager": "Байгутуев  Данияр Аскерович",
+      "map_link": "",
+      "phone_number": "+7(914)275-75-08",
+      "place": "Председатель ОО Кыргызкого диаспора  \"Манас\"",
+      "resource_uri": "/api/v1/diaspora/96/",
+      "updated_at": "2016-11-18T03:06:26.633024"
+    },
+    {
+      "address": "",
+      "city": "Г. Мирный",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T03:06:26.633429",
+      "email": "",
+      "id": 97,
+      "manager": "Жээренбаева Сулайка Барыктабасовна",
+      "map_link": "",
+      "phone_number": "+996771339908",
+      "place": "Председатель общественной организации «Достук»",
+      "resource_uri": "/api/v1/diaspora/97/",
+      "updated_at": "2016-11-18T03:06:26.633460"
+    },
+    {
+      "address": "",
+      "city": "Республика Саха (Якутия)                   г. Нюренги",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T03:06:26.633861",
+      "email": "bahavdv@mail.ru",
+      "id": 98,
+      "manager": "Окосев Бакытбек  Табалдиевич",
+      "map_link": "",
+      "phone_number": "7(924)593-03-89",
+      "place": "Председатель общественной движении Ассамблеи народов Республики Саха, (Якутия) «Кыргызская община»",
+      "resource_uri": "/api/v1/diaspora/98/",
+      "updated_at": "2016-11-18T03:06:26.633892"
+    },
+    {
+      "address": "",
+      "city": "Республика Саха (Якутия)  г. Нюренги",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T03:06:26.634293",
+      "email": "",
+      "id": 99,
+      "manager": "Жумашев Нурдин Омуркулович",
+      "map_link": "",
+      "phone_number": "+79243618902",
+      "place": "Помощник председателя общественной движении Ассамблеи народов Республики Саха, (Якутия) «Кыргызская община»",
+      "resource_uri": "/api/v1/diaspora/99/",
+      "updated_at": "2016-11-18T03:06:26.634324"
+    },
+    {
+      "address": "",
+      "city": "Сахалинская. обл. г.Южно-Сахалинск",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T03:06:26.634711",
+      "email": "eshim72@mail.ru",
+      "id": 100,
+      "manager": "Толубаев Эшимбет Балтабаевич",
+      "map_link": "",
+      "phone_number": "+7(962)123-18-88",
+      "place": "Председатель Сахалинской Региональной общественной организации \"Согласие\"",
+      "resource_uri": "/api/v1/diaspora/100/",
+      "updated_at": "2016-11-18T03:06:26.634768"
+    },
+    {
+      "address": "",
+      "city": "Сахалинская. обл. г.Южно-Сахалинск",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T03:06:26.635165",
+      "email": "",
+      "id": 101,
+      "manager": "Алдеров Жумалы Каныбекович",
+      "map_link": "",
+      "phone_number": "+7(924)-185-70-15.",
+      "place": "Председатель диаспоры \"Киргизская диаспора\" , в Сахалинской области.",
+      "resource_uri": "/api/v1/diaspora/101/",
+      "updated_at": "2016-11-18T03:06:26.635196"
+    },
+    {
+      "address": "",
+      "city": "Сахалинская. обл. г.Южно-Сахалинск",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T03:06:26.635584",
+      "email": "",
+      "id": 102,
+      "manager": "г.Ноглики,  Сымбатбек",
+      "map_link": "",
+      "phone_number": "+7(914) 760-01-19.",
+      "place": "Юрист диаспоры \"Киргизская диаспора\" в Сахалинской области. (ПГТ) Нолики ул.  Первомайская, д 15кв 2",
+      "resource_uri": "/api/v1/diaspora/102/",
+      "updated_at": "2016-11-18T03:06:26.635614"
+    },
+    {
+      "address": "",
+      "city": "Приморский край, г.Владивосток",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T03:06:26.636031",
+      "email": "gbdf6@mail.ru",
+      "id": 103,
+      "manager": "Нажимов  Абибила Майдинович",
+      "map_link": "",
+      "phone_number": "+7(914)704-62-21",
+      "place": "Председатель  правление  Приморской  региональной общественной  организации Киргизской Диаспоры \"Ынтымак\" (Дружба)",
+      "resource_uri": "/api/v1/diaspora/103/",
+      "updated_at": "2016-11-18T03:06:26.636073"
+    },
+    {
+      "address": "",
+      "city": "Приморский край, г.Владивосток",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T03:06:26.636474",
+      "email": "",
+      "id": 104,
+      "manager": "Ходжашев Арибжан Кулмаматович",
+      "map_link": "",
+      "phone_number": "+7(924)233-41-14",
+      "place": "Член правления  Приморской  региональной общественной  организации Киргизской Диаспоры \"Ынтымак\" (Дружба)",
+      "resource_uri": "/api/v1/diaspora/104/",
+      "updated_at": "2016-11-18T03:06:26.636505"
+    },
+    {
+      "address": "",
+      "city": "Хабаровский край г. Хабаровск",
+      "country": {
+        "country": "Россия",
+        "id": 4,
+        "image": "/media/images/rus.png",
+        "resource_uri": "/api/v1/country_diaspora/4/"
+      },
+      "created_at": "2016-11-18T03:06:26.636927",
+      "email": "",
+      "id": 105,
+      "manager": "Нуркулова Зарипа Модановна",
+      "map_link": "",
+      "phone_number": "+7(962)227- 39-74",
+      "place": "Член правления кыргызской диаспоры «Соотечественники  Кыргызстана»",
+      "resource_uri": "/api/v1/diaspora/105/",
+      "updated_at": "2016-11-18T03:06:26.636958"
+    },
+    {
+      "address": "",
+      "city": "Нью-Йорк",
+      "country": {
+        "country": "США",
+        "id": 9,
+        "image": "/media/images/usa.png",
+        "resource_uri": "/api/v1/country_diaspora/9/"
+      },
+      "created_at": "2016-11-18T03:42:10.014508",
+      "email": "info@kyrgyzclub.org",
+      "id": 127,
+      "manager": "..",
+      "map_link": "",
+      "phone_number": "+1-718-303-2343",
+      "place": "kyrgyzClub",
+      "resource_uri": "/api/v1/diaspora/127/",
+      "updated_at": "2016-11-18T03:42:10.014561"
+    },
+    {
+      "address": "",
+      "city": "",
+      "country": {
+        "country": "Украина",
+        "id": 10,
+        "image": "/media/images/ukraine.png",
+        "resource_uri": "/api/v1/country_diaspora/10/"
+      },
+      "created_at": "2016-11-18T03:44:10.811382",
+      "email": "info@kyrgyz.org.ua",
+      "id": 128,
+      "manager": "Сариев Таалайбек Жекшенбекович,",
+      "map_link": "",
+      "phone_number": "+ (063)219-55-56",
+      "place": "Международная организация Кыргызстанцев в Украине",
+      "resource_uri": "/api/v1/diaspora/128/",
+      "updated_at": "2016-11-18T03:44:10.811445"
+    },
+    {
+      "address": "",
+      "city": "",
+      "country": {
+        "country": "Украина",
+        "id": 10,
+        "image": "/media/images/ukraine.png",
+        "resource_uri": "/api/v1/country_diaspora/10/"
+      },
+      "created_at": "2016-11-18T03:44:10.812064",
+      "email": "",
+      "id": 129,
+      "manager": "..",
+      "map_link": "",
+      "phone_number": "http://zpress.kg/contact/index/contact",
+      "place": "Ассоциация \"Замандаш\"",
+      "resource_uri": "/api/v1/diaspora/129/",
+      "updated_at": "2016-11-18T03:44:10.812095"
+    },
+    {
+      "address": "",
+      "city": "г.Базель",
+      "country": {
+        "country": "Швейцария",
+        "id": 3,
+        "image": "/media/images/sweden.png",
+        "resource_uri": "/api/v1/country_diaspora/3/"
+      },
+      "created_at": "2016-11-09T19:11:03.470630",
+      "email": "",
+      "id": 5,
+      "manager": "Кенжегуль Пезавенто",
+      "map_link": "",
+      "phone_number": "+41613313100",
+      "place": "«Кыргызско-Швейцарский клуб» (Kyrgyz-Swiss Club) – президент Кенжегуль",
+      "resource_uri": "/api/v1/diaspora/5/",
+      "updated_at": "2016-11-09T19:11:03.470700"
+    },
+    {
+      "address": "",
+      "city": "",
+      "country": {
+        "country": "Япония",
+        "id": 7,
+        "image": "/media/images/japan.png",
+        "resource_uri": "/api/v1/country_diaspora/7/"
+      },
+      "created_at": "2016-11-18T03:38:27.556881",
+      "email": "mahabatu@gmail.com",
+      "id": 125,
+      "manager": "Махабат Уракова",
+      "map_link": "",
+      "phone_number": ",",
+      "place": "Ассоциация кыргызстанцев в Японии",
+      "resource_uri": "/api/v1/diaspora/125/",
+      "updated_at": "2016-11-18T03:38:27.556954"
+    }
+  ]
+}

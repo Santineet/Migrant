@@ -1,0 +1,38 @@
+// 20170316194437
+// http://176.126.167.249/api/v1/country/?format=json
+
+{
+  "meta": {
+    "limit": 20,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 4
+  },
+  "objects": [
+    {
+      "country": "Китай",
+      "id": 2,
+      "image": "/media/images/China.png",
+      "resource_uri": "/api/v1/country/2/"
+    },
+    {
+      "country": "Кореа",
+      "id": 6,
+      "image": "/media/images/Flag_of_South_Korea.png",
+      "resource_uri": "/api/v1/country/6/"
+    },
+    {
+      "country": "ОАЭ",
+      "id": 5,
+      "image": "/media/images/oae.png",
+      "resource_uri": "/api/v1/country/5/"
+    },
+    {
+      "country": "Турция",
+      "id": 4,
+      "image": "/media/images/turkey.png",
+      "resource_uri": "/api/v1/country/4/"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "limit": 1000,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 4
+  },
+  "objects": [
+    {
+      "created_at": "2016-11-28T18:59:45.960994",
+      "id": 1,
+      "image": "human_traffic_kg",
+      "resource_uri": "/api/v1/human_traffic_kg/2/",
+      "text_ru": "<p><img src=file:///android_res/raw/tuberkulez_1_1_ru.jpg\"></p><p><img src=file:///android_res/raw/tuberkulez_1_2_ru.jpg\"></p><p><img src=file:///android_res/raw/tuberkulez_1_3_ru.jpg\"></p>",
+      "title_ru": "Узнай больше",
+      "updated_at": "2016-12-19T14:26:50.951930"
+    },
+    {
+      "created_at": "2016-12-19T14:33:41.419616",
+      "id": 2,
+      "image": null,
+      "resource_uri": "/api/v1/human_traffic_kg/3/",
+      "text_ru": "<p><img src=file:///android_res/raw/tuberkulez_2_1_ru.jpg\"></p></p><p><img src=file:///android_res/raw/tuberkulez_2_2_ru.jpg\"></p><p><img src=file:///android_res/raw/tuberkulez_2_3_ru.jpg\"></p>",
+      "title_ru": "Симптомы и профилактика",
+      "updated_at": "2016-12-19T14:33:41.419659"
+    },
+    {
+      "created_at": "2016-12-19T14:33:41.419616",
+      "id": 3,
+      "image": null,
+      "resource_uri": "/api/v1/human_traffic_kg/3/",
+      "text_ru": "<p><img src=file:///android_res/raw/tuberkulez_3_1_ru.jpg\"></p></p><p><img src=file:///android_res/raw/tuberkulez_3_2_ru.jpg\"></p><p><img src=file:///android_res/raw/tuberkulez_3_3_ru.jpg\"></p><p><img src=file:///android_res/raw/tuberkulez_3_4_ru.jpg\"></p><p><img src=file:///android_res/raw/tuberkulez_3_5_ru.jpg\"></p><p><img src=file:///android_res/raw/tuberkulez_3_6_ru.jpg\"></p><p><img src=file:///android_res/raw/tuberkulez_3_7_ru.jpg\"></p>",
+      "title_ru": "Туберкулёз и коронавирус",
+      "updated_at": "2016-12-19T14:33:41.419659"
+    }
+  ]
+}

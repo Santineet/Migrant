@@ -1,0 +1,32 @@
+// 20170316193521
+// http://176.126.167.249/api/v1/country_eaes/?&limit=0&format=json
+
+{
+  "meta": {
+    "limit": 1000,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 3
+  },
+  "objects": [
+    {
+      "country": "ЕАЭС",
+      "id": 7,
+      "image": "/media/images/gg.png",
+      "resource_uri": "/api/v1/country_eaes/7/"
+    },
+    {
+      "country": "Казахстан",
+      "id": 8,
+      "image": "/media/images/kz.png",
+      "resource_uri": "/api/v1/country_eaes/8/"
+    },
+    {
+      "country": "Россия",
+      "id": 6,
+      "image": "/media/images/rus_VTAOHJU.png",
+      "resource_uri": "/api/v1/country_eaes/6/"
+    }
+  ]
+}

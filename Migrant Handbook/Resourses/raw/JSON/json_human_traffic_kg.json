@@ -1,0 +1,41 @@
+// 20170316215902
+// http://176.126.167.249/api/v1/human_traffic_kg/?format=json&limit=0
+
+{
+  "meta": {
+    "limit": 1000,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 4
+  },
+  "objects": [
+    {
+      "created_at": "2016-11-28T18:59:45.960994",
+      "id": 2,
+      "image": "/media/images/1_UarTesx.jpg",
+      "resource_uri": "/api/v1/human_traffic_kg/2/",
+      "text_ru": "<p><img src=\"human_traffic_kg_2_1.jpg\"></p><p><img src=\"human_traffic_kg_2_2.jpg\"></p><p><span></span><img src=\"human_traffic_kg_2_3.jpg\"><br></p><p><img src=\"human_traffic_kg_2_4.jpg\"></p><p><img src=\"human_traffic_kg_2_5.jpg\"></p><p><img src=\"human_traffic_kg_2_6.jpg\"></p><p><img src=\"human_traffic_kg_2_7.jpg\"><img src=\"human_traffic_kg_2_8.jpg\"></p><p><img src=\"human_traffic_kg_2_9.jpg\"></p><p><img src=\"human_traffic_kg_2_10.jpg\"></p><p style=\"margin-left: 20px;\"><img src=\"human_traffic_kg_2_11.jpg\"></p><p><img src=\"human_traffic_kg_2_12.jpg\"></p><p><img src=\"human_traffic_kg_2_13.jpg\"></p><p><img src=\"human_traffic_kg_2_14.jpg\"><img src=\"human_traffic_kg_2_15.jpg\"></p>",
+      "title_ru": "Адам сатуудан сак болгула",
+      "updated_at": "2016-12-19T14:26:50.951930"
+    },
+    {
+      "created_at": "2016-12-19T14:33:41.419616",
+      "id": 3,
+      "image": "/media/images/1_INs5cRs.jpg",
+      "resource_uri": "/api/v1/human_traffic_kg/3/",
+      "text_ru": "<p><img src=\"human_traffic_kg_3_1.jpg\"></p><p><img src=\"human_traffic_kg_3_2.jpg\"></p><p><img src=\"human_traffic_kg_3_3.jpg\"></p><p><img src=\"human_traffic_kg_3_4.jpg\"></p><p><img src=\"human_traffic_kg_3_5.jpg\"></p><p><img src=\"human_traffic_kg_3_6.jpg\"></p><p><img src=\"human_traffic_kg_3_7.jpg\"></p><p><img src=\"human_traffic_kg_3_8.jpg\"></p><p><img src=\"human_traffic_kg_3_9.jpg\"></p><p><img src=\"human_traffic_kg_3_10.jpg\"><img src=\"human_traffic_kg_3_11.jpg\"></p><p><img src=\"human_traffic_kg_3_12.jpg\"></p><p><img src=\"human_traffic_kg_3_13.jpg\"></p><p><img src=\"human_traffic_kg_3_14.jpg\"></p><p><img src=\"human_traffic_kg_3_15.jpg\"></p><p><img src=\"human_traffic_kg_3_16.jpg\"></p><p><img src=\"human_traffic_kg_3_17.jpg\"></p><p><img src=\"human_traffic_kg_3_18.jpg\"></p><p><img src=\"human_traffic_kg_3_19.jpg\"></p><p><img src=\"human_traffic_kg_3_20.jpg\"></p><p><img src=\"human_traffic_kg_3_21.jpg\"></p><p><img src=\"human_traffic_kg_3_22.jpg\"></p><p><img src=\"human_traffic_kg_3_23.jpg\"></p><p><img src=\"human_traffic_kg_3_24.jpg\"></p><p><img src=\"human_traffic_kg_3_25.jpg\"></p><p><img src=\"human_traffic_kg_3_26.jpg\"></p><p><img src=\"human_traffic_kg_3_27.jpg\"></p><p><img src=\"human_traffic_kg_3_28.jpg\"></p><p><img src=\"human_traffic_kg_3_29.jpg\"></p><p><img src=\"human_traffic_kg_3_30.jpg\"></p><p><img src=\"human_traffic_kg_3_31.jpg\"></p><p><img src=\"human_traffic_kg_3_32.jpg\"></p><p><img src=\"human_traffic_kg_3_33.jpg\"></p><p><img src=\"human_traffic_kg_3_34.jpg\"></p><p><img src=\"human_traffic_kg_3_35.jpg\"></p><p><img src=\"human_traffic_kg_3_36.jpg\"></p><p><img src=\"human_traffic_kg_3_37.jpg\"></p><p><img src=\"human_traffic_kg_3_38.jpg\"></p><p><img src=\"human_traffic_kg_3_39.jpg\"></p><p><img src=\"human_traffic_kg_3_40.jpg\"></p><p><img src=\"human_traffic_kg_3_41.jpg\"><img src=\"human_traffic_kg_3_42.jpg\"></p><p><img src=\"human_traffic_kg_3_43.jpg\"></p><p><img src=\"human_traffic_kg_3_44.jpg\"></p><p><img src=\"human_traffic_kg_3_45.jpg\"></p><p><img src=\"human_traffic_kg_3_46.jpg\"></p><p><img src=\"human_traffic_kg_3_47.jpg\"></p><p><img src=\"human_traffic_kg_3_48.jpg\"></p>",
+      "title_ru": "Айнуранын тушу",
+      "updated_at": "2016-12-19T14:33:41.419659"
+    },
+    {
+      "created_at": "2016-12-28T09:56:32.945101",
+      "id": 4,
+      "image": "/media/images/1_7pGFCdw.jpg",
+      "resource_uri": "/api/v1/human_traffic_kg/4/",
+      "text_ru": "<p><img src=\"human_traffic_kg_4_1.jpg\"></p><p><img src=\"human_traffic_kg_4_2.jpg\"></p><p><img src=\"human_traffic_kg_4_3.jpg\"></p><p><img src=\"human_traffic_kg_4_4.jpg\"></p><p><img src=\"human_traffic_kg_4_5.jpg\"></p><p><img src=\"human_traffic_kg_4_6.jpg\"></p><p><img src=\"human_traffic_kg_4_7.jpg\"></p><p><img src=\"human_traffic_kg_4_8.jpg\"></p>",
+      "title_ru": "Адамдарды сатуу глобалдык кылмыш болуп саналат",
+      "updated_at": "2016-12-28T09:56:32.945152"
+    }
+  ]
+}

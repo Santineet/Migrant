@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "chevron_compact_right_24 @ indicator.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}

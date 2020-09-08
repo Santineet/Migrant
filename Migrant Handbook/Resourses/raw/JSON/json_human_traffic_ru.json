@@ -1,0 +1,68 @@
+// 20170316215557
+// http://176.126.167.249/api/v1/human_traffic/?format=json&limit=0
+
+{
+  "meta": {
+    "limit": 1000,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 7
+  },
+  "objects": [
+    {
+      "created_at": "2016-11-20T18:55:50.005588",
+      "id": 2,
+      "image": "/media/images/1-01.png",
+      "resource_uri": "/api/v1/human_traffic/2/",
+      "text_ru": "<p><img src=\"human_traffic_ru_2_1.png\"></p><p><span></span><img src=\"human_traffic_ru_2_2.png\"><br></p><p><br></p><p><img src=\"human_traffic_ru_2_3.png\"></p><p><br></p><p><img src=\"human_traffic_ru_2_4.png\"></p><p><br></p><p><img src=\"human_traffic_ru_2_5.png\"></p><p><br></p><p><img src=\"human_traffic_ru_2_6.png\"></p><p><img src=\"human_traffic_ru_2_7.png\"></p>",
+      "title_ru": "Защитим наших детей",
+      "updated_at": "2016-11-20T18:55:50.005642"
+    },
+    {
+      "created_at": "2016-11-20T18:57:35.723993",
+      "id": 3,
+      "image": "/media/images/1.png",
+      "resource_uri": "/api/v1/human_traffic/3/",
+      "text_ru": "<p><img src=\"human_traffic_ru_3_1.png\"></p><p><img src=\"human_traffic_ru_3_2.png\"></p><p><img src=\"human_traffic_ru_3_3.png\"></p><p><img src=\"human_traffic_ru_3_4.png\"></p><p><img src=\"human_traffic_ru_3_5.png\"></p><p><br></p><p><img src=\"human_traffic_ru_3_6.png\"></p><p><img src=\"human_traffic_ru_3_7.png\"></p>",
+      "title_ru": "Для работадателей",
+      "updated_at": "2016-11-20T18:57:35.724047"
+    },
+    {
+      "created_at": "2016-11-20T19:01:17.714409",
+      "id": 5,
+      "image": "/media/images/1_xNqWN4x.png",
+      "resource_uri": "/api/v1/human_traffic/5/",
+      "text_ru": "<p><img src=\"human_traffic_ru_5_1.png\"></p><p><img src=\"human_traffic_ru_5_2.png\"></p><p><br></p><p><img src=\"human_traffic_ru_5_3.png\"></p><p><img src=\"human_traffic_ru_5_4.png\"></p><p><img src=\"human_traffic_ru_5_5.png\"></p><p><br></p><p><img src=\"human_traffic_ru_5_6.png\"></p><p><br></p><p><img src=\"human_traffic_ru_5_7.png\"></p><p><br></p><p><img src=\"human_traffic_ru_5_8.png\"></p><p><img src=\"human_traffic_ru_5_9.png\"></p>",
+      "title_ru": "Ищете работу",
+      "updated_at": "2016-11-20T19:01:17.714451"
+    },
+    {
+      "created_at": "2016-11-20T19:05:03.265796",
+      "id": 7,
+      "image": "/media/images/1_llBa7YT.png",
+      "resource_uri": "/api/v1/human_traffic/7/",
+      "text_ru": "<p><img src=\"human_traffic_ru_7_1.png\"></p><p><img src=\"human_traffic_ru_7_2.png\"></p><p><img src=\"human_traffic_ru_7_3.png\"></p><p><img src=\"human_traffic_ru_7_4.png\"></p><p><br></p><p><img src=\"human_traffic_ru_7_5.png\"></p><p><br></p><p><img src=\"human_traffic_ru_7_6.png\"></p><p><br></p><p><img src=\"human_traffic_ru_7_7.png\"></p><p><img src=\"human_traffic_ru_7_8.png\"></p><p><img src=\"human_traffic_ru_7_9.png\"></p><p><br></p><p><img src=\"human_traffic_ru_7_10.png\"></p><p><br></p><p><img src=\"human_traffic_ru_7_11.png\"></p><p><br></p><p><img src=\"human_traffic_ru_7_12.png\"></p><p><br></p><p><img src=\"human_traffic_ru_7_13.png\"></p><p><br></p><p><img src=\"human_traffic_ru_7_14.png\"></p><p><img src=\"human_traffic_ru_7_15.png\"></p>",
+      "title_ru": "Остерегайтесь торговли людьми",
+      "updated_at": "2016-11-20T19:05:03.265837"
+    },
+    {
+      "created_at": "2016-11-20T19:08:54.385475",
+      "id": 8,
+      "image": "/media/images/1-01_7MfyTo7.png",
+      "resource_uri": "/api/v1/human_traffic/8/",
+      "text_ru": "<p><img src=\"human_traffic_ru_8_1.png\"></p><p><img src=\"human_traffic_ru_8_2.png\" width=\"390\" height=\"695\" style=\"width: 390px; height: 695px;\"></p><p><img src=\"human_traffic_ru_8_3.png\"></p><p><img src=\"human_traffic_ru_8_4.png\"></p><p><img src=\"human_traffic_ru_8_5.png\"></p><p><img src=\"human_traffic_ru_8_6.png\"><img src=\"human_traffic_ru_8_7.png\"><img src=\"human_traffic_ru_8_8.png\"><img src=\"human_traffic_ru_8_9.png\"></p><p><img src=\"human_traffic_ru_8_10.png\"><img src=\"human_traffic_ru_8_11.png\"><img src=\"human_traffic_ru_8_12.png\"><img src=\"human_traffic_ru_8_13.png\"><img src=\"human_traffic_ru_8_14.png\"></p><p><img src=\"human_traffic_ru_8_15.png\"><img src=\"human_traffic_ru_8_16.png\"><img src=\"human_traffic_ru_8_17.png\"><img src=\"human_traffic_ru_8_18.png\"><img src=\"human_traffic_ru_8_19.png\"><img src=\"human_traffic_ru_8_20.png\"><img src=\"human_traffic_ru_8_21.png\"><img src=\"human_traffic_ru_8_22.png\"></p><p><img src=\"human_traffic_ru_8_23.png\"><img src=\"human_traffic_ru_8_24.png\"><br></p><p><img src=\"human_traffic_ru_8_25.png\"><img src=\"human_traffic_ru_8_26.png\"></p><p><img src=\"human_traffic_ru_8_27.png\"><img src=\"human_traffic_ru_8_28.png\"></p><p><img src=\"human_traffic_ru_8_29.png\"><img src=\"human_traffic_ru_8_30.png\"></p><p><img src=\"human_traffic_ru_8_31.png\"><img src=\"human_traffic_ru_8_32.png\"></p><p><img src=\"human_traffic_ru_8_33.png\"><img src=\"human_traffic_ru_8_34.png\"></p><p><img src=\"human_traffic_ru_8_35.png\"><img src=\"human_traffic_ru_8_36.png\"></p><p><img src=\"human_traffic_ru_8_37.png\"><img src=\"human_traffic_ru_8_38.png\"></p><p><img src=\"human_traffic_ru_8_39.png\"><img src=\"human_traffic_ru_8_40.png\"></p><p><img src=\"human_traffic_ru_8_41.png\"><img src=\"human_traffic_ru_8_42.png\"></p><p><img src=file:///android_res/raw/human_traffic_ru_8_43.png\"><img src=file:///android_res/raw/human_traffic_ru_8_44.png\"></p><p><img src=file:///android_res/raw/human_traffic_ru_8_45.png\"><img src=file:///android_res/raw/human_traffic_ru_8_46.png\"></p><p><img  src=file:///android_res/raw/human_traffic_ru_8_47.png\"><img src=file:///android_res/raw/human_traffic_ru_8_48.png\"></p>",
+      "title_ru": "Сон Айнуры",
+      "updated_at": "2016-11-30T19:06:16.100595"
+    },
+    {
+      "created_at": "2016-11-30T19:29:19.604358",
+      "id": 13,
+      "image": "/media/images/1_pqKBgNz.png",
+      "resource_uri": "/api/v1/human_traffic/13/",
+      "text_ru": "<p><img src=file:///android_res/raw/human_traffic_ru_13_1.png\"></p><p><img src=file:///android_res/raw/human_traffic_ru_13_2.png\"></p><p><img src=file:///android_res/raw/human_traffic_ru_13_3.png\"><img src=file:///android_res/raw/human_traffic_ru_13_4.png\"></p><p><img src=file:///android_res/raw/human_traffic_ru_13_5.png\"><img src=file:///android_res/raw/human_traffic_ru_13_6.png\"></p><p><img src=file:///android_res/raw/human_traffic_ru_13_7.png\"><img src=file:///android_res/raw/human_traffic_ru_13_8.png\"></p><p><img src=file:///android_res/raw/human_traffic_ru_13_9.png\"><img src=file:///android_res/raw/human_traffic_ru_13_10.png\"></p><p><img src=file:///android_res/raw/human_traffic_ru_13_11.png\"><img src=file:///android_res/raw/human_traffic_ru_13_12.png\"></p><p><img src=file:///android_res/raw/human_traffic_ru_13_13.png\"><img src=file:///android_res/raw/human_traffic_ru_13_14.png\"></p><p><img src=file:///android_res/raw/human_traffic_ru_13_15.png\"><img src=file:///android_res/raw/human_traffic_ru_13_16.png\"></p><p><img src=file:///android_res/raw/human_traffic_ru_13_17.png\"><img src=file:///android_res/raw/human_traffic_ru_13_18.png\"></p><p><img src=file:///android_res/raw/human_traffic_ru_13_19.png\"><img src=file:///android_res/raw/human_traffic_ru_13_20.png\"></p><p><img src=file:///android_res/raw/human_traffic_ru_13_21.png\"></p>",
+      "title_ru": "Торговля людьми",
+      "updated_at": "2016-11-30T19:30:31.341166"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "limit": 1000,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 4
+  },
+  "objects": [
+    {
+      "created_at": "2016-11-28T18:59:45.960994",
+      "id": 1,
+      "image": null,
+      "resource_uri": "/api/v1/human_traffic_kg/2/",
+      "text_ru": "<p><img src=file:///android_res/raw/tuberkulez_1_1_kg.jpg\"></p><p><img src=file:///android_res/raw/tuberkulez_1_2_kg.jpg\"></p><p><img src=file:///android_res/raw/tuberkulez_1_3_kg.jpg\"></p>",
+      "title_ru": "Көбүрөөк бил",
+      "updated_at": "2016-12-19T14:26:50.951930"
+    }
+  ]
+}

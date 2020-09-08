@@ -1,0 +1,49 @@
+// 20170316222015
+// http://176.126.167.249/api/v1/region/?&limit=0&format=json
+
+{
+  "meta": {
+    "limit": 1000,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 7
+  },
+  "objects": [
+    {
+      "id": 8,
+      "name": "Баткенская область",
+      "resource_uri": "/api/v1/region/8/"
+    },
+    {
+      "id": 3,
+      "name": "Жалал-Абадская область",
+      "resource_uri": "/api/v1/region/3/"
+    },
+    {
+      "id": 5,
+      "name": "Иссык-Кульская область",
+      "resource_uri": "/api/v1/region/5/"
+    },
+    {
+      "id": 6,
+      "name": "Нарынская область",
+      "resource_uri": "/api/v1/region/6/"
+    },
+    {
+      "id": 7,
+      "name": "Ошская область",
+      "resource_uri": "/api/v1/region/7/"
+    },
+    {
+      "id": 2,
+      "name": "Таласская область",
+      "resource_uri": "/api/v1/region/2/"
+    },
+    {
+      "id": 4,
+      "name": "Чуйская область",
+      "resource_uri": "/api/v1/region/4/"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "app_src_main_res_drawable_logo.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

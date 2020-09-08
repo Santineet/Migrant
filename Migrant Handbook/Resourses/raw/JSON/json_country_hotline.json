@@ -1,0 +1,140 @@
+// 20170316202313
+// http://176.126.167.249/api/v1/country_hotline/?&limit=0&format=json
+
+{
+  "meta": {
+    "limit": 1000,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 21
+  },
+  "objects": [
+    {
+      "country": "Алжир",
+      "id": 2,
+      "image": "/media/images/algeria.png",
+      "resource_uri": "/api/v1/country_hotline/2/"
+    },
+    {
+      "country": "Аргентина",
+      "id": 4,
+      "image": "/media/images/argentina.png",
+      "resource_uri": "/api/v1/country_hotline/4/"
+    },
+    {
+      "country": "Бразилия",
+      "id": 5,
+      "image": "/media/images/brazil.png",
+      "resource_uri": "/api/v1/country_hotline/5/"
+    },
+    {
+      "country": "Египет",
+      "id": 3,
+      "image": "/media/images/Egypt.png",
+      "resource_uri": "/api/v1/country_hotline/3/"
+    },
+    {
+      "country": "Индонезия",
+      "id": 12,
+      "image": "/media/images/indonesia.png",
+      "resource_uri": "/api/v1/country_hotline/12/"
+    },
+    {
+      "country": "Казахстан",
+      "id": 20,
+      "image": "/media/images/Kazakhstan.png",
+      "resource_uri": "/api/v1/country_hotline/20/"
+    },
+    {
+      "country": "Китай",
+      "id": 11,
+      "image": "/media/images/China_IBCOnbx.png",
+      "resource_uri": "/api/v1/country_hotline/11/"
+    },
+    {
+      "country": "Колумбия",
+      "id": 6,
+      "image": "/media/images/colombia.png",
+      "resource_uri": "/api/v1/country_hotline/6/"
+    },
+    {
+      "country": "Корея",
+      "id": 14,
+      "image": "/media/images/korea.png",
+      "resource_uri": "/api/v1/country_hotline/14/"
+    },
+    {
+      "country": "Коста Рика",
+      "id": 7,
+      "image": "/media/images/kosta_rica.jpg",
+      "resource_uri": "/api/v1/country_hotline/7/"
+    },
+    {
+      "country": "ОАЭ",
+      "id": 22,
+      "image": "/media/images/united-arab-emirates-flag-button-1_R9h3m40.png",
+      "resource_uri": "/api/v1/country_hotline/22/"
+    },
+    {
+      "country": "Перу",
+      "id": 9,
+      "image": "/media/images/mini_peru.png",
+      "resource_uri": "/api/v1/country_hotline/9/"
+    },
+    {
+      "country": "Россия",
+      "id": 19,
+      "image": "/media/images/D4EBE0E320D0EEF1F1E8E8.jpg",
+      "resource_uri": "/api/v1/country_hotline/19/"
+    },
+    {
+      "country": "США",
+      "id": 10,
+      "image": "/media/images/usa_6KNSNmu.png",
+      "resource_uri": "/api/v1/country_hotline/10/"
+    },
+    {
+      "country": "Тайланд",
+      "id": 15,
+      "image": "/media/images/Thailand.png",
+      "resource_uri": "/api/v1/country_hotline/15/"
+    },
+    {
+      "country": "Туркменистан",
+      "id": 17,
+      "image": "/media/images/Turkmenistan.png",
+      "resource_uri": "/api/v1/country_hotline/17/"
+    },
+    {
+      "country": "Турция",
+      "id": 21,
+      "image": "/media/images/Turkey_8rjs80E.png",
+      "resource_uri": "/api/v1/country_hotline/21/"
+    },
+    {
+      "country": "Узбекистан",
+      "id": 18,
+      "image": "/media/images/uzbekistan.png",
+      "resource_uri": "/api/v1/country_hotline/18/"
+    },
+    {
+      "country": "Филиппины",
+      "id": 16,
+      "image": "/media/images/Philippines.png",
+      "resource_uri": "/api/v1/country_hotline/16/"
+    },
+    {
+      "country": "Эквадор",
+      "id": 8,
+      "image": "/media/images/ecuador.jpg",
+      "resource_uri": "/api/v1/country_hotline/8/"
+    },
+    {
+      "country": "Япония",
+      "id": 13,
+      "image": "/media/images/japan_2B9ggLQ.png",
+      "resource_uri": "/api/v1/country_hotline/13/"
+    }
+  ]
+}

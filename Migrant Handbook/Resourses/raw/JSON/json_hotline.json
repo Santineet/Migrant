@@ -1,0 +1,338 @@
+// 20170316215048
+// http://176.126.167.249/api/v1/hotline/?limit=0&format=json
+
+{
+  "meta": {
+    "limit": 1000,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 27
+  },
+  "objects": [
+    {
+      "country": {
+        "country": "Алжир",
+        "id": 2,
+        "image": "/media/images/algeria.png",
+        "resource_uri": "/api/v1/country_hotline/2/"
+      },
+      "id": 2,
+      "phone_number": "3033",
+      "resource_uri": "/api/v1/hotline/2/",
+      "title_ru": "Горячая линия"
+    },
+    {
+      "country": {
+        "country": "Египет",
+        "id": 3,
+        "image": "/media/images/Egypt.png",
+        "resource_uri": "/api/v1/country_hotline/3/"
+      },
+      "id": 3,
+      "phone_number": "16021",
+      "resource_uri": "/api/v1/hotline/3/",
+      "title_ru": "Горячая линия"
+    },
+    {
+      "country": {
+        "country": "Аргентина",
+        "id": 4,
+        "image": "/media/images/argentina.png",
+        "resource_uri": "/api/v1/country_hotline/4/"
+      },
+      "id": 4,
+      "phone_number": "145",
+      "resource_uri": "/api/v1/hotline/4/",
+      "title_ru": "Горячая линия"
+    },
+    {
+      "country": {
+        "country": "Бразилия",
+        "id": 5,
+        "image": "/media/images/brazil.png",
+        "resource_uri": "/api/v1/country_hotline/5/"
+      },
+      "id": 5,
+      "phone_number": "100",
+      "resource_uri": "/api/v1/hotline/5/",
+      "title_ru": "Горячая линия"
+    },
+    {
+      "country": {
+        "country": "Бразилия",
+        "id": 5,
+        "image": "/media/images/brazil.png",
+        "resource_uri": "/api/v1/country_hotline/5/"
+      },
+      "id": 6,
+      "phone_number": "180",
+      "resource_uri": "/api/v1/hotline/6/",
+      "title_ru": "."
+    },
+    {
+      "country": {
+        "country": "Колумбия",
+        "id": 6,
+        "image": "/media/images/colombia.png",
+        "resource_uri": "/api/v1/country_hotline/6/"
+      },
+      "id": 7,
+      "phone_number": "018000522020",
+      "resource_uri": "/api/v1/hotline/7/",
+      "title_ru": "Горячая линия"
+    },
+    {
+      "country": {
+        "country": "Коста Рика",
+        "id": 7,
+        "image": "/media/images/kosta_rica.jpg",
+        "resource_uri": "/api/v1/country_hotline/7/"
+      },
+      "id": 8,
+      "phone_number": "911",
+      "resource_uri": "/api/v1/hotline/8/",
+      "title_ru": "Горячая линия"
+    },
+    {
+      "country": {
+        "country": "Эквадор",
+        "id": 8,
+        "image": "/media/images/ecuador.jpg",
+        "resource_uri": "/api/v1/country_hotline/8/"
+      },
+      "id": 9,
+      "phone_number": "911",
+      "resource_uri": "/api/v1/hotline/9/",
+      "title_ru": "Горячая линия"
+    },
+    {
+      "country": {
+        "country": "Перу",
+        "id": 9,
+        "image": "/media/images/mini_peru.png",
+        "resource_uri": "/api/v1/country_hotline/9/"
+      },
+      "id": 10,
+      "phone_number": "1818",
+      "resource_uri": "/api/v1/hotline/10/",
+      "title_ru": "Горячая линия"
+    },
+    {
+      "country": {
+        "country": "США",
+        "id": 10,
+        "image": "/media/images/usa_6KNSNmu.png",
+        "resource_uri": "/api/v1/country_hotline/10/"
+      },
+      "id": 11,
+      "phone_number": "1 888 3737 888",
+      "resource_uri": "/api/v1/hotline/11/",
+      "title_ru": "Горячая линия"
+    },
+    {
+      "country": {
+        "country": "Китай",
+        "id": 11,
+        "image": "/media/images/China_IBCOnbx.png",
+        "resource_uri": "/api/v1/country_hotline/11/"
+      },
+      "id": 12,
+      "phone_number": "120",
+      "resource_uri": "/api/v1/hotline/12/",
+      "title_ru": "Горячая линия"
+    },
+    {
+      "country": {
+        "country": "Индонезия",
+        "id": 12,
+        "image": "/media/images/indonesia.png",
+        "resource_uri": "/api/v1/country_hotline/12/"
+      },
+      "id": 13,
+      "phone_number": "+62 8123119001",
+      "resource_uri": "/api/v1/hotline/13/",
+      "title_ru": "Министерство по делам женщин и расширения прав и возможностей Защита детей."
+    },
+    {
+      "country": {
+        "country": "Индонезия",
+        "id": 12,
+        "image": "/media/images/indonesia.png",
+        "resource_uri": "/api/v1/country_hotline/12/"
+      },
+      "id": 14,
+      "phone_number": "0800 1000",
+      "resource_uri": "/api/v1/hotline/14/",
+      "title_ru": "Национальный совет по размещению и защите индонезийских иностранных рабочих"
+    },
+    {
+      "country": {
+        "country": "Индонезия",
+        "id": 12,
+        "image": "/media/images/indonesia.png",
+        "resource_uri": "/api/v1/country_hotline/12/"
+      },
+      "id": 15,
+      "phone_number": "+62 21 3813186",
+      "resource_uri": "/api/v1/hotline/15/",
+      "title_ru": "Министерство иностранных дел"
+    },
+    {
+      "country": {
+        "country": "Индонезия",
+        "id": 12,
+        "image": "/media/images/indonesia.png",
+        "resource_uri": "/api/v1/country_hotline/12/"
+      },
+      "id": 16,
+      "phone_number": "+62 8211130091",
+      "resource_uri": "/api/v1/hotline/16/",
+      "title_ru": "Министерство социальных дел"
+    },
+    {
+      "country": {
+        "country": "Япония",
+        "id": 13,
+        "image": "/media/images/japan_2B9ggLQ.png",
+        "resource_uri": "/api/v1/country_hotline/13/"
+      },
+      "id": 17,
+      "phone_number": "110",
+      "resource_uri": "/api/v1/hotline/17/",
+      "title_ru": "Полиция"
+    },
+    {
+      "country": {
+        "country": "Япония",
+        "id": 13,
+        "image": "/media/images/japan_2B9ggLQ.png",
+        "resource_uri": "/api/v1/country_hotline/13/"
+      },
+      "id": 18,
+      "phone_number": "03-3368-8855",
+      "resource_uri": "/api/v1/hotline/18/",
+      "title_ru": "Телефоны доверия НПО"
+    },
+    {
+      "country": {
+        "country": "Япония",
+        "id": 13,
+        "image": "/media/images/japan_2B9ggLQ.png",
+        "resource_uri": "/api/v1/country_hotline/13/"
+      },
+      "id": 19,
+      "phone_number": "03-5796-7112",
+      "resource_uri": "/api/v1/hotline/19/",
+      "title_ru": "Токио региональное иммиграционное бюро:"
+    },
+    {
+      "country": {
+        "country": "Корея",
+        "id": 14,
+        "image": "/media/images/korea.png",
+        "resource_uri": "/api/v1/country_hotline/14/"
+      },
+      "id": 20,
+      "phone_number": "+82-1366",
+      "resource_uri": "/api/v1/hotline/20/",
+      "title_ru": "Центр женской горячей линии"
+    },
+    {
+      "country": {
+        "country": "Тайланд",
+        "id": 15,
+        "image": "/media/images/Thailand.png",
+        "resource_uri": "/api/v1/country_hotline/15/"
+      },
+      "id": 21,
+      "phone_number": "1300",
+      "resource_uri": "/api/v1/hotline/21/",
+      "title_ru": "Национальная горячая линия"
+    },
+    {
+      "country": {
+        "country": "Филиппины",
+        "id": 16,
+        "image": "/media/images/Philippines.png",
+        "resource_uri": "/api/v1/country_hotline/16/"
+      },
+      "id": 22,
+      "phone_number": "1343",
+      "resource_uri": "/api/v1/hotline/22/",
+      "title_ru": "Горочая линия против торговли людьми"
+    },
+    {
+      "country": {
+        "country": "Туркменистан",
+        "id": 17,
+        "image": "/media/images/Turkmenistan.png",
+        "resource_uri": "/api/v1/country_hotline/17/"
+      },
+      "id": 23,
+      "phone_number": "+99312463514",
+      "resource_uri": "/api/v1/hotline/23/",
+      "title_ru": "Национальная горячая линия"
+    },
+    {
+      "country": {
+        "country": "Узбекистан",
+        "id": 18,
+        "image": "/media/images/uzbekistan.png",
+        "resource_uri": "/api/v1/country_hotline/18/"
+      },
+      "id": 24,
+      "phone_number": "+998 71 233 39 39",
+      "resource_uri": "/api/v1/hotline/24/",
+      "title_ru": "Национальная горячая линия"
+    },
+    {
+      "country": {
+        "country": "Россия",
+        "id": 19,
+        "image": "/media/images/D4EBE0E320D0EEF1F1E8E8.jpg",
+        "resource_uri": "/api/v1/country_hotline/19/"
+      },
+      "id": 25,
+      "phone_number": "8 800 333 00 16",
+      "resource_uri": "/api/v1/hotline/25/",
+      "title_ru": "Горячая линия"
+    },
+    {
+      "country": {
+        "country": "Казахстан",
+        "id": 20,
+        "image": "/media/images/Kazakhstan.png",
+        "resource_uri": "/api/v1/country_hotline/20/"
+      },
+      "id": 26,
+      "phone_number": "11616",
+      "resource_uri": "/api/v1/hotline/26/",
+      "title_ru": "Горячая линия"
+    },
+    {
+      "country": {
+        "country": "Турция",
+        "id": 21,
+        "image": "/media/images/Turkey_8rjs80E.png",
+        "resource_uri": "/api/v1/country_hotline/21/"
+      },
+      "id": 27,
+      "phone_number": "157",
+      "resource_uri": "/api/v1/hotline/27/",
+      "title_ru": "Горячая линия"
+    },
+    {
+      "country": {
+        "country": "ОАЭ",
+        "id": 22,
+        "image": "/media/images/united-arab-emirates-flag-button-1_R9h3m40.png",
+        "resource_uri": "/api/v1/country_hotline/22/"
+      },
+      "id": 28,
+      "phone_number": "8005005",
+      "resource_uri": "/api/v1/hotline/28/",
+      "title_ru": "Горячая линия"
+    }
+  ]
+}

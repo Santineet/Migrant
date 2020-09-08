@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "limit": 1000,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 4
+  },
+  "objects": [
+    {
+      "created_at": "2016-11-28T18:59:45.960994",
+      "id": 1,
+      "image": null,
+      "resource_uri": "/api/v1/human_traffic_kg/2/",
+      "text_ru": "<p><img src=file:///android_res/raw/covid_image_1_kg.jpeg\"></p><p><img src=file:///android_res/raw/covid_image_2_kg.jpeg\"></p><p><span></span><img src=file:///android_res/raw/covid_image_3_kg.jpeg\"><br></p><p><img src=file:///android_res/raw/covid_image_4_kg.jpeg\"></p><p><img src=file:///android_res/raw/covid_image_5_kg.jpeg\"></p>",
+      "title_ru": "Ыкчам маалымдама",
+      "updated_at": "2016-12-19T14:26:50.951930"
+    },
+    {
+      "created_at": "2016-12-19T14:33:41.419616",
+      "id": 2,
+      "image": null,
+      "resource_uri": "/api/v1/human_traffic_kg/3/",
+      "text_ru": "<p><img src=file:///android_res/raw/poster_1.png\"></p><p><img src=file:///android_res/raw/poster_2.png\"></p>/p><p><img src=file:///android_res/raw/poster_3.png\"></p><p><img src=file:///android_res/raw/poster_4.png\"></p><p><img src=file:///android_res/raw/poster_5.png\"></p><p><img src=file:///android_res/raw/poster_6.png\"></p><p><img src=file:///android_res/raw/poster_7.png\"></p><p><img src=file:///android_res/raw/poster_8.png\"></p><p><img src=file:///android_res/raw/poster_9.png\"><img src=file:///android_res/raw/poster_10.png\"></p><p><img src=file:///android_res/raw/poster_11.png\"></p>",
+      "title_ru": "Постерлер",
+      "updated_at": "2016-12-19T14:33:41.419659"
+    }
+  ]
+}
