@@ -103,7 +103,8 @@ extension HomepageVC: UICollectionViewDelegate, UICollectionViewDataSource {
         case .humanTrafficking:
             break
         case .hotLines:
-            break
+            let hotLinesVC = UIStoryboard.createVC(controllerType: HotLinesVC.self, storyboard: .main)
+            navigationController?.pushViewController(hotLinesVC, animated: true)
         case .healthAndMigration:
             let healthAndMigrationTVC = UIStoryboard.createVC(controllerType: HealthAndMigrationTVC.self, storyboard: .main)
             navigationController?.pushViewController(healthAndMigrationTVC, animated: true)
