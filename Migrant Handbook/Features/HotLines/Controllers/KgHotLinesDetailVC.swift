@@ -15,4 +15,8 @@ class KGHotLinesDetailVC: UIViewController {
         super.viewDidLoad()
         navigationItem.title = "Горячие Линии"
     }
+    
+    @IBAction func callButtonTaped(_ sender: UIButton) {
+        callTo(number: "08000000189")
+    }
 }

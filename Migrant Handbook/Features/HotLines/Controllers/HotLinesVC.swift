@@ -56,6 +56,7 @@ extension HotLinesVC: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let vc = UIStoryboard.createVC(controllerType: HotLinesDetailVC.self, storyboard: .main)
+        vc.phoneNumber = self.hotLines[indexPath.row].phoneNumber
         navigationController?.pushViewController(vc, animated: true)
     }
 }

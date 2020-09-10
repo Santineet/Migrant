@@ -1,21 +1,21 @@
 //
-//  HotLinesTVCell.swift
+//  EmbassiesTVCell.swift
 //  Migrant Handbook
 //
-//  Created by Айрапетова Галина on 9/8/20.
+//  Created by Sagyndyk Akzholov on 9/10/20.
 //  Copyright © 2020 Mairambek Abdrasulov. All rights reserved.
 //
 
 import UIKit
 
-class HotLinesTVCell: UITableViewCell {
-    
-    @IBOutlet weak var hotLinesImageView: UIImageView!
+class EmbassiesTVCell: UITableViewCell {
+    @IBOutlet weak var embassiesImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var containerView: UIView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -24,8 +24,7 @@ class HotLinesTVCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func setData(hotLine: HotLinesModel) {
-        self.nameLabel.text = hotLine.country.name
-        //self.hotLinesImageView.
+    func setData(emmbassies: EmbassiesModel) {
+        self.nameLabel.text = emmbassies.country
     }
 }
