@@ -97,7 +97,8 @@ extension HomepageVC: UICollectionViewDelegate, UICollectionViewDataSource {
         case .employment:
             break
         case .embassies:
-            break
+            let embassiesTVC = UIStoryboard.createVC(controllerType: EmbassiesTVC.self, storyboard: .main)
+            navigationController?.pushViewController(embassiesTVC, animated: true)
         case .map:
             break
         case .humanTrafficking:
@@ -109,6 +110,8 @@ extension HomepageVC: UICollectionViewDelegate, UICollectionViewDataSource {
             let healthAndMigrationTVC = UIStoryboard.createVC(controllerType: HealthAndMigrationTVC.self, storyboard: .main)
             navigationController?.pushViewController(healthAndMigrationTVC, animated: true)
         case .aboutProject:
+            let aboutProjectVC = UIStoryboard.createVC(controllerType: AboutAppTVC.self, storyboard: .main)
+            navigationController?.pushViewController(aboutProjectVC, animated: true)
             break
         }
     }

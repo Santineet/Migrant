@@ -20,6 +20,7 @@ class Database {
     var tuberkulezInfo: [DiseasesModel] = []
     var vichInfo: [DiseasesModel] = []
     var hotLines: [HotLinesModel] = []
+    var embassies: [EmbassiesModel] = []
 
     public func prepareData() {
         let rulesOfIncomitPath = "json_rules_of_incoming_\(AppSettings.currentLanguage.rawValue)"
@@ -32,6 +33,7 @@ class Database {
         
         let hotLinePath = "json_hotline"
         
+        let embassiesPath = "json_embassy"
         ///get json from file
         let rulesOfIncomitJson = Parser.json(with: rulesOfIncomitPath)
         let eaesRulesJson = Parser.json(with: eaesRulesPath)
@@ -39,7 +41,8 @@ class Database {
         let covidJson = Parser.json(with: covidPath)
         let tuberkulezJson = Parser.json(with: tuberkulezPath)
         let vichJson = Parser.json(with: vichPath)
-        let hotLine = Parser.json(with: hotLinePath)
+        let hotLineJson = Parser.json(with: hotLinePath)
+        let embassiesJson = Parser.json(with: embassiesPath)
         
         ///parse json
         if let jsonArray = rulesOfIncomitJson?["objects"].arrayObject {
@@ -64,8 +67,14 @@ class Database {
         if let jsonArray = vichJson?["objects"].arrayObject {
             vichInfo = DiseasesModel.parseArray(JSONObject: jsonArray) ?? []
         }
-        if let jsonArray = hotLine?["objects"].arrayObject {
+        if let jsonArray = hotLineJson?["objects"].arrayObject {
             hotLines = HotLinesModel.parseArray(JSONObject: jsonArray) ?? []
+<<<<<<< HEAD
+=======
+        } 
+        if let jsonArray = embassiesJson?["objects"].arrayObject {
+            embassies = EmbassiesModel.parseArray(JSONObject: jsonArray) ?? []
+>>>>>>> 0007d3fc253d32b851744c88b53b7016008f2fcc
         }
     }
 }

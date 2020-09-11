@@ -22,7 +22,7 @@ class HotLinesDetailVC: UIViewController {
     }
     
     @IBAction func callButtonTaped(_ sender: UIButton) {
-        
+        callTo(number: phoneNumber ?? "")
     }
     
 }
