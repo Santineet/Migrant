@@ -66,7 +66,6 @@ class Database {
         }
         if let jsonArray = hotLine?["objects"].arrayObject {
             hotLines = HotLinesModel.parseArray(JSONObject: jsonArray) ?? []
-        } 
-        
+        }
     }
 }
