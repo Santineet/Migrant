@@ -338,15 +338,23 @@
 		2E413D7A24F6F1E80064330B /* RulesOfIncomingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E413D7924F6F1E80064330B /* RulesOfIncomingModel.swift */; };
 		2E413D7C24F6F5150064330B /* EaesRulesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E413D7B24F6F5150064330B /* EaesRulesModel.swift */; };
 		2E413D7E24F820F30064330B /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E413D7D24F820F30064330B /* Database.swift */; };
-		2E413D8024F824140064330B /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E413D7F24F824140064330B /* CountryModel.swift */; };
 		2E413D8224F827C20064330B /* Mappable + Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E413D8124F827C20064330B /* Mappable + Helper.swift */; };
 		2E413D8524F83C990064330B /* WebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E413D8424F83C990064330B /* WebViewVC.swift */; };
 		2E413D8724F840350064330B /* Data + Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E413D8624F840350064330B /* Data + Helper.swift */; };
+		2E8F31AF250E023E0048F7BD /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F31AE250E023E0048F7BD /* CountryModel.swift */; };
+		2E8F31B1250E02F50048F7BD /* CountryResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F31B0250E02F50048F7BD /* CountryResultModel.swift */; };
+		2E8F31B3250E04200048F7BD /* NSError + Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F31B2250E04200048F7BD /* NSError + Helper.swift */; };
+		2E8F31B5250E0F0D0048F7BD /* CityResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F31B4250E0F0D0048F7BD /* CityResultModel.swift */; };
+		2E8F31B7250E1E380048F7BD /* PolingPlaceResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F31B6250E1E380048F7BD /* PolingPlaceResultModel.swift */; };
+		2E8F31BB250F36A60048F7BD /* CommonDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F31BA250F36A60048F7BD /* CommonDataModel.swift */; };
+		2E8F31BD250F3F500048F7BD /* PolingPlaceDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F31BC250F3F500048F7BD /* PolingPlaceDetailVC.swift */; };
+		2E8F31BF250F40110048F7BD /* SheetViewController + Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F31BE250F40110048F7BD /* SheetViewController + Helper.swift */; };
 		2EA36F7E24FBFCBD00BB4674 /* RulesOfStayInOtherCountriesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA36F7D24FBFCBD00BB4674 /* RulesOfStayInOtherCountriesTVC.swift */; };
 		2EA36F9524FD738D00BB4674 /* QuestionTitlesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA36F9424FD738D00BB4674 /* QuestionTitlesTVC.swift */; };
 		2EA36F9824FD73A100BB4674 /* QuestionTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA36F9624FD73A100BB4674 /* QuestionTitleCell.swift */; };
 		2EA36F9924FD73A100BB4674 /* QuestionTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EA36F9724FD73A100BB4674 /* QuestionTitleCell.xib */; };
 		2EA36F9B24FD7B8100BB4674 /* FAQModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA36F9A24FD7B8100BB4674 /* FAQModel.swift */; };
+		2EB3A88D250DFF9000AAE4B9 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB3A88C250DFF9000AAE4B9 /* MapViewModel.swift */; };
 		2EB43EB024FE89430050B262 /* AnswersToQuestionsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB43EAF24FE89430050B262 /* AnswersToQuestionsTVC.swift */; };
 		2EB43EB324FE9B750050B262 /* AnswerToQuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB43EB124FE9B750050B262 /* AnswerToQuestionCell.swift */; };
 		2EB43EB424FE9B750050B262 /* AnswerToQuestionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EB43EB224FE9B750050B262 /* AnswerToQuestionCell.xib */; };
@@ -720,15 +728,23 @@
 		2E413D7924F6F1E80064330B /* RulesOfIncomingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesOfIncomingModel.swift; sourceTree = "<group>"; };
 		2E413D7B24F6F5150064330B /* EaesRulesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EaesRulesModel.swift; sourceTree = "<group>"; };
 		2E413D7D24F820F30064330B /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
-		2E413D7F24F824140064330B /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
 		2E413D8124F827C20064330B /* Mappable + Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mappable + Helper.swift"; sourceTree = "<group>"; };
 		2E413D8424F83C990064330B /* WebViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewVC.swift; sourceTree = "<group>"; };
 		2E413D8624F840350064330B /* Data + Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data + Helper.swift"; sourceTree = "<group>"; };
+		2E8F31AE250E023E0048F7BD /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
+		2E8F31B0250E02F50048F7BD /* CountryResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryResultModel.swift; sourceTree = "<group>"; };
+		2E8F31B2250E04200048F7BD /* NSError + Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSError + Helper.swift"; sourceTree = "<group>"; };
+		2E8F31B4250E0F0D0048F7BD /* CityResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityResultModel.swift; sourceTree = "<group>"; };
+		2E8F31B6250E1E380048F7BD /* PolingPlaceResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolingPlaceResultModel.swift; sourceTree = "<group>"; };
+		2E8F31BA250F36A60048F7BD /* CommonDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonDataModel.swift; sourceTree = "<group>"; };
+		2E8F31BC250F3F500048F7BD /* PolingPlaceDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolingPlaceDetailVC.swift; sourceTree = "<group>"; };
+		2E8F31BE250F40110048F7BD /* SheetViewController + Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SheetViewController + Helper.swift"; sourceTree = "<group>"; };
 		2EA36F7D24FBFCBD00BB4674 /* RulesOfStayInOtherCountriesTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesOfStayInOtherCountriesTVC.swift; sourceTree = "<group>"; };
 		2EA36F9424FD738D00BB4674 /* QuestionTitlesTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTitlesTVC.swift; sourceTree = "<group>"; };
 		2EA36F9624FD73A100BB4674 /* QuestionTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTitleCell.swift; sourceTree = "<group>"; };
 		2EA36F9724FD73A100BB4674 /* QuestionTitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionTitleCell.xib; sourceTree = "<group>"; };
 		2EA36F9A24FD7B8100BB4674 /* FAQModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQModel.swift; sourceTree = "<group>"; };
+		2EB3A88C250DFF9000AAE4B9 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 		2EB43EAF24FE89430050B262 /* AnswersToQuestionsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersToQuestionsTVC.swift; sourceTree = "<group>"; };
 		2EB43EB124FE9B750050B262 /* AnswerToQuestionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerToQuestionCell.swift; sourceTree = "<group>"; };
 		2EB43EB224FE9B750050B262 /* AnswerToQuestionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnswerToQuestionCell.xib; sourceTree = "<group>"; };
@@ -1236,11 +1252,15 @@
 			children = (
 				2E413D7924F6F1E80064330B /* RulesOfIncomingModel.swift */,
 				2E413D7B24F6F5150064330B /* EaesRulesModel.swift */,
-				2E413D7F24F824140064330B /* CountryModel.swift */,
 				2EA36F9A24FD7B8100BB4674 /* FAQModel.swift */,
 				2E398CE125001C4F0028A894 /* DiseasesModel.swift */,
 				C9A99508250873F000B2C5D0 /* HotLinesModel.swift */,
 				1A4DD93F2509F7250040F209 /* EmbassiesModel.swift */,
+				2E8F31AE250E023E0048F7BD /* CountryModel.swift */,
+				2E8F31B0250E02F50048F7BD /* CountryResultModel.swift */,
+				2E8F31B4250E0F0D0048F7BD /* CityResultModel.swift */,
+				2E8F31B6250E1E380048F7BD /* PolingPlaceResultModel.swift */,
+				2E8F31BA250F36A60048F7BD /* CommonDataModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -1251,6 +1271,14 @@
 				2E413D8424F83C990064330B /* WebViewVC.swift */,
 			);
 			path = WebViewVC;
+			sourceTree = "<group>";
+		};
+		2EB3A88B250DFF7A00AAE4B9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2EB3A88C250DFF9000AAE4B9 /* MapViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		2EFBBB3E24F3FA2B002FE9D4 = {
@@ -1317,6 +1345,8 @@
 				2E413D6524F58B690064330B /* Bundle + Helper.swift */,
 				2E413D8124F827C20064330B /* Mappable + Helper.swift */,
 				2E413D8624F840350064330B /* Data + Helper.swift */,
+				2E8F31B2250E04200048F7BD /* NSError + Helper.swift */,
+				2E8F31BE250F40110048F7BD /* SheetViewController + Helper.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -1394,6 +1424,7 @@
 		2EFBBB9524F5456E002FE9D4 /* Map */ = {
 			isa = PBXGroup;
 			children = (
+				2EB3A88B250DFF7A00AAE4B9 /* ViewModel */,
 				2EFBBB9624F54576002FE9D4 /* Controllers */,
 			);
 			path = Map;
@@ -1403,6 +1434,7 @@
 			isa = PBXGroup;
 			children = (
 				2EFBBB9824F5459F002FE9D4 /* MapVC.swift */,
+				2E8F31BC250F3F500048F7BD /* PolingPlaceDetailVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -1881,9 +1913,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E8F31BB250F36A60048F7BD /* CommonDataModel.swift in Sources */,
 				2EFBBB4F24F3FA2B002FE9D4 /* HomepageVC.swift in Sources */,
 				2EFBBB6F24F46778002FE9D4 /* NSObject+Helper.swift in Sources */,
 				2E413D6424F58B040064330B /* String + Helper.swift in Sources */,
+				2E8F31B7250E1E380048F7BD /* PolingPlaceResultModel.swift in Sources */,
 				2E398CE225001C4F0028A894 /* DiseasesModel.swift in Sources */,
 				2EFBBB8124F468E5002FE9D4 /* Alerts.swift in Sources */,
 				2EFBBB8624F4697F002FE9D4 /* APIManages.swift in Sources */,
@@ -1891,6 +1925,7 @@
 				C975140F2507C81600F26630 /* KgHotLinesDetailVC.swift in Sources */,
 				2EFBBB8A24F46F62002FE9D4 /* UIResponder + Helper.swift in Sources */,
 				2E413D6624F58B690064330B /* Bundle + Helper.swift in Sources */,
+				2E8F31AF250E023E0048F7BD /* CountryModel.swift in Sources */,
 				2E413D8524F83C990064330B /* WebViewVC.swift in Sources */,
 				1A4DD9402509F7250040F209 /* EmbassiesModel.swift in Sources */,
 				2E413D7A24F6F1E80064330B /* RulesOfIncomingModel.swift in Sources */,
@@ -1905,6 +1940,8 @@
 				2EFBBB7524F467BB002FE9D4 /* UICollectionView+ Helper.swift in Sources */,
 				2EFBBB7324F467A9002FE9D4 /* UITableView + Helper.swift in Sources */,
 				C97514042507BC9400F26630 /* HotLinesTVCell.swift in Sources */,
+				2E8F31B3250E04200048F7BD /* NSError + Helper.swift in Sources */,
+				2E8F31BF250F40110048F7BD /* SheetViewController + Helper.swift in Sources */,
 				2EA36F7E24FBFCBD00BB4674 /* RulesOfStayInOtherCountriesTVC.swift in Sources */,
 				2E398CF82503B8260028A894 /* DiseaseTVC.swift in Sources */,
 				1A4DD944250A06A50040F209 /* EmbassiesTVCell.swift in Sources */,
@@ -1917,7 +1954,6 @@
 				2E413AFB24F5605F0064330B /* Parser.swift in Sources */,
 				1A89479D250A965A0037CC1D /* EmbassiesSearchTVC.swift in Sources */,
 				2E413D8724F840350064330B /* Data + Helper.swift in Sources */,
-				2E413D8024F824140064330B /* CountryModel.swift in Sources */,
 				2EFBBB7F24F468D1002FE9D4 /* Reachability.swift in Sources */,
 				2EFBBB7B24F4683D002FE9D4 /* UserDefaults + Helper.swift in Sources */,
 				2EFBBB7724F46813002FE9D4 /* UITableViewCell + Helper.swift in Sources */,
@@ -1935,6 +1971,10 @@
 				2E413D8224F827C20064330B /* Mappable + Helper.swift in Sources */,
 				2E398CFB2503B8A50028A894 /* DiseaseCell.swift in Sources */,
 				2E413D7E24F820F30064330B /* Database.swift in Sources */,
+				2EB3A88D250DFF9000AAE4B9 /* MapViewModel.swift in Sources */,
+				2E8F31BD250F3F500048F7BD /* PolingPlaceDetailVC.swift in Sources */,
+				2E8F31B1250E02F50048F7BD /* CountryResultModel.swift in Sources */,
+				2E8F31B5250E0F0D0048F7BD /* CityResultModel.swift in Sources */,
 				1A4DD947250A0D7F0040F209 /* EmbassiesDetailTVC.swift in Sources */,
 				2EFBBB7924F46825002FE9D4 /* UICollectionViewCell + Helper.swift in Sources */,
 				2E413D7124F596140064330B /* ChaptersOfRulesVC.swift in Sources */,
@@ -2086,7 +2126,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U79DQ23H3B;
+				DEVELOPMENT_TEAM = YDG37K9NRQ;
 				INFOPLIST_FILE = "Migrant Handbook/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2106,7 +2146,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U79DQ23H3B;
+				DEVELOPMENT_TEAM = YDG37K9NRQ;
 				INFOPLIST_FILE = "Migrant Handbook/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (

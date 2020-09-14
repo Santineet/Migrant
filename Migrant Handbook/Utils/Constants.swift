@@ -23,3 +23,9 @@ func callTo(number: String) {
         else { UIApplication.shared.openURL(url) }
     }
 }
+
+
+struct Constants {
+    static let unknownError = NSError(message: "Произошла неивестная ошибка, попробуйте позже")
+}
+

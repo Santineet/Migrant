@@ -7,8 +7,12 @@ target 'Migrant Handbook' do
 
   # Pods for Migrant Handbook
 
-  pod 'RealmSwift'
   pod 'SwiftyJSON'
-  pod 'ObjectMapper'
+  pod 'ObjectMapper'  
+  pod 'Alamofire', '~> 5.2'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'IQKeyboardManagerSwift'
+  pod 'FittedSheets'
 
 end

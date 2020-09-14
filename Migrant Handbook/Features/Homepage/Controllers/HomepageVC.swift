@@ -100,7 +100,9 @@ extension HomepageVC: UICollectionViewDelegate, UICollectionViewDataSource {
             let embassiesTVC = UIStoryboard.createVC(controllerType: EmbassiesTVC.self, storyboard: .main)
             navigationController?.pushViewController(embassiesTVC, animated: true)
         case .map:
-            break
+            let mapVC = UIStoryboard.createVC(controllerType: MapVC.self,
+                                              storyboard: .main)
+            navigationController?.pushViewController(mapVC, animated: true)
         case .humanTrafficking:
             break
         case .hotLines:

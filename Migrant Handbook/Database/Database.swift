@@ -69,12 +69,9 @@ class Database {
         }
         if let jsonArray = hotLineJson?["objects"].arrayObject {
             hotLines = HotLinesModel.parseArray(JSONObject: jsonArray) ?? []
-<<<<<<< HEAD
-=======
-        } 
+        }
         if let jsonArray = embassiesJson?["objects"].arrayObject {
             embassies = EmbassiesModel.parseArray(JSONObject: jsonArray) ?? []
->>>>>>> 0007d3fc253d32b851744c88b53b7016008f2fcc
         }
     }
 }
