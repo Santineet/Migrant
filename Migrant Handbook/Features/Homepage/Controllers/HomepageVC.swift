@@ -95,7 +95,7 @@ extension HomepageVC: UICollectionViewDelegate, UICollectionViewDataSource {
         case .rules:
             showRulesOfStay()
         case .employment:
-            break
+            self.openEmploymentSite()
         case .embassies:
             let embassiesTVC = UIStoryboard.createVC(controllerType: EmbassiesTVC.self, storyboard: .main)
             navigationController?.pushViewController(embassiesTVC, animated: true)
@@ -104,7 +104,8 @@ extension HomepageVC: UICollectionViewDelegate, UICollectionViewDataSource {
                                               storyboard: .main)
             navigationController?.pushViewController(mapVC, animated: true)
         case .humanTrafficking:
-            break
+            let humanTraffickingTVC = UIStoryboard.createVC(controllerType: HumanTraffickingTVC.self, storyboard: .main)
+            navigationController?.pushViewController(humanTraffickingTVC, animated: true)
         case .hotLines:
             let hotLinesVC = UIStoryboard.createVC(controllerType: HotLinesVC.self, storyboard: .main)
             navigationController?.pushViewController(hotLinesVC, animated: true)
@@ -116,6 +117,13 @@ extension HomepageVC: UICollectionViewDelegate, UICollectionViewDataSource {
             navigationController?.pushViewController(aboutProjectVC, animated: true)
             break
         }
+    }
+    
+    private func openEmploymentSite() {
+        guard let webURL = URL(string: "http://oec.kg/index.php?act=view_material&id=1342") else {
+            return
+        }
+        UIApplication.shared.open(webURL, options: [:], completionHandler: nil)
     }
 }
 

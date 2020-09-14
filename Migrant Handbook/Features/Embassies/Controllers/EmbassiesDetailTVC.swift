@@ -49,6 +49,10 @@ class EmbassiesDetailTVC: UITableViewController {
         }
     }
     
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return self.embassies?.country
+    }
+    
     private func openAddress() {
         print("open address")
     }

@@ -15,6 +15,18 @@
 		1A4DD945250A06A50040F209 /* EmbassiesTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A4DD943250A06A50040F209 /* EmbassiesTVCell.xib */; };
 		1A4DD947250A0D7F0040F209 /* EmbassiesDetailTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4DD946250A0D7F0040F209 /* EmbassiesDetailTVC.swift */; };
 		1A89479D250A965A0037CC1D /* EmbassiesSearchTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A89479C250A965A0037CC1D /* EmbassiesSearchTVC.swift */; };
+		1A930912250BE09200997B96 /* HumanTraffickingTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A930911250BE09200997B96 /* HumanTraffickingTVC.swift */; };
+		1A930915250BE0EE00997B96 /* HumanTraffickingTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A930913250BE0EE00997B96 /* HumanTraffickingTVCell.swift */; };
+		1A930916250BE0EE00997B96 /* HumanTraffickingTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A930914250BE0EE00997B96 /* HumanTraffickingTVCell.xib */; };
+		1A930918250BE1CC00997B96 /* HumanTraffickingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A930917250BE1CC00997B96 /* HumanTraffickingModel.swift */; };
+		1A93091A250BE49C00997B96 /* HumanTraffickingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A930919250BE49C00997B96 /* HumanTraffickingHeaderView.swift */; };
+		1A93091C250BE4A700997B96 /* HumanTraffickingHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A93091B250BE4A700997B96 /* HumanTraffickingHeaderView.xib */; };
+		1A930920250BE85B00997B96 /* ListOfNKOCountryTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93091F250BE85B00997B96 /* ListOfNKOCountryTVC.swift */; };
+		1A930922250BECF800997B96 /* RegionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A930921250BECF800997B96 /* RegionModel.swift */; };
+		1AEF0554250C7D8400C97F70 /* NKOModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF0553250C7D8400C97F70 /* NKOModel.swift */; };
+		1AEF0556250C7EF000C97F70 /* NKODetailTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF0555250C7EF000C97F70 /* NKODetailTVC.swift */; };
+		1AEF0559250C80CE00C97F70 /* ListNKOTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF0557250C80CE00C97F70 /* ListNKOTVCell.swift */; };
+		1AEF055A250C80CE00C97F70 /* ListNKOTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AEF0558250C80CE00C97F70 /* ListNKOTVCell.xib */; };
 		2E398CDA250015420028A894 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E398CD8250015420028A894 /* NewsCell.swift */; };
 		2E398CDB250015420028A894 /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E398CD9250015420028A894 /* NewsCell.xib */; };
 		2E398CE0250018660028A894 /* HealthAndMigrationTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E398CDF250018660028A894 /* HealthAndMigrationTVC.swift */; };
@@ -404,6 +416,18 @@
 		1A4DD943250A06A50040F209 /* EmbassiesTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmbassiesTVCell.xib; sourceTree = "<group>"; };
 		1A4DD946250A0D7F0040F209 /* EmbassiesDetailTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbassiesDetailTVC.swift; sourceTree = "<group>"; };
 		1A89479C250A965A0037CC1D /* EmbassiesSearchTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbassiesSearchTVC.swift; sourceTree = "<group>"; };
+		1A930911250BE09200997B96 /* HumanTraffickingTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanTraffickingTVC.swift; sourceTree = "<group>"; };
+		1A930913250BE0EE00997B96 /* HumanTraffickingTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanTraffickingTVCell.swift; sourceTree = "<group>"; };
+		1A930914250BE0EE00997B96 /* HumanTraffickingTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HumanTraffickingTVCell.xib; sourceTree = "<group>"; };
+		1A930917250BE1CC00997B96 /* HumanTraffickingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanTraffickingModel.swift; sourceTree = "<group>"; };
+		1A930919250BE49C00997B96 /* HumanTraffickingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanTraffickingHeaderView.swift; sourceTree = "<group>"; };
+		1A93091B250BE4A700997B96 /* HumanTraffickingHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HumanTraffickingHeaderView.xib; sourceTree = "<group>"; };
+		1A93091F250BE85B00997B96 /* ListOfNKOCountryTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfNKOCountryTVC.swift; sourceTree = "<group>"; };
+		1A930921250BECF800997B96 /* RegionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionModel.swift; sourceTree = "<group>"; };
+		1AEF0553250C7D8400C97F70 /* NKOModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NKOModel.swift; sourceTree = "<group>"; };
+		1AEF0555250C7EF000C97F70 /* NKODetailTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NKODetailTVC.swift; sourceTree = "<group>"; };
+		1AEF0557250C80CE00C97F70 /* ListNKOTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNKOTVCell.swift; sourceTree = "<group>"; };
+		1AEF0558250C80CE00C97F70 /* ListNKOTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListNKOTVCell.xib; sourceTree = "<group>"; };
 		274DEBFCC39147308FC36FDC /* Pods-Migrant Handbook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Migrant Handbook.release.xcconfig"; path = "Target Support Files/Pods-Migrant Handbook/Pods-Migrant Handbook.release.xcconfig"; sourceTree = "<group>"; };
 		2E398CD8250015420028A894 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		2E398CD9250015420028A894 /* NewsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
@@ -844,6 +868,38 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		1A93090E250BE06500997B96 /* HumanTrafficking */ = {
+			isa = PBXGroup;
+			children = (
+				1A930910250BE07E00997B96 /* Cell */,
+				1A93090F250BE07600997B96 /* Controllers */,
+			);
+			path = HumanTrafficking;
+			sourceTree = "<group>";
+		};
+		1A93090F250BE07600997B96 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1A930911250BE09200997B96 /* HumanTraffickingTVC.swift */,
+				1A93091F250BE85B00997B96 /* ListOfNKOCountryTVC.swift */,
+				1AEF0555250C7EF000C97F70 /* NKODetailTVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1A930910250BE07E00997B96 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1A930913250BE0EE00997B96 /* HumanTraffickingTVCell.swift */,
+				1A930914250BE0EE00997B96 /* HumanTraffickingTVCell.xib */,
+				1A930919250BE49C00997B96 /* HumanTraffickingHeaderView.swift */,
+				1A93091B250BE4A700997B96 /* HumanTraffickingHeaderView.xib */,
+				1AEF0557250C80CE00C97F70 /* ListNKOTVCell.swift */,
+				1AEF0558250C80CE00C97F70 /* ListNKOTVCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		2E398CDC250018340028A894 /* Health and migration */ = {
 			isa = PBXGroup;
 			children = (
@@ -1256,11 +1312,17 @@
 				2E398CE125001C4F0028A894 /* DiseasesModel.swift */,
 				C9A99508250873F000B2C5D0 /* HotLinesModel.swift */,
 				1A4DD93F2509F7250040F209 /* EmbassiesModel.swift */,
+<<<<<<< HEAD
 				2E8F31AE250E023E0048F7BD /* CountryModel.swift */,
 				2E8F31B0250E02F50048F7BD /* CountryResultModel.swift */,
 				2E8F31B4250E0F0D0048F7BD /* CityResultModel.swift */,
 				2E8F31B6250E1E380048F7BD /* PolingPlaceResultModel.swift */,
 				2E8F31BA250F36A60048F7BD /* CommonDataModel.swift */,
+=======
+				1A930917250BE1CC00997B96 /* HumanTraffickingModel.swift */,
+				1A930921250BECF800997B96 /* RegionModel.swift */,
+				1AEF0553250C7D8400C97F70 /* NKOModel.swift */,
+>>>>>>> da10f1b247b1f69936bbfab29fffa814ca225680
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -1375,6 +1437,7 @@
 		2EFBBB6224F464EF002FE9D4 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				1A93090E250BE06500997B96 /* HumanTrafficking */,
 				1A4DD93B2509F6600040F209 /* Embassies */,
 				1A4DD9352509D7300040F209 /* AboutApp */,
 				C97513FD2507BB2500F26630 /* HotLines */,
@@ -1592,7 +1655,9 @@
 				2E413C3424F562AE0064330B /* human_traffic_kg_3_28.jpg in Resources */,
 				2E413D2924F562AE0064330B /* human_traffic_kg_3_36.jpg in Resources */,
 				2E413CF224F562AE0064330B /* rules_of_incoming_eaes9_3.PNG in Resources */,
+				1AEF055A250C80CE00C97F70 /* ListNKOTVCell.xib in Resources */,
 				2EFBBB5724F3FA2F002FE9D4 /* LaunchScreen.storyboard in Resources */,
+				1A93091C250BE4A700997B96 /* HumanTraffickingHeaderView.xib in Resources */,
 				2E413CF024F562AE0064330B /* covid_image_3_kg.jpeg in Resources */,
 				2E413CE824F562AE0064330B /* human_traffic_kg_2_10.jpg in Resources */,
 				2E413C8424F562AE0064330B /* human_traffic_ru_13_3.png in Resources */,
@@ -1860,6 +1925,7 @@
 				2E413C8024F562AE0064330B /* human_traffic_ru_8_7.png in Resources */,
 				2E413D1224F562AE0064330B /* json_country_hotline.json in Resources */,
 				2E413C4224F562AE0064330B /* rules_of_incoming_eaes8_15.jpg in Resources */,
+				1A930916250BE0EE00997B96 /* HumanTraffickingTVCell.xib in Resources */,
 				2E413C5124F562AE0064330B /* rules_of_incoming_eaes6_12.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1913,7 +1979,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				2E8F31BB250F36A60048F7BD /* CommonDataModel.swift in Sources */,
+=======
+				1AEF0556250C7EF000C97F70 /* NKODetailTVC.swift in Sources */,
+				1A93091A250BE49C00997B96 /* HumanTraffickingHeaderView.swift in Sources */,
+>>>>>>> da10f1b247b1f69936bbfab29fffa814ca225680
 				2EFBBB4F24F3FA2B002FE9D4 /* HomepageVC.swift in Sources */,
 				2EFBBB6F24F46778002FE9D4 /* NSObject+Helper.swift in Sources */,
 				2E413D6424F58B040064330B /* String + Helper.swift in Sources */,
@@ -1947,7 +2018,9 @@
 				1A4DD944250A06A50040F209 /* EmbassiesTVCell.swift in Sources */,
 				2EFBBB6424F465F1002FE9D4 /* UIColor + Helper.swift in Sources */,
 				2EB43EB024FE89430050B262 /* AnswersToQuestionsTVC.swift in Sources */,
+				1A930920250BE85B00997B96 /* ListOfNKOCountryTVC.swift in Sources */,
 				2E398CE0250018660028A894 /* HealthAndMigrationTVC.swift in Sources */,
+				1A930918250BE1CC00997B96 /* HumanTraffickingModel.swift in Sources */,
 				2EFBBB7124F4678C002FE9D4 /* UIView + Helper.swift in Sources */,
 				C9A99509250873F000B2C5D0 /* HotLinesModel.swift in Sources */,
 				1A4DD93E2509F6820040F209 /* EmbassiesTVC.swift in Sources */,
@@ -1965,7 +2038,10 @@
 				2EFBBB6D24F46769002FE9D4 /* UIStoryboard+Helper.swift in Sources */,
 				C975140D2507C29100F26630 /* HotLinesVC.swift in Sources */,
 				2EB43EBB24FEA1C60050B262 /* GoOverCell.swift in Sources */,
+				1A930915250BE0EE00997B96 /* HumanTraffickingTVCell.swift in Sources */,
 				1A4DD9392509D75A0040F209 /* AboutAppTVC.swift in Sources */,
+				1AEF0554250C7D8400C97F70 /* NKOModel.swift in Sources */,
+				1AEF0559250C80CE00C97F70 /* ListNKOTVCell.swift in Sources */,
 				2EA36F9524FD738D00BB4674 /* QuestionTitlesTVC.swift in Sources */,
 				2EFBBB8824F46F25002FE9D4 /* AppStoryboards.swift in Sources */,
 				2E413D8224F827C20064330B /* Mappable + Helper.swift in Sources */,
@@ -1979,8 +2055,10 @@
 				2EFBBB7924F46825002FE9D4 /* UICollectionViewCell + Helper.swift in Sources */,
 				2E413D7124F596140064330B /* ChaptersOfRulesVC.swift in Sources */,
 				2EFBBB4D24F3FA2B002FE9D4 /* SceneDelegate.swift in Sources */,
+				1A930922250BECF800997B96 /* RegionModel.swift in Sources */,
 				2E413D6A24F58EEE0064330B /* RulesOfStayCell.swift in Sources */,
 				1A4DD9342509D5820040F209 /* Constants.swift in Sources */,
+				1A930912250BE09200997B96 /* HumanTraffickingTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
