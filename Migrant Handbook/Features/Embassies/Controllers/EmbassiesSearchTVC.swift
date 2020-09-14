@@ -25,6 +25,7 @@ class EmbassiesSearchTVC: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.tableFooterView = UIView(frame: .zero)
         tableView.register(EmbassiesTVCell.nib, forCellReuseIdentifier: EmbassiesTVCell.identifier)
     }
     

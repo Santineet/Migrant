@@ -65,7 +65,7 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kRW-Qf-Co6">
                         <rect key="frame" x="0.0" y="102.5" width="320" height="44"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VE8-K9-9yp">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="location_icon" translatesAutoresizingMaskIntoConstraints="NO" id="VE8-K9-9yp">
                                 <rect key="frame" x="16" y="10" width="24" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="24" id="L2b-fG-mza"/>
@@ -99,7 +99,7 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eq4-HD-e8T">
                         <rect key="frame" x="0.0" y="147.5" width="320" height="44"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UqV-oh-CfL">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phone_icon" translatesAutoresizingMaskIntoConstraints="NO" id="UqV-oh-CfL">
                                 <rect key="frame" x="16" y="10" width="24" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="24" id="TZO-TH-1mW"/>
@@ -214,4 +214,8 @@
             <point key="canvasLocation" x="131.8840579710145" y="79.017857142857139"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="location_icon" width="42" height="70"/>
+        <image name="phone_icon" width="54" height="55"/>
+    </resources>
 </document>

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "emblem_for_about.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

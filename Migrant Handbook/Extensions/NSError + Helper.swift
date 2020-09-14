@@ -2,7 +2,7 @@
 //  NSError + Helper.swift
 //  Migrant Handbook
 //
-//  Created by Mairambek on 9/13/20.
+//  Created by Mairambek on 9/14/20.
 //  Copyright © 2020 Mairambek Abdrasulov. All rights reserved.
 //
 

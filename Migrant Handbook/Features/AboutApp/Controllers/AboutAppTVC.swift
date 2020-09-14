@@ -15,7 +15,11 @@ class AboutAppTVC: UITableViewController {
         super.viewDidLoad()
         navigationItem.title = "О проекте"
         tableView.separatorColor = .blueColor
+        tableView.tableFooterView = UIView(frame: .zero)
     }
     
+    @IBAction func phoneButtonTaped(_ sender: UIButton) {
+        callTo(number: "312735")
+    }
     
 }

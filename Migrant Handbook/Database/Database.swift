@@ -19,8 +19,10 @@ class Database {
     var covidInfo: [DiseasesModel] = []
     var tuberkulezInfo: [DiseasesModel] = []
     var vichInfo: [DiseasesModel] = []
+    var hotLinesCountry: [HotLineCountryModel] = []
     var hotLines: [HotLinesModel] = []
     var embassies: [EmbassiesModel] = []
+    var consulate: [ConsulateModel] = []
     var humanTrafficking: [HumanTraffickingModel] = []
     var regions: [RegionModel] = []
     var listNKO: [NKOModel] = []
@@ -34,10 +36,11 @@ class Database {
         let tuberkulezPath = "json_tuberkulez_\(AppSettings.currentLanguage)"
         let vichPath = "json_vich_\(AppSettings.currentLanguage)"
         
+        let hotLineCountryPath = "json_country_hotline"
         let hotLinePath = "json_hotline"
         
         let embassiesPath = "json_embassy"
-        
+        let consulatePath = "json_consulate"
         let humanTraffickingPath = "json_human_traffic_\(AppSettings.currentLanguage.rawValue)"
         let regionsPath = "json_region"
         let listNKOPath = "json_nko_\(AppSettings.currentLanguage.rawValue)"
@@ -48,8 +51,10 @@ class Database {
         let covidJson = Parser.json(with: covidPath)
         let tuberkulezJson = Parser.json(with: tuberkulezPath)
         let vichJson = Parser.json(with: vichPath)
+        let hotLineCountryJson = Parser.json(with: hotLineCountryPath)
         let hotLineJson = Parser.json(with: hotLinePath)
         let embassiesJson = Parser.json(with: embassiesPath)
+        let consulateJson = Parser.json(with: consulatePath)
         let humanTraffickingJson = Parser.json(with: humanTraffickingPath)
         let regionsJson = Parser.json(with: regionsPath)
         let listNKOJson = Parser.json(with: listNKOPath)
@@ -77,16 +82,17 @@ class Database {
         if let jsonArray = vichJson?["objects"].arrayObject {
             vichInfo = DiseasesModel.parseArray(JSONObject: jsonArray) ?? []
         }
+        if let jsonArray = hotLineCountryJson?["objects"].arrayObject {
+            hotLinesCountry = HotLineCountryModel.parseArray(JSONObject: jsonArray) ?? []
+        }
         if let jsonArray = hotLineJson?["objects"].arrayObject {
             hotLines = HotLinesModel.parseArray(JSONObject: jsonArray) ?? []
-<<<<<<< HEAD
-        }
-        if let jsonArray = embassiesJson?["objects"].arrayObject {
-            embassies = EmbassiesModel.parseArray(JSONObject: jsonArray) ?? []
-=======
         } 
         if let jsonArray = embassiesJson?["objects"].arrayObject {
             embassies = EmbassiesModel.parseArray(JSONObject: jsonArray) ?? []
+        }
+        if let jsonArray = consulateJson?["objects"].arrayObject {
+            consulate = ConsulateModel.parseArray(JSONObject: jsonArray) ?? []
         }
         if let jsonArray = humanTraffickingJson?["objects"].arrayObject {
             humanTrafficking = HumanTraffickingModel.parseArray(JSONObject: jsonArray) ?? []
@@ -96,7 +102,6 @@ class Database {
         }
         if let jsonArray = listNKOJson?["objects"].arrayObject {
             listNKO = NKOModel.parseArray(JSONObject: jsonArray) ?? []
->>>>>>> da10f1b247b1f69936bbfab29fffa814ca225680
         }
     }
 }

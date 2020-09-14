@@ -13,16 +13,31 @@ class HotLinesDetailVC: UIViewController {
     
     @IBOutlet weak var phoneNumberLabel: UILabel!
     
-    var phoneNumber: String?
+    private var hotLines: [HotLinesModel] {
+        let hotLines = Database.shared.hotLines
+        return hotLines
+    }
+    
+    private var phoneNumber: String = ""
+    var id: Int?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.title = "Горячие Линии"
-        phoneNumberLabel.text = phoneNumber
+        guard let idNotNil = self.id else { return }
+        let hotLine = hotLines.filter { hotLine in
+            if hotLine.id == idNotNil {
+                return true
+            }
+            return false
+        }
+        
+        self.phoneNumber = hotLine.first?.phoneNumber ?? ""
+        self.phoneNumberLabel.text = self.phoneNumber
     }
     
     @IBAction func callButtonTaped(_ sender: UIButton) {
-        callTo(number: phoneNumber ?? "")
+        callTo(number: phoneNumber)
     }
     
 }

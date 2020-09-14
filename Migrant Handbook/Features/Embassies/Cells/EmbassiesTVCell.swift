@@ -26,5 +26,6 @@ class EmbassiesTVCell: UITableViewCell {
     
     func setData(emmbassies: EmbassiesModel) {
         self.nameLabel.text = emmbassies.country
+        self.embassiesImageView.image = UIImage(named: emmbassies.image)
     }
 }

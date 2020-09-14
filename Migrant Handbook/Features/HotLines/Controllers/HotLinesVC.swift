@@ -14,9 +14,9 @@ class HotLinesVC: UIViewController {
     @IBOutlet weak var kgHotLineView: UIView!
     @IBOutlet weak var hotLinesTableView: UITableView!
     
-    private var hotLines: [HotLinesModel] {
-        let hotLines = Database.shared.hotLines
-        return hotLines
+    private var hotLinesCountry: [HotLineCountryModel] {
+        let hotLinesCountry = Database.shared.hotLinesCountry
+        return hotLinesCountry
     }
     
     override func viewDidLoad() {
@@ -41,12 +41,12 @@ class HotLinesVC: UIViewController {
 }
 extension HotLinesVC: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return hotLines.count
+        return hotLinesCountry.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeue(cellClass: HotLinesTVCell.self, forIndexPath: indexPath)
-        cell.setData(hotLine: self.hotLines[indexPath.row])
+        cell.setData(hotLineCountry: self.hotLinesCountry[indexPath.row])
         return cell
     }
     
@@ -56,7 +56,7 @@ extension HotLinesVC: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let vc = UIStoryboard.createVC(controllerType: HotLinesDetailVC.self, storyboard: .main)
-        vc.phoneNumber = self.hotLines[indexPath.row].phoneNumber
+        vc.id = self.hotLinesCountry[indexPath.row].id
         navigationController?.pushViewController(vc, animated: true)
     }
 }

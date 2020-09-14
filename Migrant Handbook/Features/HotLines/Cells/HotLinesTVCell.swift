@@ -24,8 +24,8 @@ class HotLinesTVCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func setData(hotLine: HotLinesModel) {
-        self.nameLabel.text = hotLine.country.name
-        //self.hotLinesImageView.
+    func setData(hotLineCountry: HotLineCountryModel) {
+        self.nameLabel.text = hotLineCountry.country
+        self.hotLinesImageView.image = UIImage(named: hotLineCountry.image)
     }
 }

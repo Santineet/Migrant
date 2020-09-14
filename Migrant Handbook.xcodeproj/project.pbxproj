@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		123BE2E3ED4B00979925142E /* Pods_Migrant_Handbook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60F7E70561B1AC46B0D9F87 /* Pods_Migrant_Handbook.framework */; };
 		1A4DD9342509D5820040F209 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4DD9332509D5820040F209 /* Constants.swift */; };
 		1A4DD9392509D75A0040F209 /* AboutAppTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4DD9382509D75A0040F209 /* AboutAppTVC.swift */; };
 		1A4DD93E2509F6820040F209 /* EmbassiesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4DD93D2509F6820040F209 /* EmbassiesTVC.swift */; };
@@ -23,10 +24,24 @@
 		1A93091C250BE4A700997B96 /* HumanTraffickingHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A93091B250BE4A700997B96 /* HumanTraffickingHeaderView.xib */; };
 		1A930920250BE85B00997B96 /* ListOfNKOCountryTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93091F250BE85B00997B96 /* ListOfNKOCountryTVC.swift */; };
 		1A930922250BECF800997B96 /* RegionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A930921250BECF800997B96 /* RegionModel.swift */; };
+		1AE5E8D3250F12A8003AE48A /* EmbassiesDetailTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5E8D1250F12A8003AE48A /* EmbassiesDetailTVCell.swift */; };
+		1AE5E8D4250F12A8003AE48A /* EmbassiesDetailTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AE5E8D2250F12A8003AE48A /* EmbassiesDetailTVCell.xib */; };
+		1AE5E8D6250F4B69003AE48A /* HotLineCountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5E8D5250F4B69003AE48A /* HotLineCountryModel.swift */; };
+		1AE5E8D9250F51A5003AE48A /* EmbassiesConsuleTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5E8D7250F51A5003AE48A /* EmbassiesConsuleTVCell.swift */; };
+		1AE5E8DA250F51A5003AE48A /* EmbassiesConsuleTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AE5E8D8250F51A5003AE48A /* EmbassiesConsuleTVCell.xib */; };
+		1AE5E8DC250F5398003AE48A /* ConsulateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5E8DB250F5398003AE48A /* ConsulateModel.swift */; };
 		1AEF0554250C7D8400C97F70 /* NKOModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF0553250C7D8400C97F70 /* NKOModel.swift */; };
 		1AEF0556250C7EF000C97F70 /* NKODetailTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF0555250C7EF000C97F70 /* NKODetailTVC.swift */; };
 		1AEF0559250C80CE00C97F70 /* ListNKOTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF0557250C80CE00C97F70 /* ListNKOTVCell.swift */; };
 		1AEF055A250C80CE00C97F70 /* ListNKOTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AEF0558250C80CE00C97F70 /* ListNKOTVCell.xib */; };
+		2E1AA917250F6CB2008F02F5 /* PolingPlaceDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1AA916250F6CB2008F02F5 /* PolingPlaceDetailVC.swift */; };
+		2E1AA91A250F6CD9008F02F5 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1AA919250F6CD9008F02F5 /* MapViewModel.swift */; };
+		2E1AA91F250F6D25008F02F5 /* CountryResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1AA91B250F6D22008F02F5 /* CountryResultModel.swift */; };
+		2E1AA920250F6D25008F02F5 /* CityResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1AA91C250F6D23008F02F5 /* CityResultModel.swift */; };
+		2E1AA921250F6D25008F02F5 /* PolingPlaceResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1AA91D250F6D24008F02F5 /* PolingPlaceResultModel.swift */; };
+		2E1AA922250F6D25008F02F5 /* CommonDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1AA91E250F6D25008F02F5 /* CommonDataModel.swift */; };
+		2E1AA924250F6D5E008F02F5 /* NSError + Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1AA923250F6D5E008F02F5 /* NSError + Helper.swift */; };
+		2E1AA926250F6D8D008F02F5 /* SheetViewController + Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1AA925250F6D8D008F02F5 /* SheetViewController + Helper.swift */; };
 		2E398CDA250015420028A894 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E398CD8250015420028A894 /* NewsCell.swift */; };
 		2E398CDB250015420028A894 /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E398CD9250015420028A894 /* NewsCell.xib */; };
 		2E398CE0250018660028A894 /* HealthAndMigrationTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E398CDF250018660028A894 /* HealthAndMigrationTVC.swift */; };
@@ -350,23 +365,15 @@
 		2E413D7A24F6F1E80064330B /* RulesOfIncomingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E413D7924F6F1E80064330B /* RulesOfIncomingModel.swift */; };
 		2E413D7C24F6F5150064330B /* EaesRulesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E413D7B24F6F5150064330B /* EaesRulesModel.swift */; };
 		2E413D7E24F820F30064330B /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E413D7D24F820F30064330B /* Database.swift */; };
+		2E413D8024F824140064330B /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E413D7F24F824140064330B /* CountryModel.swift */; };
 		2E413D8224F827C20064330B /* Mappable + Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E413D8124F827C20064330B /* Mappable + Helper.swift */; };
 		2E413D8524F83C990064330B /* WebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E413D8424F83C990064330B /* WebViewVC.swift */; };
 		2E413D8724F840350064330B /* Data + Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E413D8624F840350064330B /* Data + Helper.swift */; };
-		2E8F31AF250E023E0048F7BD /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F31AE250E023E0048F7BD /* CountryModel.swift */; };
-		2E8F31B1250E02F50048F7BD /* CountryResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F31B0250E02F50048F7BD /* CountryResultModel.swift */; };
-		2E8F31B3250E04200048F7BD /* NSError + Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F31B2250E04200048F7BD /* NSError + Helper.swift */; };
-		2E8F31B5250E0F0D0048F7BD /* CityResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F31B4250E0F0D0048F7BD /* CityResultModel.swift */; };
-		2E8F31B7250E1E380048F7BD /* PolingPlaceResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F31B6250E1E380048F7BD /* PolingPlaceResultModel.swift */; };
-		2E8F31BB250F36A60048F7BD /* CommonDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F31BA250F36A60048F7BD /* CommonDataModel.swift */; };
-		2E8F31BD250F3F500048F7BD /* PolingPlaceDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F31BC250F3F500048F7BD /* PolingPlaceDetailVC.swift */; };
-		2E8F31BF250F40110048F7BD /* SheetViewController + Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F31BE250F40110048F7BD /* SheetViewController + Helper.swift */; };
 		2EA36F7E24FBFCBD00BB4674 /* RulesOfStayInOtherCountriesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA36F7D24FBFCBD00BB4674 /* RulesOfStayInOtherCountriesTVC.swift */; };
 		2EA36F9524FD738D00BB4674 /* QuestionTitlesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA36F9424FD738D00BB4674 /* QuestionTitlesTVC.swift */; };
 		2EA36F9824FD73A100BB4674 /* QuestionTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA36F9624FD73A100BB4674 /* QuestionTitleCell.swift */; };
 		2EA36F9924FD73A100BB4674 /* QuestionTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EA36F9724FD73A100BB4674 /* QuestionTitleCell.xib */; };
 		2EA36F9B24FD7B8100BB4674 /* FAQModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA36F9A24FD7B8100BB4674 /* FAQModel.swift */; };
-		2EB3A88D250DFF9000AAE4B9 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB3A88C250DFF9000AAE4B9 /* MapViewModel.swift */; };
 		2EB43EB024FE89430050B262 /* AnswersToQuestionsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB43EAF24FE89430050B262 /* AnswersToQuestionsTVC.swift */; };
 		2EB43EB324FE9B750050B262 /* AnswerToQuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB43EB124FE9B750050B262 /* AnswerToQuestionCell.swift */; };
 		2EB43EB424FE9B750050B262 /* AnswerToQuestionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EB43EB224FE9B750050B262 /* AnswerToQuestionCell.xib */; };
@@ -404,7 +411,6 @@
 		C975140D2507C29100F26630 /* HotLinesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C975140C2507C29100F26630 /* HotLinesVC.swift */; };
 		C975140F2507C81600F26630 /* KgHotLinesDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C975140E2507C81600F26630 /* KgHotLinesDetailVC.swift */; };
 		C9A99509250873F000B2C5D0 /* HotLinesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A99508250873F000B2C5D0 /* HotLinesModel.swift */; };
-		E87E0DFAECBFC04888E6ADAE /* Pods_Migrant_Handbook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D474314D4D1EFB7F2CBC4F0E /* Pods_Migrant_Handbook.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -424,11 +430,24 @@
 		1A93091B250BE4A700997B96 /* HumanTraffickingHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HumanTraffickingHeaderView.xib; sourceTree = "<group>"; };
 		1A93091F250BE85B00997B96 /* ListOfNKOCountryTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfNKOCountryTVC.swift; sourceTree = "<group>"; };
 		1A930921250BECF800997B96 /* RegionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionModel.swift; sourceTree = "<group>"; };
+		1AE5E8D1250F12A8003AE48A /* EmbassiesDetailTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbassiesDetailTVCell.swift; sourceTree = "<group>"; };
+		1AE5E8D2250F12A8003AE48A /* EmbassiesDetailTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmbassiesDetailTVCell.xib; sourceTree = "<group>"; };
+		1AE5E8D5250F4B69003AE48A /* HotLineCountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotLineCountryModel.swift; sourceTree = "<group>"; };
+		1AE5E8D7250F51A5003AE48A /* EmbassiesConsuleTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbassiesConsuleTVCell.swift; sourceTree = "<group>"; };
+		1AE5E8D8250F51A5003AE48A /* EmbassiesConsuleTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmbassiesConsuleTVCell.xib; sourceTree = "<group>"; };
+		1AE5E8DB250F5398003AE48A /* ConsulateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsulateModel.swift; sourceTree = "<group>"; };
 		1AEF0553250C7D8400C97F70 /* NKOModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NKOModel.swift; sourceTree = "<group>"; };
 		1AEF0555250C7EF000C97F70 /* NKODetailTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NKODetailTVC.swift; sourceTree = "<group>"; };
 		1AEF0557250C80CE00C97F70 /* ListNKOTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNKOTVCell.swift; sourceTree = "<group>"; };
 		1AEF0558250C80CE00C97F70 /* ListNKOTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListNKOTVCell.xib; sourceTree = "<group>"; };
-		274DEBFCC39147308FC36FDC /* Pods-Migrant Handbook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Migrant Handbook.release.xcconfig"; path = "Target Support Files/Pods-Migrant Handbook/Pods-Migrant Handbook.release.xcconfig"; sourceTree = "<group>"; };
+		2E1AA916250F6CB2008F02F5 /* PolingPlaceDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolingPlaceDetailVC.swift; sourceTree = "<group>"; };
+		2E1AA919250F6CD9008F02F5 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		2E1AA91B250F6D22008F02F5 /* CountryResultModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryResultModel.swift; sourceTree = "<group>"; };
+		2E1AA91C250F6D23008F02F5 /* CityResultModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityResultModel.swift; sourceTree = "<group>"; };
+		2E1AA91D250F6D24008F02F5 /* PolingPlaceResultModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PolingPlaceResultModel.swift; sourceTree = "<group>"; };
+		2E1AA91E250F6D25008F02F5 /* CommonDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonDataModel.swift; sourceTree = "<group>"; };
+		2E1AA923250F6D5E008F02F5 /* NSError + Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSError + Helper.swift"; sourceTree = "<group>"; };
+		2E1AA925250F6D8D008F02F5 /* SheetViewController + Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SheetViewController + Helper.swift"; sourceTree = "<group>"; };
 		2E398CD8250015420028A894 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		2E398CD9250015420028A894 /* NewsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
 		2E398CDF250018660028A894 /* HealthAndMigrationTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthAndMigrationTVC.swift; sourceTree = "<group>"; };
@@ -752,30 +771,22 @@
 		2E413D7924F6F1E80064330B /* RulesOfIncomingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesOfIncomingModel.swift; sourceTree = "<group>"; };
 		2E413D7B24F6F5150064330B /* EaesRulesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EaesRulesModel.swift; sourceTree = "<group>"; };
 		2E413D7D24F820F30064330B /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		2E413D7F24F824140064330B /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
 		2E413D8124F827C20064330B /* Mappable + Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mappable + Helper.swift"; sourceTree = "<group>"; };
 		2E413D8424F83C990064330B /* WebViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewVC.swift; sourceTree = "<group>"; };
 		2E413D8624F840350064330B /* Data + Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data + Helper.swift"; sourceTree = "<group>"; };
-		2E8F31AE250E023E0048F7BD /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
-		2E8F31B0250E02F50048F7BD /* CountryResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryResultModel.swift; sourceTree = "<group>"; };
-		2E8F31B2250E04200048F7BD /* NSError + Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSError + Helper.swift"; sourceTree = "<group>"; };
-		2E8F31B4250E0F0D0048F7BD /* CityResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityResultModel.swift; sourceTree = "<group>"; };
-		2E8F31B6250E1E380048F7BD /* PolingPlaceResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolingPlaceResultModel.swift; sourceTree = "<group>"; };
-		2E8F31BA250F36A60048F7BD /* CommonDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonDataModel.swift; sourceTree = "<group>"; };
-		2E8F31BC250F3F500048F7BD /* PolingPlaceDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolingPlaceDetailVC.swift; sourceTree = "<group>"; };
-		2E8F31BE250F40110048F7BD /* SheetViewController + Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SheetViewController + Helper.swift"; sourceTree = "<group>"; };
 		2EA36F7D24FBFCBD00BB4674 /* RulesOfStayInOtherCountriesTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesOfStayInOtherCountriesTVC.swift; sourceTree = "<group>"; };
 		2EA36F9424FD738D00BB4674 /* QuestionTitlesTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTitlesTVC.swift; sourceTree = "<group>"; };
 		2EA36F9624FD73A100BB4674 /* QuestionTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTitleCell.swift; sourceTree = "<group>"; };
 		2EA36F9724FD73A100BB4674 /* QuestionTitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionTitleCell.xib; sourceTree = "<group>"; };
 		2EA36F9A24FD7B8100BB4674 /* FAQModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQModel.swift; sourceTree = "<group>"; };
-		2EB3A88C250DFF9000AAE4B9 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 		2EB43EAF24FE89430050B262 /* AnswersToQuestionsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersToQuestionsTVC.swift; sourceTree = "<group>"; };
 		2EB43EB124FE9B750050B262 /* AnswerToQuestionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerToQuestionCell.swift; sourceTree = "<group>"; };
 		2EB43EB224FE9B750050B262 /* AnswerToQuestionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnswerToQuestionCell.xib; sourceTree = "<group>"; };
 		2EB43EB524FEA1110050B262 /* NewsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTVC.swift; sourceTree = "<group>"; };
 		2EB43EB924FEA1C60050B262 /* GoOverCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoOverCell.swift; sourceTree = "<group>"; };
 		2EB43EBA24FEA1C60050B262 /* GoOverCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoOverCell.xib; sourceTree = "<group>"; };
-		2EFBBB4724F3FA2B002FE9D4 /* Migrant Handbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Migrant Handbook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EFBBB4724F3FA2B002FE9D4 /* Справочник мигранта.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Справочник мигранта.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EFBBB4A24F3FA2B002FE9D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EFBBB4C24F3FA2B002FE9D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2EFBBB4E24F3FA2B002FE9D4 /* HomepageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageVC.swift; sourceTree = "<group>"; };
@@ -802,14 +813,15 @@
 		2EFBBB8724F46F25002FE9D4 /* AppStoryboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoryboards.swift; sourceTree = "<group>"; };
 		2EFBBB8924F46F62002FE9D4 /* UIResponder + Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder + Helper.swift"; sourceTree = "<group>"; };
 		2EFBBB9824F5459F002FE9D4 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
-		3D94D24553DAA62ADF79E28D /* Pods-Migrant Handbook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Migrant Handbook.debug.xcconfig"; path = "Target Support Files/Pods-Migrant Handbook/Pods-Migrant Handbook.debug.xcconfig"; sourceTree = "<group>"; };
+		6C9BC9D9F5D5ED15028DC2EA /* Pods-Migrant Handbook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Migrant Handbook.debug.xcconfig"; path = "Target Support Files/Pods-Migrant Handbook/Pods-Migrant Handbook.debug.xcconfig"; sourceTree = "<group>"; };
+		80BAEFE462F843E8FD44E785 /* Pods-Migrant Handbook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Migrant Handbook.release.xcconfig"; path = "Target Support Files/Pods-Migrant Handbook/Pods-Migrant Handbook.release.xcconfig"; sourceTree = "<group>"; };
+		C60F7E70561B1AC46B0D9F87 /* Pods_Migrant_Handbook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Migrant_Handbook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C97514022507BC9400F26630 /* HotLinesTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotLinesTVCell.swift; sourceTree = "<group>"; };
 		C97514032507BC9400F26630 /* HotLinesTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HotLinesTVCell.xib; sourceTree = "<group>"; };
 		C97514062507BDB000F26630 /* HotLinesDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotLinesDetailVC.swift; sourceTree = "<group>"; };
 		C975140C2507C29100F26630 /* HotLinesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotLinesVC.swift; sourceTree = "<group>"; };
 		C975140E2507C81600F26630 /* KgHotLinesDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KgHotLinesDetailVC.swift; sourceTree = "<group>"; };
 		C9A99508250873F000B2C5D0 /* HotLinesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotLinesModel.swift; sourceTree = "<group>"; };
-		D474314D4D1EFB7F2CBC4F0E /* Pods_Migrant_Handbook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Migrant_Handbook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -817,7 +829,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E87E0DFAECBFC04888E6ADAE /* Pods_Migrant_Handbook.framework in Frameworks */,
+				123BE2E3ED4B00979925142E /* Pods_Migrant_Handbook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -864,6 +876,10 @@
 			children = (
 				1A4DD942250A06A50040F209 /* EmbassiesTVCell.swift */,
 				1A4DD943250A06A50040F209 /* EmbassiesTVCell.xib */,
+				1AE5E8D1250F12A8003AE48A /* EmbassiesDetailTVCell.swift */,
+				1AE5E8D2250F12A8003AE48A /* EmbassiesDetailTVCell.xib */,
+				1AE5E8D7250F51A5003AE48A /* EmbassiesConsuleTVCell.swift */,
+				1AE5E8D8250F51A5003AE48A /* EmbassiesConsuleTVCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -898,6 +914,14 @@
 				1AEF0558250C80CE00C97F70 /* ListNKOTVCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		2E1AA918250F6CC9008F02F5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2E1AA919250F6CD9008F02F5 /* MapViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		2E398CDC250018340028A894 /* Health and migration */ = {
@@ -1306,23 +1330,22 @@
 		2E413D7824F6F1930064330B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2E1AA91C250F6D23008F02F5 /* CityResultModel.swift */,
+				2E1AA91E250F6D25008F02F5 /* CommonDataModel.swift */,
+				2E1AA91B250F6D22008F02F5 /* CountryResultModel.swift */,
+				2E1AA91D250F6D24008F02F5 /* PolingPlaceResultModel.swift */,
 				2E413D7924F6F1E80064330B /* RulesOfIncomingModel.swift */,
 				2E413D7B24F6F5150064330B /* EaesRulesModel.swift */,
+				2E413D7F24F824140064330B /* CountryModel.swift */,
 				2EA36F9A24FD7B8100BB4674 /* FAQModel.swift */,
 				2E398CE125001C4F0028A894 /* DiseasesModel.swift */,
 				C9A99508250873F000B2C5D0 /* HotLinesModel.swift */,
 				1A4DD93F2509F7250040F209 /* EmbassiesModel.swift */,
-<<<<<<< HEAD
-				2E8F31AE250E023E0048F7BD /* CountryModel.swift */,
-				2E8F31B0250E02F50048F7BD /* CountryResultModel.swift */,
-				2E8F31B4250E0F0D0048F7BD /* CityResultModel.swift */,
-				2E8F31B6250E1E380048F7BD /* PolingPlaceResultModel.swift */,
-				2E8F31BA250F36A60048F7BD /* CommonDataModel.swift */,
-=======
 				1A930917250BE1CC00997B96 /* HumanTraffickingModel.swift */,
 				1A930921250BECF800997B96 /* RegionModel.swift */,
 				1AEF0553250C7D8400C97F70 /* NKOModel.swift */,
->>>>>>> da10f1b247b1f69936bbfab29fffa814ca225680
+				1AE5E8D5250F4B69003AE48A /* HotLineCountryModel.swift */,
+				1AE5E8DB250F5398003AE48A /* ConsulateModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -1335,28 +1358,20 @@
 			path = WebViewVC;
 			sourceTree = "<group>";
 		};
-		2EB3A88B250DFF7A00AAE4B9 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				2EB3A88C250DFF9000AAE4B9 /* MapViewModel.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
 		2EFBBB3E24F3FA2B002FE9D4 = {
 			isa = PBXGroup;
 			children = (
 				2EFBBB4924F3FA2B002FE9D4 /* Migrant Handbook */,
 				2EFBBB4824F3FA2B002FE9D4 /* Products */,
 				DBA8367B518C4FD2A13B9AA3 /* Pods */,
-				3B5644DCCB6A78937ADC5466 /* Frameworks */,
+				BDAB3073D3E41A88FD4FF48C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		2EFBBB4824F3FA2B002FE9D4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2EFBBB4724F3FA2B002FE9D4 /* Migrant Handbook.app */,
+				2EFBBB4724F3FA2B002FE9D4 /* Справочник мигранта.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1407,8 +1422,8 @@
 				2E413D6524F58B690064330B /* Bundle + Helper.swift */,
 				2E413D8124F827C20064330B /* Mappable + Helper.swift */,
 				2E413D8624F840350064330B /* Data + Helper.swift */,
-				2E8F31B2250E04200048F7BD /* NSError + Helper.swift */,
-				2E8F31BE250F40110048F7BD /* SheetViewController + Helper.swift */,
+				2E1AA923250F6D5E008F02F5 /* NSError + Helper.swift */,
+				2E1AA925250F6D8D008F02F5 /* SheetViewController + Helper.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -1487,7 +1502,7 @@
 		2EFBBB9524F5456E002FE9D4 /* Map */ = {
 			isa = PBXGroup;
 			children = (
-				2EB3A88B250DFF7A00AAE4B9 /* ViewModel */,
+				2E1AA918250F6CC9008F02F5 /* ViewModel */,
 				2EFBBB9624F54576002FE9D4 /* Controllers */,
 			);
 			path = Map;
@@ -1497,15 +1512,15 @@
 			isa = PBXGroup;
 			children = (
 				2EFBBB9824F5459F002FE9D4 /* MapVC.swift */,
-				2E8F31BC250F3F500048F7BD /* PolingPlaceDetailVC.swift */,
+				2E1AA916250F6CB2008F02F5 /* PolingPlaceDetailVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		3B5644DCCB6A78937ADC5466 /* Frameworks */ = {
+		BDAB3073D3E41A88FD4FF48C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D474314D4D1EFB7F2CBC4F0E /* Pods_Migrant_Handbook.framework */,
+				C60F7E70561B1AC46B0D9F87 /* Pods_Migrant_Handbook.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1541,8 +1556,8 @@
 		DBA8367B518C4FD2A13B9AA3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3D94D24553DAA62ADF79E28D /* Pods-Migrant Handbook.debug.xcconfig */,
-				274DEBFCC39147308FC36FDC /* Pods-Migrant Handbook.release.xcconfig */,
+				6C9BC9D9F5D5ED15028DC2EA /* Pods-Migrant Handbook.debug.xcconfig */,
+				80BAEFE462F843E8FD44E785 /* Pods-Migrant Handbook.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -1554,11 +1569,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2EFBBB5B24F3FA2F002FE9D4 /* Build configuration list for PBXNativeTarget "Migrant Handbook" */;
 			buildPhases = (
-				133F8A2A47DE209D74EDA57D /* [CP] Check Pods Manifest.lock */,
+				E0550992AE9D6D0A316AAF02 /* [CP] Check Pods Manifest.lock */,
 				2EFBBB4324F3FA2B002FE9D4 /* Sources */,
 				2EFBBB4424F3FA2B002FE9D4 /* Frameworks */,
 				2EFBBB4524F3FA2B002FE9D4 /* Resources */,
-				80B7451F6CED82405B50752D /* [CP] Embed Pods Frameworks */,
+				57F4856A328714342FB0CEB1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1566,7 +1581,7 @@
 			);
 			name = "Migrant Handbook";
 			productName = "Migrant Handbook";
-			productReference = 2EFBBB4724F3FA2B002FE9D4 /* Migrant Handbook.app */;
+			productReference = 2EFBBB4724F3FA2B002FE9D4 /* Справочник мигранта.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1645,6 +1660,7 @@
 				2E413C7824F562AE0064330B /* tuberkulez_2_2_ru.jpg in Resources */,
 				2E413D0124F562AE0064330B /* json_rf_ru.json in Resources */,
 				2E413C7A24F562AE0064330B /* human_traffic_kg_2_5.jpg in Resources */,
+				1AE5E8D4250F12A8003AE48A /* EmbassiesDetailTVCell.xib in Resources */,
 				2E413C4824F562AE0064330B /* rules_of_incoming_eaes6_2.png in Resources */,
 				2E413C9B24F562AE0064330B /* human_traffic_ru_7_11.png in Resources */,
 				2E413CEE24F562AE0064330B /* human_traffic_ru_3_5.png in Resources */,
@@ -1912,6 +1928,7 @@
 				2E413C9D24F562AE0064330B /* json_vich_ru.json in Resources */,
 				2E413C4924F562AE0064330B /* human_traffic_ru_8_21.png in Resources */,
 				2E413CBD24F562AE0064330B /* human_traffic_ru_7_14.png in Resources */,
+				1AE5E8DA250F51A5003AE48A /* EmbassiesConsuleTVCell.xib in Resources */,
 				2E413C5324F562AE0064330B /* human_traffic_kg_4_4.jpg in Resources */,
 				2E413CDA24F562AE0064330B /* human_traffic_ru_3_1.png in Resources */,
 				2E413CEF24F562AE0064330B /* human_traffic_ru_3_4.png in Resources */,
@@ -1933,7 +1950,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		133F8A2A47DE209D74EDA57D /* [CP] Check Pods Manifest.lock */ = {
+		57F4856A328714342FB0CEB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Migrant Handbook/Pods-Migrant Handbook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Migrant Handbook/Pods-Migrant Handbook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Migrant Handbook/Pods-Migrant Handbook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0550992AE9D6D0A316AAF02 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1955,23 +1989,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		80B7451F6CED82405B50752D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Migrant Handbook/Pods-Migrant Handbook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Migrant Handbook/Pods-Migrant Handbook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Migrant Handbook/Pods-Migrant Handbook-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1979,16 +1996,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
-				2E8F31BB250F36A60048F7BD /* CommonDataModel.swift in Sources */,
-=======
 				1AEF0556250C7EF000C97F70 /* NKODetailTVC.swift in Sources */,
 				1A93091A250BE49C00997B96 /* HumanTraffickingHeaderView.swift in Sources */,
->>>>>>> da10f1b247b1f69936bbfab29fffa814ca225680
 				2EFBBB4F24F3FA2B002FE9D4 /* HomepageVC.swift in Sources */,
 				2EFBBB6F24F46778002FE9D4 /* NSObject+Helper.swift in Sources */,
 				2E413D6424F58B040064330B /* String + Helper.swift in Sources */,
-				2E8F31B7250E1E380048F7BD /* PolingPlaceResultModel.swift in Sources */,
 				2E398CE225001C4F0028A894 /* DiseasesModel.swift in Sources */,
 				2EFBBB8124F468E5002FE9D4 /* Alerts.swift in Sources */,
 				2EFBBB8624F4697F002FE9D4 /* APIManages.swift in Sources */,
@@ -1996,9 +2008,9 @@
 				C975140F2507C81600F26630 /* KgHotLinesDetailVC.swift in Sources */,
 				2EFBBB8A24F46F62002FE9D4 /* UIResponder + Helper.swift in Sources */,
 				2E413D6624F58B690064330B /* Bundle + Helper.swift in Sources */,
-				2E8F31AF250E023E0048F7BD /* CountryModel.swift in Sources */,
 				2E413D8524F83C990064330B /* WebViewVC.swift in Sources */,
 				1A4DD9402509F7250040F209 /* EmbassiesModel.swift in Sources */,
+				1AE5E8D9250F51A5003AE48A /* EmbassiesConsuleTVCell.swift in Sources */,
 				2E413D7A24F6F1E80064330B /* RulesOfIncomingModel.swift in Sources */,
 				2E398CDA250015420028A894 /* NewsCell.swift in Sources */,
 				2EA36F9B24FD7B8100BB4674 /* FAQModel.swift in Sources */,
@@ -2011,27 +2023,31 @@
 				2EFBBB7524F467BB002FE9D4 /* UICollectionView+ Helper.swift in Sources */,
 				2EFBBB7324F467A9002FE9D4 /* UITableView + Helper.swift in Sources */,
 				C97514042507BC9400F26630 /* HotLinesTVCell.swift in Sources */,
-				2E8F31B3250E04200048F7BD /* NSError + Helper.swift in Sources */,
-				2E8F31BF250F40110048F7BD /* SheetViewController + Helper.swift in Sources */,
 				2EA36F7E24FBFCBD00BB4674 /* RulesOfStayInOtherCountriesTVC.swift in Sources */,
 				2E398CF82503B8260028A894 /* DiseaseTVC.swift in Sources */,
 				1A4DD944250A06A50040F209 /* EmbassiesTVCell.swift in Sources */,
+				2E1AA926250F6D8D008F02F5 /* SheetViewController + Helper.swift in Sources */,
+				2E1AA920250F6D25008F02F5 /* CityResultModel.swift in Sources */,
 				2EFBBB6424F465F1002FE9D4 /* UIColor + Helper.swift in Sources */,
 				2EB43EB024FE89430050B262 /* AnswersToQuestionsTVC.swift in Sources */,
 				1A930920250BE85B00997B96 /* ListOfNKOCountryTVC.swift in Sources */,
 				2E398CE0250018660028A894 /* HealthAndMigrationTVC.swift in Sources */,
 				1A930918250BE1CC00997B96 /* HumanTraffickingModel.swift in Sources */,
 				2EFBBB7124F4678C002FE9D4 /* UIView + Helper.swift in Sources */,
+				2E1AA921250F6D25008F02F5 /* PolingPlaceResultModel.swift in Sources */,
+				1AE5E8D6250F4B69003AE48A /* HotLineCountryModel.swift in Sources */,
 				C9A99509250873F000B2C5D0 /* HotLinesModel.swift in Sources */,
 				1A4DD93E2509F6820040F209 /* EmbassiesTVC.swift in Sources */,
 				2E413AFB24F5605F0064330B /* Parser.swift in Sources */,
 				1A89479D250A965A0037CC1D /* EmbassiesSearchTVC.swift in Sources */,
 				2E413D8724F840350064330B /* Data + Helper.swift in Sources */,
+				2E413D8024F824140064330B /* CountryModel.swift in Sources */,
 				2EFBBB7F24F468D1002FE9D4 /* Reachability.swift in Sources */,
 				2EFBBB7B24F4683D002FE9D4 /* UserDefaults + Helper.swift in Sources */,
 				2EFBBB7724F46813002FE9D4 /* UITableViewCell + Helper.swift in Sources */,
 				2EB43EB624FEA1110050B262 /* NewsTVC.swift in Sources */,
 				2EFBBB4B24F3FA2B002FE9D4 /* AppDelegate.swift in Sources */,
+				1AE5E8DC250F5398003AE48A /* ConsulateModel.swift in Sources */,
 				2EB43EB324FE9B750050B262 /* AnswerToQuestionCell.swift in Sources */,
 				2E413D6E24F594B10064330B /* ChapterCell.swift in Sources */,
 				2EFBBB8324F46901002FE9D4 /* UIApplication + Helper.swift in Sources */,
@@ -2039,6 +2055,7 @@
 				C975140D2507C29100F26630 /* HotLinesVC.swift in Sources */,
 				2EB43EBB24FEA1C60050B262 /* GoOverCell.swift in Sources */,
 				1A930915250BE0EE00997B96 /* HumanTraffickingTVCell.swift in Sources */,
+				2E1AA91A250F6CD9008F02F5 /* MapViewModel.swift in Sources */,
 				1A4DD9392509D75A0040F209 /* AboutAppTVC.swift in Sources */,
 				1AEF0554250C7D8400C97F70 /* NKOModel.swift in Sources */,
 				1AEF0559250C80CE00C97F70 /* ListNKOTVCell.swift in Sources */,
@@ -2047,18 +2064,19 @@
 				2E413D8224F827C20064330B /* Mappable + Helper.swift in Sources */,
 				2E398CFB2503B8A50028A894 /* DiseaseCell.swift in Sources */,
 				2E413D7E24F820F30064330B /* Database.swift in Sources */,
-				2EB3A88D250DFF9000AAE4B9 /* MapViewModel.swift in Sources */,
-				2E8F31BD250F3F500048F7BD /* PolingPlaceDetailVC.swift in Sources */,
-				2E8F31B1250E02F50048F7BD /* CountryResultModel.swift in Sources */,
-				2E8F31B5250E0F0D0048F7BD /* CityResultModel.swift in Sources */,
+				1AE5E8D3250F12A8003AE48A /* EmbassiesDetailTVCell.swift in Sources */,
 				1A4DD947250A0D7F0040F209 /* EmbassiesDetailTVC.swift in Sources */,
+				2E1AA917250F6CB2008F02F5 /* PolingPlaceDetailVC.swift in Sources */,
 				2EFBBB7924F46825002FE9D4 /* UICollectionViewCell + Helper.swift in Sources */,
+				2E1AA924250F6D5E008F02F5 /* NSError + Helper.swift in Sources */,
 				2E413D7124F596140064330B /* ChaptersOfRulesVC.swift in Sources */,
+				2E1AA922250F6D25008F02F5 /* CommonDataModel.swift in Sources */,
 				2EFBBB4D24F3FA2B002FE9D4 /* SceneDelegate.swift in Sources */,
 				1A930922250BECF800997B96 /* RegionModel.swift in Sources */,
 				2E413D6A24F58EEE0064330B /* RulesOfStayCell.swift in Sources */,
 				1A4DD9342509D5820040F209 /* Constants.swift in Sources */,
 				1A930912250BE09200997B96 /* HumanTraffickingTVC.swift in Sources */,
+				2E1AA91F250F6D25008F02F5 /* CountryResultModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2200,7 +2218,7 @@
 		};
 		2EFBBB5C24F3FA2F002FE9D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D94D24553DAA62ADF79E28D /* Pods-Migrant Handbook.debug.xcconfig */;
+			baseConfigurationReference = 6C9BC9D9F5D5ED15028DC2EA /* Pods-Migrant Handbook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -2211,16 +2229,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "pro.sunrisestudio.Migrant-Handboo";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = pro.sunrisestudio.MigrantHandboo;
+				PRODUCT_NAME = "Справочник мигранта";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		2EFBBB5D24F3FA2F002FE9D4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 274DEBFCC39147308FC36FDC /* Pods-Migrant Handbook.release.xcconfig */;
+			baseConfigurationReference = 80BAEFE462F843E8FD44E785 /* Pods-Migrant Handbook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -2231,10 +2249,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "pro.sunrisestudio.Migrant-Handbook";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = pro.sunrisestudio.MigrantHandboo;
+				PRODUCT_NAME = "Справочник мигранта";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

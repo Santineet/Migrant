@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "kyrgyzstan_gerb.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
