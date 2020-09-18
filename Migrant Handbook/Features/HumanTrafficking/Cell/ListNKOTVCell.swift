@@ -20,7 +20,8 @@ class ListNKOTVCell: UITableViewCell {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var managerLabel: UILabel!
     @IBOutlet weak var addressLabel: UILabel!
-    @IBOutlet weak var phoneNumberStackView: UIStackView!
+    @IBOutlet weak var firstPhoneNumberLabel: UILabel!
+    @IBOutlet weak var secondPhoneNumberLabel: UILabel!
     @IBOutlet weak var mailLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
     
@@ -49,23 +50,9 @@ class ListNKOTVCell: UITableViewCell {
         self.managerLabel.text = nko.manager
         self.addressLabel.text = nko.address
         self.mailLabel.text = nko.mail
-        self.descriptionLabel.text = nko.text
-        
-        let phoneNumberLabel = UILabel()
-        phoneNumberLabel.font = UIFont.systemFont(ofSize: 13)
-        phoneNumberLabel.textColor = .lightGray
-        phoneNumberLabel.text = nko.phoneNumber
-        if !nko.phoneNumber.isEmpty {
-            self.phoneNumberStackView.addArrangedSubview(phoneNumberLabel)
-        }
-        
-        let phoneNumberLabelSecond = UILabel()
-        phoneNumberLabelSecond.font = UIFont.systemFont(ofSize: 13)
-        phoneNumberLabelSecond.textColor = .lightGray
-        phoneNumberLabelSecond.text = nko.phoneNumberSecond
-        if !nko.phoneNumberSecond.isEmpty {
-            self.phoneNumberStackView.addArrangedSubview(phoneNumberLabelSecond)
-        }
+        self.descriptionLabel.text = nko.text.htmlToString
+        self.firstPhoneNumberLabel.text = nko.phoneNumber
+        self.secondPhoneNumberLabel.text = nko.phoneNumberSecond
         self.nko = nko
     }
     

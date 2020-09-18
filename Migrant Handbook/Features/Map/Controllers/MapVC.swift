@@ -45,16 +45,12 @@ class MapVC: UIViewController {
                 viewModel.getPolingPlaces(city: city.id)
                 cityTextField.text = city.title
             } else {
-                cityTextField.text = "Выбор города"
+                cityTextField.text = LocalizationManager.sharedInstance.localizedStringForKey(key: "select_city", comment: "")
             }
         }
     }
 
-    var polingPlaces: [PolingPlaceResultModel] = [] {
-        didSet {
-            creatAnnotations(places: polingPlaces)
-        }
-    }
+    var polingPlaces: [PolingPlaceResultModel] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -87,7 +83,7 @@ class MapVC: UIViewController {
     
     private func setupView() {
         mapView.delegate = self
-        navigationItem.title = "Карта избирательных участков за рубежом"
+        navigationItem.title = LocalizationManager.sharedInstance.localizedStringForKey(key: "maptext", comment: "")
         contactsView.dropShadow(with: UIColor(red: 0.251, green: 0.4,
                                               blue: 0.722, alpha: 0.15),
                                 shadowOpacity: 1,
@@ -123,7 +119,8 @@ class MapVC: UIViewController {
 
     private func subscribeBR() {
         viewModel.polingPlacesBR.skip(1).subscribe(onNext: { (result) in
-            self.polingPlaces = result
+            self.polingPlaces.append(contentsOf: result)
+            self.creatAnnotations(places: result)
         }).disposed(by: disposeBag)
         
         viewModel.countriesBR.skip(1).subscribe(onNext: { (result) in
@@ -132,7 +129,7 @@ class MapVC: UIViewController {
         }).disposed(by: disposeBag)
         
         viewModel.errorBR.skip(1).subscribe(onNext: { (error) in
-            Alert.showMessage(title: "Внимание", message: error.localizedDescription)
+            Alert.showMessage(title: LocalizationManager.sharedInstance.localizedStringForKey(key: "error", comment: ""), message: error.localizedDescription)
         }).disposed(by: disposeBag)
                 
         viewModel.citiesBR.skip(1).subscribe(onNext: { (result) in
@@ -158,12 +155,12 @@ extension MapVC: UIPickerViewDelegate, UIPickerViewDataSource {
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         if pickerView == countryPickerView {
             if row == 0 {
-                return "Выбор страны"
+                return LocalizationManager.sharedInstance.localizedStringForKey(key: "DTR_hq_i9T", comment: "")
             }
             return countries[row - 1].title
         } else {
             if row == 0 {
-                return "Выбор города"
+                return LocalizationManager.sharedInstance.localizedStringForKey(key: "LVW_dI_9xz", comment: "")
             }
             return cities[row - 1].title
         }

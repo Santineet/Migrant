@@ -12,7 +12,7 @@ class HealthAndMigrationTVC: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = "Здоровье и миграция"
+        navigationItem.title = LocalizationManager.sharedInstance.localizedStringForKey(key: "bt_eaeu", comment: "")
     }
     
     override func tableView(_ tableView: UITableView,

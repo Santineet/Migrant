@@ -13,7 +13,7 @@ class AboutAppTVC: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = "О проекте"
+        navigationItem.title = LocalizationManager.sharedInstance.localizedStringForKey(key: "ac_about_project", comment: "")
         tableView.separatorColor = .blueColor
         tableView.tableFooterView = UIView(frame: .zero)
     }

@@ -11,6 +11,8 @@ import UIKit
 
 class NKODetailTVC: UITableViewController {
     
+    private let localizationManager = LocalizationManager.sharedInstance
+    
     private var listNKO: [NKOModel] {
         let listNKO = Database.shared.listNKO
         return listNKO
@@ -24,7 +26,7 @@ class NKODetailTVC: UITableViewController {
         filteredListNKO = listNKO.filter { nko in
             return nko.region.id == idNotNil
         }
-        navigationItem.title = "НКО"
+        navigationItem.title = localizationManager.localizedStringForKey(key: "ac_nko", comment: "")
         tableView.tableFooterView = UIView(frame: .zero)
         tableView.register(ListNKOTVCell.nib, forCellReuseIdentifier: ListNKOTVCell.identifier)
     }
@@ -56,16 +58,18 @@ class NKODetailTVC: UITableViewController {
     func alertAction(phoneNumber: String, secondPhoneNumber: String) {
         let alert = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
         
-        let cancelAction = UIAlertAction(title: "Отмена", style: .cancel) { action in
+        let cancelAction = UIAlertAction(title: localizationManager.localizedStringForKey(key: "cancel", comment: ""), style: .cancel) { action in
 //            self.dismiss(animated: true, completion: nil)
         }
         let phoneNumberAction = UIAlertAction(title: phoneNumber, style: .default) { action in
             callTo(number: phoneNumber)
         }
-        let secondPhoneNumberAction = UIAlertAction(title: secondPhoneNumber, style: .default) { action in
-            callTo(number: secondPhoneNumber)
+        if !secondPhoneNumber.isEmpty {
+            let secondPhoneNumberAction = UIAlertAction(title: secondPhoneNumber, style: .default) { action in
+                callTo(number: secondPhoneNumber)
+            }
+            alert.addAction(secondPhoneNumberAction)
         }
-        alert.addAction(secondPhoneNumberAction)
         alert.addAction(phoneNumberAction)
         alert.addAction(cancelAction)
         self.present(alert, animated: true)
@@ -84,7 +88,7 @@ extension NKODetailTVC: ListNKOTVCellDelegate {
     
     func clickAddressView(address: String) {
         UIPasteboard.general.string = address
-        self.showAlertWithMessage(title: "Скопировано")
+        self.showAlertWithMessage(title: localizationManager.localizedStringForKey(key: "toast_copy_to_buffer", comment: ""))
     }
     
     func clickPhoneNumberView(phoneNumber: String, secondPhoneNumber: String) {

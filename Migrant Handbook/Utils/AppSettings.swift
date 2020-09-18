@@ -16,14 +16,16 @@ enum LanguageType: String {
 struct AppSettings {
     
     struct UserDefaultsKeys {
-        static let tokenKey = "token_key_somehashvalue"
         static let currentLanguageKey = "current_language_key_somehashvalue"
+        static let isFirstLaunchingKey = "is_first_launching_key_somehashvalue"
+
     }
     
-    @UserDefault(UserDefaultsKeys.tokenKey, defaultValue: "")
-    static var token: String
+    @UserDefault(UserDefaultsKeys.currentLanguageKey, defaultValue: "ru")
+    static var currentLanguage: String
     
-    @UserDefault(UserDefaultsKeys.currentLanguageKey, defaultValue: .ru)
-    static var currentLanguage: LanguageType
+    @UserDefault(UserDefaultsKeys.isFirstLaunchingKey, defaultValue: true)
+    static var isFirstLaunching: Bool
+    
 
 }

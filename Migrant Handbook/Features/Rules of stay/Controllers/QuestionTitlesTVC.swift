@@ -25,7 +25,7 @@ class QuestionTitlesTVC: UITableViewController {
     }
     
     private func setupNavigationItem() {
-        navigationItem.title = "Часто задаваемые вопросы"
+        navigationItem.title = LocalizationManager.sharedInstance.localizedStringForKey(key: "ch_voprosy", comment: "")
     }
 
     private func setupTableView() {

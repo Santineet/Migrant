@@ -18,7 +18,7 @@ class ListOfNKOCountryTVC: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = "НКО"
+        navigationItem.title = LocalizationManager.sharedInstance.localizedStringForKey(key: "ac_nko", comment: "")
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         tableView.tableFooterView = UIView(frame: .zero)
     }
@@ -46,6 +46,6 @@ class ListOfNKOCountryTVC: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "Выберите регион из списка"
+        return LocalizationManager.sharedInstance.localizedStringForKey(key: "tv_choose_region", comment: "")
     }
 }

@@ -22,19 +22,19 @@ class EmbassiesDetailTVC: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = "Посольство"
+        navigationItem.title = LocalizationManager.sharedInstance.localizedStringForKey(key: "ac_embassy", comment: "")
         tableView.tableFooterView = UIView(frame: .zero)
         tableView.register(EmbassiesDetailTVCell.nib, forCellReuseIdentifier: EmbassiesDetailTVCell.identifier)
         tableView.register(EmbassiesConsuleTVCell.nib, forCellReuseIdentifier: EmbassiesConsuleTVCell.identifier)
         guard let regionId = self.embassies?.id else { return }
         filteredConsule = consules.filter { consulate in
-            if consulate.id == regionId {
+            if consulate.embassies.id == regionId {
                 return true
             }
             return false
         }
         if filteredConsule.count != 0 {
-            consuleSectionTitle = "Консульские отделы"
+            consuleSectionTitle = LocalizationManager.sharedInstance.localizedStringForKey(key: "tv_embassy_consulate", comment: "")
         }
         tableView.reloadData()
     }
@@ -48,7 +48,7 @@ class EmbassiesDetailTVC: UITableViewController {
         case 0:
             return 4
         case 1:
-            return 0
+            return filteredConsule.count
         default:
             return 0
         }
@@ -62,10 +62,11 @@ class EmbassiesDetailTVC: UITableViewController {
             case 0: return getTableViewCell(indexPath: indexPath, value: self.embassies?.phoneNumber ?? "", imageName: "phone_icon")
             case 1: return getTableViewCell(indexPath: indexPath, value: self.embassies?.fax ?? "", imageName: "fax_icon")
             case 2: return getTableViewCell(indexPath: indexPath, value: self.embassies?.address ?? "", imageName: "location_icon")
-            case 3: return getTableViewCell(indexPath: indexPath, value: self.embassies?.site ?? "", imageName: "")
+            case 3: return getTableViewCell(indexPath: indexPath, value: self.embassies?.site ?? "", imageName: "www")
             default:
-                return getConsuleTableViewCell(indexPath: indexPath, consules: self.filteredConsule)
+                return UITableViewCell()
             }
+        case 1: return getConsuleTableViewCell(indexPath: indexPath, consules: self.filteredConsule)
         default:
             return UITableViewCell()
         }
@@ -83,6 +84,8 @@ class EmbassiesDetailTVC: UITableViewController {
             default:
                 break
             }
+        case 1:
+            callTo(number: self.filteredConsule[indexPath.row].phoneNumber)
         default:
             break
         }
@@ -100,7 +103,7 @@ class EmbassiesDetailTVC: UITableViewController {
     }
     
     private func openAddress() {
-        print("open address")
+        self.openWebPage(url: self.embassies?.mapLink ?? "")
     }
     
     private func openWebPage(url: String) {
@@ -118,7 +121,7 @@ class EmbassiesDetailTVC: UITableViewController {
     
     private func getConsuleTableViewCell(indexPath: IndexPath, consules: [ConsulateModel]) -> UITableViewCell {
         let cell = tableView.dequeue(cellClass: EmbassiesConsuleTVCell.self, forIndexPath: indexPath)
-        
+        cell.setData(consulate: self.filteredConsule[indexPath.row])
         return cell
     }
 }

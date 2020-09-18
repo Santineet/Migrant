@@ -26,6 +26,7 @@ class HumanTraffickingTVCell: UITableViewCell {
     
     func setData(humanTrafficking: HumanTraffickingModel) {
         self.titleLabel.text = humanTrafficking.title
+        self.humanTraffickingImageView.image = UIImage(named: humanTrafficking.image)
     }
     
 }

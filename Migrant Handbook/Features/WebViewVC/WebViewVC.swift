@@ -30,10 +30,20 @@ class WebViewVC: UIViewController {
         }
     }
     
+    private let barButtonTitleText = LocalizationManager.sharedInstance.localizedStringForKey(key: "book", comment: "")
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         setupView()
+        setupNavigationItem()
+    }
+    
+    private func setupNavigationItem() {
+        guard content.contains("<img") else { return }
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "book"), style: .plain,
+                                                            target: self,
+                                                            action: #selector(tapedBarButtonItem))
     }
     
     private func setupView() {
@@ -48,5 +58,11 @@ class WebViewVC: UIViewController {
         webView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: 0)
             .isActive = true
     }
-
+    
+    @objc func tapedBarButtonItem() {
+        let vc = UIStoryboard.createVC(controllerType: WebViewHorizontalScrolling.self, storyboard: .main)
+        vc.content = content
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
 }

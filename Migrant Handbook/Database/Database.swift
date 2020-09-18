@@ -28,8 +28,8 @@ class Database {
     var listNKO: [NKOModel] = []
     
     public func prepareData() {
-        let rulesOfIncomitPath = "json_rules_of_incoming_\(AppSettings.currentLanguage.rawValue)"
-        let eaesRulesPath = "json_eaes_rules_\(AppSettings.currentLanguage.rawValue)"
+        let rulesOfIncomitPath = "json_rules_of_incoming_\(AppSettings.currentLanguage)"
+        let eaesRulesPath = "json_eaes_rules_\(AppSettings.currentLanguage)"
         let faqPath = "json_faq_\(AppSettings.currentLanguage)"
        
         let covidPath = "json_covid_\(AppSettings.currentLanguage)"
@@ -41,9 +41,9 @@ class Database {
         
         let embassiesPath = "json_embassy"
         let consulatePath = "json_consulate"
-        let humanTraffickingPath = "json_human_traffic_\(AppSettings.currentLanguage.rawValue)"
+        let humanTraffickingPath = "json_human_traffic_\(AppSettings.currentLanguage)"
         let regionsPath = "json_region"
-        let listNKOPath = "json_nko_\(AppSettings.currentLanguage.rawValue)"
+        let listNKOPath = "json_nko_\(AppSettings.currentLanguage)"
         ///get json from file
         let rulesOfIncomitJson = Parser.json(with: rulesOfIncomitPath)
         let eaesRulesJson = Parser.json(with: eaesRulesPath)

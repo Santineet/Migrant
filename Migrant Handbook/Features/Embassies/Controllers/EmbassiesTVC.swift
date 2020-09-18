@@ -20,7 +20,7 @@ class EmbassiesTVC: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = "Посольство" 
+        navigationItem.title = LocalizationManager.sharedInstance.localizedStringForKey(key: "ac_embassy", comment: "")
         tableView.register(EmbassiesTVCell.nib, forCellReuseIdentifier: EmbassiesTVCell.identifier)
         tableView.tableFooterView = UIView(frame: .zero)
         setupSearchController()
@@ -36,7 +36,7 @@ class EmbassiesTVC: UITableViewController {
         let searchBar = searchController!.searchBar
         searchBar.sizeToFit()
         searchBar.searchTextField.backgroundColor = .white
-        searchBar.searchTextField.placeholder = "Поиск"
+        searchBar.searchTextField.placeholder = LocalizationManager.sharedInstance.localizedStringForKey(key: "search", comment: "")
         searchController!.searchResultsUpdater = resultsController
         self.navigationItem.searchController = searchController
         self.navigationItem.hidesSearchBarWhenScrolling = false

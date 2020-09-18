@@ -21,21 +21,21 @@ enum HomepageOptionsType {
     var values: (title: String, icon: UIImage) {
         switch self {
         case .rules:
-            return ("Правила пребывания за рубежом", #imageLiteral(resourceName: "ic_rules"))
+            return (LocalizationManager.sharedInstance.localizedStringForKey(key: "bt_abroad", comment: ""), #imageLiteral(resourceName: "ic_rules"))
         case .employment:
-            return ("Трудоустройство", #imageLiteral(resourceName: "ic_telecommuting"))
+            return (LocalizationManager.sharedInstance.localizedStringForKey(key: "bt_employment", comment: ""), #imageLiteral(resourceName: "ic_telecommuting"))
         case .embassies:
-            return ("Посольства и консульства КР", #imageLiteral(resourceName: "ic_hotel"))
+            return (LocalizationManager.sharedInstance.localizedStringForKey(key: "bt_embassy", comment: ""), #imageLiteral(resourceName: "ic_hotel"))
         case .map:
-            return ("Карта избирательных участков за рубежом", #imageLiteral(resourceName: "ic_map"))
+            return (LocalizationManager.sharedInstance.localizedStringForKey(key: "maptext", comment: ""), #imageLiteral(resourceName: "ic_map"))
         case .humanTrafficking:
-            return ("Осторожно! Торговля людьми", #imageLiteral(resourceName: "ic_human"))
+            return (LocalizationManager.sharedInstance.localizedStringForKey(key: "bt_ht", comment: ""), #imageLiteral(resourceName: "ic_human"))
         case .hotLines:
-            return ("Горячие линии", #imageLiteral(resourceName: "ic_phone"))
+            return (LocalizationManager.sharedInstance.localizedStringForKey(key: "bt_hot_line", comment: ""), #imageLiteral(resourceName: "ic_phone"))
         case .healthAndMigration:
-            return ("Здоровье и миграция", #imageLiteral(resourceName: "ic_doctor"))
+            return (LocalizationManager.sharedInstance.localizedStringForKey(key: "bt_eaeu", comment: ""), #imageLiteral(resourceName: "ic_doctor"))
         case .aboutProject:
-            return ("О проекте", #imageLiteral(resourceName: "ic_info"))
+            return (LocalizationManager.sharedInstance.localizedStringForKey(key: "ac_about_project", comment: ""), #imageLiteral(resourceName: "ic_info"))
         }
     }
 }
@@ -44,6 +44,7 @@ class HomepageVC: UIViewController {
 
     @IBOutlet weak var collectionView: UICollectionView!
     
+    private let localizationManager = LocalizationManager.sharedInstance
     private let rows: [HomepageOptionsType] = [.rules, .employment,
                                            .embassies, .map,
                                            .humanTrafficking, .hotLines,
@@ -58,12 +59,13 @@ class HomepageVC: UIViewController {
     
     private func setupNavigationItem() {
         let titleLabel = UILabel()
-        titleLabel.text = "Справочник мигранта"
+        titleLabel.text = localizationManager.localizedStringForKey(key: "app_name", comment: "")
         titleLabel.textColor = .white
         titleLabel.font = UIFont.systemFont(ofSize: 18, weight: .medium)
         titleLabel.sizeToFit()
         let leftItem = UIBarButtonItem(customView: titleLabel)
         self.navigationItem.leftBarButtonItem = leftItem
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: localizationManager.localizedStringForKey(key: "language", comment: ""), style: .plain, target: self, action: #selector(tapedLanguageButton))
     }
     
     private func setupCollectionView() {
@@ -76,6 +78,47 @@ class HomepageVC: UIViewController {
     private func showRulesOfStay() {
         let rulesVC = RulesOfStayVC()
         navigationController?.pushViewController(rulesVC, animated: true)
+    }
+    
+    @objc func tapedLanguageButton() {
+        self.alertAction()
+    }
+    
+    func alertAction() {
+        let alert = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
+                
+        let cancelAction = UIAlertAction(title: localized(key: "cancel", comment: ""), style: .cancel, handler: nil)
+        
+        let ruAction = UIAlertAction(title: "Русский", style: .default) { action in
+            LocalizationManager.sharedInstance.setLanguage(languageCode: "ru")
+            AppSettings.currentLanguage = "ru"
+            Database.shared.prepareData()
+            self.updateRootVC()
+        }
+        let kgAction = UIAlertAction(title: "Кыргызча", style: .default) { action in
+            LocalizationManager.sharedInstance.setLanguage(languageCode: "ky-KG")
+            AppSettings.currentLanguage = "kg"
+            Database.shared.prepareData()
+            self.updateRootVC()
+        }
+        alert.addAction(ruAction)
+        alert.addAction(kgAction)
+        alert.addAction(cancelAction)
+        self.present(alert, animated: true)
+    }
+    
+    private func updateRootVC() {
+        guard let windowScene = UIApplication.shared.connectedScenes.first
+            as? UIWindowScene, let sceneDelegate = windowScene.delegate as? SceneDelegate
+            else { return }
+        let homepageVC = UIStoryboard.createVC(controllerType: HomepageVC.self, storyboard: .main)
+        sceneDelegate.window?.rootViewController = UINavigationController(rootViewController: homepageVC)
+        sceneDelegate.window?.makeKeyAndVisible()
+
+    }
+    
+    func localized(key: String, comment: String = "") -> String {
+        return localizationManager.localizedStringForKey(key: key, comment: comment)
     }
 }
 

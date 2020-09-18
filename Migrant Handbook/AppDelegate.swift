@@ -14,6 +14,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
+        if AppSettings.isFirstLaunching {
+            LocalizationManager.sharedInstance.setLanguage(languageCode: "ru")
+            AppSettings.isFirstLaunching = false
+        }
+        
         IQKeyboardManager.shared.enable = true
         Database.shared.prepareData()
         customizeNavigationBar()

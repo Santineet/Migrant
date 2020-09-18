@@ -18,10 +18,10 @@ class HumanTraffickingTVC: UITableViewController {
         let humanTrafficking = Database.shared.humanTrafficking
         return humanTrafficking
     }
-    
+    private let localizationManager = LocalizationManager.sharedInstance
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = "Осторожно! Торговля людьми"
+        navigationItem.title = localizationManager.localizedStringForKey(key: "bt_ht", comment: "")
         tableView.register(HumanTraffickingTVCell.nib, forCellReuseIdentifier: HumanTraffickingTVCell.identifier)
     }
     
@@ -51,7 +51,7 @@ class HumanTraffickingTVC: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let webViewVC = WebViewVC()
         webViewVC.content = self.humanTrafficking[indexPath.row].content
-        webViewVC.navigationItem.title = "Осторожно! Торговля людьми"
+        webViewVC.navigationItem.title = localizationManager.localizedStringForKey(key: "bt_ht", comment: "")
         navigationController?.pushViewController(webViewVC, animated: true)
     }
 }

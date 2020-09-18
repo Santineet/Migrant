@@ -50,7 +50,6 @@ class AnswersToQuestionsTVC: UITableViewController {
 
 extension AnswersToQuestionsTVC: GoOverCellDelegate {
     func goOver() {
-        let humanTraffickingTVC = UIStoryboard.createVC(controllerType: HumanTraffickingTVC.self, storyboard: .main)
-        navigationController?.pushViewController(humanTraffickingTVC, animated: true)
+        //TODO
     }
 }

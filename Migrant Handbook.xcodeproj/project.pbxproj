@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		123BE2E3ED4B00979925142E /* Pods_Migrant_Handbook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60F7E70561B1AC46B0D9F87 /* Pods_Migrant_Handbook.framework */; };
+		1A1D3EDD25129ED20033C65A /* HumanTraffickingHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A1D3EDF25129ED20033C65A /* HumanTraffickingHeaderView.xib */; };
 		1A4DD9342509D5820040F209 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4DD9332509D5820040F209 /* Constants.swift */; };
 		1A4DD9392509D75A0040F209 /* AboutAppTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4DD9382509D75A0040F209 /* AboutAppTVC.swift */; };
 		1A4DD93E2509F6820040F209 /* EmbassiesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4DD93D2509F6820040F209 /* EmbassiesTVC.swift */; };
@@ -15,13 +15,13 @@
 		1A4DD944250A06A50040F209 /* EmbassiesTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4DD942250A06A50040F209 /* EmbassiesTVCell.swift */; };
 		1A4DD945250A06A50040F209 /* EmbassiesTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A4DD943250A06A50040F209 /* EmbassiesTVCell.xib */; };
 		1A4DD947250A0D7F0040F209 /* EmbassiesDetailTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4DD946250A0D7F0040F209 /* EmbassiesDetailTVC.swift */; };
+		1A5D84CD2513EDF2004BD61D /* LocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D84CC2513EDF2004BD61D /* LocalizationManager.swift */; };
+		1A88281A25127E6E00D31577 /* HumanTraffickingTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A88281C25127E6E00D31577 /* HumanTraffickingTVCell.xib */; };
 		1A89479D250A965A0037CC1D /* EmbassiesSearchTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A89479C250A965A0037CC1D /* EmbassiesSearchTVC.swift */; };
 		1A930912250BE09200997B96 /* HumanTraffickingTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A930911250BE09200997B96 /* HumanTraffickingTVC.swift */; };
 		1A930915250BE0EE00997B96 /* HumanTraffickingTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A930913250BE0EE00997B96 /* HumanTraffickingTVCell.swift */; };
-		1A930916250BE0EE00997B96 /* HumanTraffickingTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A930914250BE0EE00997B96 /* HumanTraffickingTVCell.xib */; };
 		1A930918250BE1CC00997B96 /* HumanTraffickingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A930917250BE1CC00997B96 /* HumanTraffickingModel.swift */; };
 		1A93091A250BE49C00997B96 /* HumanTraffickingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A930919250BE49C00997B96 /* HumanTraffickingHeaderView.swift */; };
-		1A93091C250BE4A700997B96 /* HumanTraffickingHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A93091B250BE4A700997B96 /* HumanTraffickingHeaderView.xib */; };
 		1A930920250BE85B00997B96 /* ListOfNKOCountryTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93091F250BE85B00997B96 /* ListOfNKOCountryTVC.swift */; };
 		1A930922250BECF800997B96 /* RegionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A930921250BECF800997B96 /* RegionModel.swift */; };
 		1AE5E8D3250F12A8003AE48A /* EmbassiesDetailTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5E8D1250F12A8003AE48A /* EmbassiesDetailTVCell.swift */; };
@@ -30,10 +30,14 @@
 		1AE5E8D9250F51A5003AE48A /* EmbassiesConsuleTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5E8D7250F51A5003AE48A /* EmbassiesConsuleTVCell.swift */; };
 		1AE5E8DA250F51A5003AE48A /* EmbassiesConsuleTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AE5E8D8250F51A5003AE48A /* EmbassiesConsuleTVCell.xib */; };
 		1AE5E8DC250F5398003AE48A /* ConsulateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5E8DB250F5398003AE48A /* ConsulateModel.swift */; };
+		1AEED8FE2511EB78007BF3D0 /* WebViewHorizontalScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEED8FD2511EB78007BF3D0 /* WebViewHorizontalScrolling.swift */; };
+		1AEED9022511EBFF007BF3D0 /* WebCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEED9002511EBFF007BF3D0 /* WebCollectionViewCell.swift */; };
+		1AEED9032511EBFF007BF3D0 /* WebCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AEED9012511EBFF007BF3D0 /* WebCollectionViewCell.xib */; };
 		1AEF0554250C7D8400C97F70 /* NKOModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF0553250C7D8400C97F70 /* NKOModel.swift */; };
 		1AEF0556250C7EF000C97F70 /* NKODetailTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF0555250C7EF000C97F70 /* NKODetailTVC.swift */; };
 		1AEF0559250C80CE00C97F70 /* ListNKOTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF0557250C80CE00C97F70 /* ListNKOTVCell.swift */; };
 		1AEF055A250C80CE00C97F70 /* ListNKOTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AEF0558250C80CE00C97F70 /* ListNKOTVCell.xib */; };
+		1AF74F0A2514510B00788CDA /* Localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF74F092514510B00788CDA /* Localize.swift */; };
 		2E1AA917250F6CB2008F02F5 /* PolingPlaceDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1AA916250F6CB2008F02F5 /* PolingPlaceDetailVC.swift */; };
 		2E1AA91A250F6CD9008F02F5 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1AA919250F6CD9008F02F5 /* MapViewModel.swift */; };
 		2E1AA91F250F6D25008F02F5 /* CountryResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1AA91B250F6D22008F02F5 /* CountryResultModel.swift */; };
@@ -380,6 +384,7 @@
 		2EB43EB624FEA1110050B262 /* NewsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB43EB524FEA1110050B262 /* NewsTVC.swift */; };
 		2EB43EBB24FEA1C60050B262 /* GoOverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB43EB924FEA1C60050B262 /* GoOverCell.swift */; };
 		2EB43EBC24FEA1C60050B262 /* GoOverCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EB43EBA24FEA1C60050B262 /* GoOverCell.xib */; };
+		2EEE89EB2513C5EE00019C8D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2EEE89ED2513C5EE00019C8D /* Localizable.strings */; };
 		2EFBBB4B24F3FA2B002FE9D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBBB4A24F3FA2B002FE9D4 /* AppDelegate.swift */; };
 		2EFBBB4D24F3FA2B002FE9D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBBB4C24F3FA2B002FE9D4 /* SceneDelegate.swift */; };
 		2EFBBB4F24F3FA2B002FE9D4 /* HomepageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBBB4E24F3FA2B002FE9D4 /* HomepageVC.swift */; };
@@ -411,9 +416,13 @@
 		C975140D2507C29100F26630 /* HotLinesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C975140C2507C29100F26630 /* HotLinesVC.swift */; };
 		C975140F2507C81600F26630 /* KgHotLinesDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C975140E2507C81600F26630 /* KgHotLinesDetailVC.swift */; };
 		C9A99509250873F000B2C5D0 /* HotLinesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A99508250873F000B2C5D0 /* HotLinesModel.swift */; };
+		DF0ABE3B4F2BEF42F660BCDD /* Pods_Migrant_Handbook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15E9724BF52B143A1950E3C /* Pods_Migrant_Handbook.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A1D3EDE25129ED20033C65A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/HumanTraffickingHeaderView.xib; sourceTree = "<group>"; };
+		1A1D3EE125129ED90033C65A /* ky-KG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ky-KG"; path = "ky-KG.lproj/HumanTraffickingHeaderView.strings"; sourceTree = "<group>"; };
+		1A1D3EE325129EDD0033C65A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/HumanTraffickingHeaderView.strings; sourceTree = "<group>"; };
 		1A4DD9332509D5820040F209 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		1A4DD9382509D75A0040F209 /* AboutAppTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppTVC.swift; sourceTree = "<group>"; };
 		1A4DD93D2509F6820040F209 /* EmbassiesTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbassiesTVC.swift; sourceTree = "<group>"; };
@@ -421,13 +430,17 @@
 		1A4DD942250A06A50040F209 /* EmbassiesTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbassiesTVCell.swift; sourceTree = "<group>"; };
 		1A4DD943250A06A50040F209 /* EmbassiesTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmbassiesTVCell.xib; sourceTree = "<group>"; };
 		1A4DD946250A0D7F0040F209 /* EmbassiesDetailTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbassiesDetailTVC.swift; sourceTree = "<group>"; };
+		1A5D84CC2513EDF2004BD61D /* LocalizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationManager.swift; sourceTree = "<group>"; };
+		1A88281625127DCD00D31577 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		1A88281825127DE300D31577 /* ky-KG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ky-KG"; path = "ky-KG.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		1A88281B25127E6E00D31577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/HumanTraffickingTVCell.xib; sourceTree = "<group>"; };
+		1A88282025127E7900D31577 /* ky-KG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ky-KG"; path = "ky-KG.lproj/HumanTraffickingTVCell.strings"; sourceTree = "<group>"; };
+		1A88282225127E8300D31577 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/HumanTraffickingTVCell.strings; sourceTree = "<group>"; };
 		1A89479C250A965A0037CC1D /* EmbassiesSearchTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbassiesSearchTVC.swift; sourceTree = "<group>"; };
 		1A930911250BE09200997B96 /* HumanTraffickingTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanTraffickingTVC.swift; sourceTree = "<group>"; };
 		1A930913250BE0EE00997B96 /* HumanTraffickingTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanTraffickingTVCell.swift; sourceTree = "<group>"; };
-		1A930914250BE0EE00997B96 /* HumanTraffickingTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HumanTraffickingTVCell.xib; sourceTree = "<group>"; };
 		1A930917250BE1CC00997B96 /* HumanTraffickingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanTraffickingModel.swift; sourceTree = "<group>"; };
 		1A930919250BE49C00997B96 /* HumanTraffickingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanTraffickingHeaderView.swift; sourceTree = "<group>"; };
-		1A93091B250BE4A700997B96 /* HumanTraffickingHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HumanTraffickingHeaderView.xib; sourceTree = "<group>"; };
 		1A93091F250BE85B00997B96 /* ListOfNKOCountryTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfNKOCountryTVC.swift; sourceTree = "<group>"; };
 		1A930921250BECF800997B96 /* RegionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionModel.swift; sourceTree = "<group>"; };
 		1AE5E8D1250F12A8003AE48A /* EmbassiesDetailTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbassiesDetailTVCell.swift; sourceTree = "<group>"; };
@@ -436,10 +449,14 @@
 		1AE5E8D7250F51A5003AE48A /* EmbassiesConsuleTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbassiesConsuleTVCell.swift; sourceTree = "<group>"; };
 		1AE5E8D8250F51A5003AE48A /* EmbassiesConsuleTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmbassiesConsuleTVCell.xib; sourceTree = "<group>"; };
 		1AE5E8DB250F5398003AE48A /* ConsulateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsulateModel.swift; sourceTree = "<group>"; };
+		1AEED8FD2511EB78007BF3D0 /* WebViewHorizontalScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewHorizontalScrolling.swift; sourceTree = "<group>"; };
+		1AEED9002511EBFF007BF3D0 /* WebCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebCollectionViewCell.swift; sourceTree = "<group>"; };
+		1AEED9012511EBFF007BF3D0 /* WebCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebCollectionViewCell.xib; sourceTree = "<group>"; };
 		1AEF0553250C7D8400C97F70 /* NKOModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NKOModel.swift; sourceTree = "<group>"; };
 		1AEF0555250C7EF000C97F70 /* NKODetailTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NKODetailTVC.swift; sourceTree = "<group>"; };
 		1AEF0557250C80CE00C97F70 /* ListNKOTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNKOTVCell.swift; sourceTree = "<group>"; };
 		1AEF0558250C80CE00C97F70 /* ListNKOTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListNKOTVCell.xib; sourceTree = "<group>"; };
+		1AF74F092514510B00788CDA /* Localize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localize.swift; sourceTree = "<group>"; };
 		2E1AA916250F6CB2008F02F5 /* PolingPlaceDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolingPlaceDetailVC.swift; sourceTree = "<group>"; };
 		2E1AA919250F6CD9008F02F5 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 		2E1AA91B250F6D22008F02F5 /* CountryResultModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryResultModel.swift; sourceTree = "<group>"; };
@@ -786,6 +803,10 @@
 		2EB43EB524FEA1110050B262 /* NewsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTVC.swift; sourceTree = "<group>"; };
 		2EB43EB924FEA1C60050B262 /* GoOverCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoOverCell.swift; sourceTree = "<group>"; };
 		2EB43EBA24FEA1C60050B262 /* GoOverCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoOverCell.xib; sourceTree = "<group>"; };
+		2EEE89EC2513C5EE00019C8D /* ky-KG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ky-KG"; path = "ky-KG.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		2EEE89EF2513C5FF00019C8D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2EEE89F02514816000019C8D /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ru; path = ru.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EEE89F12514816000019C8D /* ky-KG */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "ky-KG"; path = "ky-KG.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		2EFBBB4724F3FA2B002FE9D4 /* Справочник мигранта.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Справочник мигранта.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EFBBB4A24F3FA2B002FE9D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EFBBB4C24F3FA2B002FE9D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -813,9 +834,9 @@
 		2EFBBB8724F46F25002FE9D4 /* AppStoryboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoryboards.swift; sourceTree = "<group>"; };
 		2EFBBB8924F46F62002FE9D4 /* UIResponder + Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder + Helper.swift"; sourceTree = "<group>"; };
 		2EFBBB9824F5459F002FE9D4 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
-		6C9BC9D9F5D5ED15028DC2EA /* Pods-Migrant Handbook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Migrant Handbook.debug.xcconfig"; path = "Target Support Files/Pods-Migrant Handbook/Pods-Migrant Handbook.debug.xcconfig"; sourceTree = "<group>"; };
-		80BAEFE462F843E8FD44E785 /* Pods-Migrant Handbook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Migrant Handbook.release.xcconfig"; path = "Target Support Files/Pods-Migrant Handbook/Pods-Migrant Handbook.release.xcconfig"; sourceTree = "<group>"; };
-		C60F7E70561B1AC46B0D9F87 /* Pods_Migrant_Handbook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Migrant_Handbook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF573E9DBAD9893CC97AB5F /* Pods-Migrant Handbook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Migrant Handbook.debug.xcconfig"; path = "Target Support Files/Pods-Migrant Handbook/Pods-Migrant Handbook.debug.xcconfig"; sourceTree = "<group>"; };
+		B64D067DC3FFF51B6CF49CBC /* Pods-Migrant Handbook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Migrant Handbook.release.xcconfig"; path = "Target Support Files/Pods-Migrant Handbook/Pods-Migrant Handbook.release.xcconfig"; sourceTree = "<group>"; };
+		C15E9724BF52B143A1950E3C /* Pods_Migrant_Handbook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Migrant_Handbook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C97514022507BC9400F26630 /* HotLinesTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotLinesTVCell.swift; sourceTree = "<group>"; };
 		C97514032507BC9400F26630 /* HotLinesTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HotLinesTVCell.xib; sourceTree = "<group>"; };
 		C97514062507BDB000F26630 /* HotLinesDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotLinesDetailVC.swift; sourceTree = "<group>"; };
@@ -829,7 +850,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				123BE2E3ED4B00979925142E /* Pods_Migrant_Handbook.framework in Frameworks */,
+				DF0ABE3B4F2BEF42F660BCDD /* Pods_Migrant_Handbook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -907,13 +928,22 @@
 			isa = PBXGroup;
 			children = (
 				1A930913250BE0EE00997B96 /* HumanTraffickingTVCell.swift */,
-				1A930914250BE0EE00997B96 /* HumanTraffickingTVCell.xib */,
+				1A88281C25127E6E00D31577 /* HumanTraffickingTVCell.xib */,
 				1A930919250BE49C00997B96 /* HumanTraffickingHeaderView.swift */,
-				1A93091B250BE4A700997B96 /* HumanTraffickingHeaderView.xib */,
+				1A1D3EDF25129ED20033C65A /* HumanTraffickingHeaderView.xib */,
 				1AEF0557250C80CE00C97F70 /* ListNKOTVCell.swift */,
 				1AEF0558250C80CE00C97F70 /* ListNKOTVCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		1AEED8FF2511EBDA007BF3D0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1AEED9002511EBFF007BF3D0 /* WebCollectionViewCell.swift */,
+				1AEED9012511EBFF007BF3D0 /* WebCollectionViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		2E1AA918250F6CC9008F02F5 /* ViewModel */ = {
@@ -1320,13 +1350,6 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
-		2E413D6724F58DD30064330B /* Localization */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Localization;
-			sourceTree = "<group>";
-		};
 		2E413D7824F6F1930064330B /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -1353,9 +1376,19 @@
 		2E413D8324F83C870064330B /* WebViewVC */ = {
 			isa = PBXGroup;
 			children = (
+				1AEED8FF2511EBDA007BF3D0 /* Cells */,
 				2E413D8424F83C990064330B /* WebViewVC.swift */,
+				1AEED8FD2511EB78007BF3D0 /* WebViewHorizontalScrolling.swift */,
 			);
 			path = WebViewVC;
+			sourceTree = "<group>";
+		};
+		2EEE89E82513C5A800019C8D /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				2EEE89ED2513C5EE00019C8D /* Localizable.strings */,
+			);
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		2EFBBB3E24F3FA2B002FE9D4 = {
@@ -1364,7 +1397,7 @@
 				2EFBBB4924F3FA2B002FE9D4 /* Migrant Handbook */,
 				2EFBBB4824F3FA2B002FE9D4 /* Products */,
 				DBA8367B518C4FD2A13B9AA3 /* Pods */,
-				BDAB3073D3E41A88FD4FF48C /* Frameworks */,
+				60624E993D77F0068F59943E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1388,7 +1421,7 @@
 				2EFBBB6124F464A1002FE9D4 /* Storyboards */,
 				2EFBBB6224F464EF002FE9D4 /* Features */,
 				2E413AF924F5604E0064330B /* Database */,
-				2E413D6724F58DD30064330B /* Localization */,
+				2EEE89E82513C5A800019C8D /* Localization */,
 				2EFBBB5E24F4647A002FE9D4 /* Resourses */,
 				2EFBBB5824F3FA2F002FE9D4 /* Info.plist */,
 			);
@@ -1424,6 +1457,7 @@
 				2E413D8624F840350064330B /* Data + Helper.swift */,
 				2E1AA923250F6D5E008F02F5 /* NSError + Helper.swift */,
 				2E1AA925250F6D8D008F02F5 /* SheetViewController + Helper.swift */,
+				1AF74F092514510B00788CDA /* Localize.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -1495,6 +1529,7 @@
 			isa = PBXGroup;
 			children = (
 				2EFBBB8524F4697F002FE9D4 /* APIManages.swift */,
+				1A5D84CC2513EDF2004BD61D /* LocalizationManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -1517,10 +1552,10 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		BDAB3073D3E41A88FD4FF48C /* Frameworks */ = {
+		60624E993D77F0068F59943E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C60F7E70561B1AC46B0D9F87 /* Pods_Migrant_Handbook.framework */,
+				C15E9724BF52B143A1950E3C /* Pods_Migrant_Handbook.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1556,8 +1591,8 @@
 		DBA8367B518C4FD2A13B9AA3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6C9BC9D9F5D5ED15028DC2EA /* Pods-Migrant Handbook.debug.xcconfig */,
-				80BAEFE462F843E8FD44E785 /* Pods-Migrant Handbook.release.xcconfig */,
+				8FF573E9DBAD9893CC97AB5F /* Pods-Migrant Handbook.debug.xcconfig */,
+				B64D067DC3FFF51B6CF49CBC /* Pods-Migrant Handbook.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -1569,11 +1604,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2EFBBB5B24F3FA2F002FE9D4 /* Build configuration list for PBXNativeTarget "Migrant Handbook" */;
 			buildPhases = (
-				E0550992AE9D6D0A316AAF02 /* [CP] Check Pods Manifest.lock */,
+				242B7048D83A0CB05C527CC9 /* [CP] Check Pods Manifest.lock */,
 				2EFBBB4324F3FA2B002FE9D4 /* Sources */,
 				2EFBBB4424F3FA2B002FE9D4 /* Frameworks */,
 				2EFBBB4524F3FA2B002FE9D4 /* Resources */,
-				57F4856A328714342FB0CEB1 /* [CP] Embed Pods Frameworks */,
+				746BE4F7D0E55AFFB791BD07 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1606,6 +1641,8 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
+				"ky-KG",
 			);
 			mainGroup = 2EFBBB3E24F3FA2B002FE9D4;
 			productRefGroup = 2EFBBB4824F3FA2B002FE9D4 /* Products */;
@@ -1673,7 +1710,6 @@
 				2E413CF224F562AE0064330B /* rules_of_incoming_eaes9_3.PNG in Resources */,
 				1AEF055A250C80CE00C97F70 /* ListNKOTVCell.xib in Resources */,
 				2EFBBB5724F3FA2F002FE9D4 /* LaunchScreen.storyboard in Resources */,
-				1A93091C250BE4A700997B96 /* HumanTraffickingHeaderView.xib in Resources */,
 				2E413CF024F562AE0064330B /* covid_image_3_kg.jpeg in Resources */,
 				2E413CE824F562AE0064330B /* human_traffic_kg_2_10.jpg in Resources */,
 				2E413C8424F562AE0064330B /* human_traffic_ru_13_3.png in Resources */,
@@ -1690,6 +1726,7 @@
 				2E413CA224F562AE0064330B /* json_nko_ru.json in Resources */,
 				2E413D1D24F562AE0064330B /* covid_image_1_kg.jpeg in Resources */,
 				2E413D1E24F562AE0064330B /* human_traffic_ru_2_1.png in Resources */,
+				1A1D3EDD25129ED20033C65A /* HumanTraffickingHeaderView.xib in Resources */,
 				2E413C9524F562AE0064330B /* poster_4.png in Resources */,
 				2E413C4D24F562AE0064330B /* human_traffic_ru_8_1.png in Resources */,
 				2E413CD624F562AE0064330B /* json_eaes.json in Resources */,
@@ -1707,6 +1744,7 @@
 				2E413CDF24F562AE0064330B /* rules_of_incoming_eaes9_6.PNG in Resources */,
 				2E413CA324F562AE0064330B /* human_traffic_ru_8_42.png in Resources */,
 				1A4DD945250A06A50040F209 /* EmbassiesTVCell.xib in Resources */,
+				2EEE89EB2513C5EE00019C8D /* Localizable.strings in Resources */,
 				2E398CFC2503B8A50028A894 /* DiseaseCell.xib in Resources */,
 				2E413D5724F562AE0064330B /* human_traffic_ru_13_20.png in Resources */,
 				C97514052507BC9400F26630 /* HotLinesTVCell.xib in Resources */,
@@ -1775,6 +1813,7 @@
 				2E413C5E24F562AE0064330B /* rules_of_incoming_eaes8_8.jpg in Resources */,
 				2E413CCE24F562AE0064330B /* rules_of_incoming_eaes9_5.PNG in Resources */,
 				2E413CF124F562AE0064330B /* human_traffic_kg_3_45.jpg in Resources */,
+				1AEED9032511EBFF007BF3D0 /* WebCollectionViewCell.xib in Resources */,
 				2E413CD924F562AE0064330B /* human_traffic_kg_3_9.jpg in Resources */,
 				2E413CF824F562AE0064330B /* covid_image_1_ru.jpeg in Resources */,
 				2E413CBA24F562AE0064330B /* rules_of_incoming_eaes9_8.PNG in Resources */,
@@ -1942,7 +1981,7 @@
 				2E413C8024F562AE0064330B /* human_traffic_ru_8_7.png in Resources */,
 				2E413D1224F562AE0064330B /* json_country_hotline.json in Resources */,
 				2E413C4224F562AE0064330B /* rules_of_incoming_eaes8_15.jpg in Resources */,
-				1A930916250BE0EE00997B96 /* HumanTraffickingTVCell.xib in Resources */,
+				1A88281A25127E6E00D31577 /* HumanTraffickingTVCell.xib in Resources */,
 				2E413C5124F562AE0064330B /* rules_of_incoming_eaes6_12.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1950,24 +1989,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		57F4856A328714342FB0CEB1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Migrant Handbook/Pods-Migrant Handbook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Migrant Handbook/Pods-Migrant Handbook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Migrant Handbook/Pods-Migrant Handbook-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E0550992AE9D6D0A316AAF02 /* [CP] Check Pods Manifest.lock */ = {
+		242B7048D83A0CB05C527CC9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1989,6 +2011,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		746BE4F7D0E55AFFB791BD07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Migrant Handbook/Pods-Migrant Handbook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Migrant Handbook/Pods-Migrant Handbook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Migrant Handbook/Pods-Migrant Handbook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -2008,9 +2047,11 @@
 				C975140F2507C81600F26630 /* KgHotLinesDetailVC.swift in Sources */,
 				2EFBBB8A24F46F62002FE9D4 /* UIResponder + Helper.swift in Sources */,
 				2E413D6624F58B690064330B /* Bundle + Helper.swift in Sources */,
+				1AEED9022511EBFF007BF3D0 /* WebCollectionViewCell.swift in Sources */,
 				2E413D8524F83C990064330B /* WebViewVC.swift in Sources */,
 				1A4DD9402509F7250040F209 /* EmbassiesModel.swift in Sources */,
 				1AE5E8D9250F51A5003AE48A /* EmbassiesConsuleTVCell.swift in Sources */,
+				1A5D84CD2513EDF2004BD61D /* LocalizationManager.swift in Sources */,
 				2E413D7A24F6F1E80064330B /* RulesOfIncomingModel.swift in Sources */,
 				2E398CDA250015420028A894 /* NewsCell.swift in Sources */,
 				2EA36F9B24FD7B8100BB4674 /* FAQModel.swift in Sources */,
@@ -2038,6 +2079,7 @@
 				1AE5E8D6250F4B69003AE48A /* HotLineCountryModel.swift in Sources */,
 				C9A99509250873F000B2C5D0 /* HotLinesModel.swift in Sources */,
 				1A4DD93E2509F6820040F209 /* EmbassiesTVC.swift in Sources */,
+				1AEED8FE2511EB78007BF3D0 /* WebViewHorizontalScrolling.swift in Sources */,
 				2E413AFB24F5605F0064330B /* Parser.swift in Sources */,
 				1A89479D250A965A0037CC1D /* EmbassiesSearchTVC.swift in Sources */,
 				2E413D8724F840350064330B /* Data + Helper.swift in Sources */,
@@ -2075,6 +2117,7 @@
 				1A930922250BECF800997B96 /* RegionModel.swift in Sources */,
 				2E413D6A24F58EEE0064330B /* RulesOfStayCell.swift in Sources */,
 				1A4DD9342509D5820040F209 /* Constants.swift in Sources */,
+				1AF74F0A2514510B00788CDA /* Localize.swift in Sources */,
 				1A930912250BE09200997B96 /* HumanTraffickingTVC.swift in Sources */,
 				2E1AA91F250F6D25008F02F5 /* CountryResultModel.swift in Sources */,
 			);
@@ -2083,10 +2126,41 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		1A1D3EDF25129ED20033C65A /* HumanTraffickingHeaderView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A1D3EDE25129ED20033C65A /* Base */,
+				1A1D3EE125129ED90033C65A /* ky-KG */,
+				1A1D3EE325129EDD0033C65A /* ru */,
+			);
+			name = HumanTraffickingHeaderView.xib;
+			sourceTree = "<group>";
+		};
+		1A88281C25127E6E00D31577 /* HumanTraffickingTVCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A88281B25127E6E00D31577 /* Base */,
+				1A88282025127E7900D31577 /* ky-KG */,
+				1A88282225127E8300D31577 /* ru */,
+			);
+			name = HumanTraffickingTVCell.xib;
+			sourceTree = "<group>";
+		};
+		2EEE89ED2513C5EE00019C8D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EEE89EC2513C5EE00019C8D /* ky-KG */,
+				2EEE89EF2513C5FF00019C8D /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		2EFBBB5024F3FA2B002FE9D4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2EFBBB5124F3FA2B002FE9D4 /* Base */,
+				2EEE89F02514816000019C8D /* ru */,
+				2EEE89F12514816000019C8D /* ky-KG */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -2095,6 +2169,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				2EFBBB5624F3FA2F002FE9D4 /* Base */,
+				1A88281625127DCD00D31577 /* ru */,
+				1A88281825127DE300D31577 /* ky-KG */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -2106,6 +2182,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -2166,6 +2243,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -2218,10 +2296,11 @@
 		};
 		2EFBBB5C24F3FA2F002FE9D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C9BC9D9F5D5ED15028DC2EA /* Pods-Migrant Handbook.debug.xcconfig */;
+			baseConfigurationReference = 8FF573E9DBAD9893CC97AB5F /* Pods-Migrant Handbook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = YDG37K9NRQ;
 				INFOPLIST_FILE = "Migrant Handbook/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
@@ -2232,16 +2311,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pro.sunrisestudio.MigrantHandboo;
 				PRODUCT_NAME = "Справочник мигранта";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		2EFBBB5D24F3FA2F002FE9D4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80BAEFE462F843E8FD44E785 /* Pods-Migrant Handbook.release.xcconfig */;
+			baseConfigurationReference = B64D067DC3FFF51B6CF49CBC /* Pods-Migrant Handbook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = YDG37K9NRQ;
 				INFOPLIST_FILE = "Migrant Handbook/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
@@ -2252,7 +2332,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pro.sunrisestudio.MigrantHandboo;
 				PRODUCT_NAME = "Справочник мигранта";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

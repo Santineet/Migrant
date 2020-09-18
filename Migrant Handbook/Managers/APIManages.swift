@@ -17,10 +17,18 @@ class APIManager {
     
     let baseUrl = "https://traffikunet.kg/api/v1/"
     
+    var header: HTTPHeaders {
+        if AppSettings.currentLanguage == "ru" {
+            return ["Accept-Language": "RU"]
+        } else {
+            return ["Accept-Language": "KG"]
+        }
+    }
+    
     func getCommonDate(completion: @escaping Completion) {
         guard let url = URL(string: baseUrl + "common_data/") else { return }
         RequestManager.request(with: url, method: .get,
-                               params: nil, header: nil,
+                               params: nil, header: header,
                                completion: completion)
     }
     
@@ -38,21 +46,21 @@ class APIManager {
         }
         guard let url = urlComponents.url else { return }
         RequestManager.request(with: url, method: .get,
-                               params: nil, header: nil,
+                               params: nil, header: header,
                                completion: completion)
     }
     
     func getCities(id: Int, completion: @escaping Completion) {
         guard let url = URL(string: baseUrl + "city/?country=\(id)") else { return }
         RequestManager.request(with: url, method: .get,
-                               params: nil, header: nil,
+                               params: nil, header: header,
                                completion: completion)
     }
     
     func getCountries(completion: @escaping Completion) {
         guard let url = URL(string: baseUrl + "country/") else { return }
         RequestManager.request(with: url, method: .get,
-                               params: nil, header: nil,
+                               params: nil, header: header,
                                completion: completion)
     }
     

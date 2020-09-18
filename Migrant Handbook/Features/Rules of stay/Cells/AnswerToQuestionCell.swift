@@ -21,8 +21,8 @@ class AnswerToQuestionCell: UITableViewCell {
     }
     
     public func setupCell(question: FAQModel) -> AnswerToQuestionCell {
-        let questionImage = AppSettings.currentLanguage == .ru ? #imageLiteral(resourceName: "title_quastion") : #imageLiteral(resourceName: "title_quastion_kg")
-        let answerImage = AppSettings.currentLanguage == .ru ? #imageLiteral(resourceName: "title_answer") : #imageLiteral(resourceName: "title_answer_kg")
+        let questionImage = AppSettings.currentLanguage == "ru" ? #imageLiteral(resourceName: "title_quastion") : #imageLiteral(resourceName: "title_quastion_kg")
+        let answerImage = AppSettings.currentLanguage == "ru" ? #imageLiteral(resourceName: "title_answer") : #imageLiteral(resourceName: "title_answer_kg")
         questionImageView.image = questionImage
         answerImageView.image = answerImage
         questionLabel.text = question.question

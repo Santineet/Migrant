@@ -9,8 +9,10 @@
 import UIKit
 
 class EmbassiesConsuleTVCell: UITableViewCell {
-
-    @IBOutlet weak var consuleStackView: UIStackView!
+    
+    @IBOutlet weak var regionLabel: UILabel!
+    @IBOutlet weak var addressLabel: UILabel!
+    @IBOutlet weak var phoneNumberLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -23,30 +25,10 @@ class EmbassiesConsuleTVCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func setData(consulates: [ConsulateModel]) {
-        for consulate in consulates {
-//            let consulateView =
-            //self.consuleStackView.addArrangedSubview(<#T##view: UIView##UIView#>)
-        }
+    func setData(consulate: ConsulateModel) {
+        self.regionLabel.text = consulate.region
+        self.addressLabel.text = consulate.address
+        self.phoneNumberLabel.text = consulate.phoneNumber
     }
-    
-//    private func getConsulateView(consulate: ConsulateModel) -> UIView {
-//        let containerView = UIView()
-//
-//        let cityLabel = UILabel()
-//        cityLabel.translatesAutoresizingMaskIntoConstraints = false
-//        cityLabel.font = UIFont.systemFont(ofSize: 14, weight: .semibold)
-//        cityLabel.text = consulate.region
-//
-//        containerView.addSubview(cityLabel)
-//        cityLabel.topAnchor.constraint(equalTo: <#T##NSLayoutAnchor<NSLayoutYAxisAnchor>#>, constant: <#T##CGFloat#>)
-//
-//        let addressLabel = UILabel()
-//        addressLabel.translatesAutoresizingMaskIntoConstraints = false
-//        addressLabel.font = UIFont.systemFont(ofSize: 14, weight: .semibold)
-//        addressLabel.text = consulate.address
-//
-//        return containerView
-//    }
     
 }

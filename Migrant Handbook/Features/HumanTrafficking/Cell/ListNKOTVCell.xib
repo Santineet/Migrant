@@ -25,7 +25,7 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ujH-Cj-wEb">
                         <rect key="frame" x="8" y="57.5" width="304" height="44"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gbs-j7-cIc">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="www" translatesAutoresizingMaskIntoConstraints="NO" id="Gbs-j7-cIc">
                                 <rect key="frame" x="8" y="10" width="24" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="RCH-WQ-vw0"/>
@@ -106,19 +106,31 @@
                                     <constraint firstAttribute="height" constant="24" id="tr4-Rz-Uja"/>
                                 </constraints>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="aDu-B9-H6a">
-                                <rect key="frame" x="52" y="2" width="252" height="40"/>
-                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XNg-Uf-xsb">
+                                <rect key="frame" x="52" y="3" width="252" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mxR-DT-xRe">
+                                <rect key="frame" x="52" y="41" width="252" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="aDu-B9-H6a" firstAttribute="top" secondItem="eq4-HD-e8T" secondAttribute="top" constant="2" id="2pR-8t-Pby"/>
-                            <constraint firstItem="aDu-B9-H6a" firstAttribute="leading" secondItem="UqV-oh-CfL" secondAttribute="trailing" constant="12" id="6Me-Pg-v3f"/>
                             <constraint firstItem="UqV-oh-CfL" firstAttribute="centerY" secondItem="eq4-HD-e8T" secondAttribute="centerY" id="8L8-wY-Vfl"/>
+                            <constraint firstItem="mxR-DT-xRe" firstAttribute="top" secondItem="XNg-Uf-xsb" secondAttribute="bottom" constant="6" id="DBY-6x-BZ6"/>
+                            <constraint firstAttribute="bottom" secondItem="mxR-DT-xRe" secondAttribute="bottom" constant="3" id="HXm-ph-G8T"/>
+                            <constraint firstAttribute="trailing" secondItem="mxR-DT-xRe" secondAttribute="trailing" constant="16" id="JSB-2O-xLe"/>
                             <constraint firstAttribute="height" constant="44" id="LWV-CI-4Gy"/>
-                            <constraint firstAttribute="bottom" secondItem="aDu-B9-H6a" secondAttribute="bottom" constant="2" id="fv5-xb-7PO"/>
-                            <constraint firstAttribute="trailing" secondItem="aDu-B9-H6a" secondAttribute="trailing" constant="16" id="ubl-Zf-kfb"/>
+                            <constraint firstAttribute="trailing" secondItem="XNg-Uf-xsb" secondAttribute="trailing" constant="16" id="cTL-A7-UoT"/>
+                            <constraint firstItem="mxR-DT-xRe" firstAttribute="leading" secondItem="UqV-oh-CfL" secondAttribute="trailing" constant="12" id="rht-nU-0gC"/>
                             <constraint firstItem="UqV-oh-CfL" firstAttribute="leading" secondItem="eq4-HD-e8T" secondAttribute="leadingMargin" constant="8" id="xlH-ea-Pxc"/>
+                            <constraint firstItem="XNg-Uf-xsb" firstAttribute="top" secondItem="eq4-HD-e8T" secondAttribute="top" constant="3" id="y6p-nW-XOh"/>
+                            <constraint firstItem="XNg-Uf-xsb" firstAttribute="leading" secondItem="UqV-oh-CfL" secondAttribute="trailing" constant="12" id="z7q-0X-Kyi"/>
                         </constraints>
                     </view>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TiJ-4d-doD">
@@ -131,7 +143,7 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rj7-0K-Rwp">
                         <rect key="frame" x="0.0" y="192.5" width="320" height="44"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bO5-dg-HK7">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mail" translatesAutoresizingMaskIntoConstraints="NO" id="bO5-dg-HK7">
                                 <rect key="frame" x="16" y="10" width="24" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="24" id="Uk0-4n-pmP"/>
@@ -204,11 +216,12 @@
                 <outlet property="addressView" destination="kRW-Qf-Co6" id="r3s-3M-aeT"/>
                 <outlet property="descriptionLabel" destination="y2d-JV-epM" id="58l-zz-QjD"/>
                 <outlet property="emailView" destination="rj7-0K-Rwp" id="AOM-h5-wl4"/>
+                <outlet property="firstPhoneNumberLabel" destination="XNg-Uf-xsb" id="KqT-Bj-caf"/>
                 <outlet property="mailLabel" destination="YiY-WP-ZB7" id="ysL-vF-FAW"/>
                 <outlet property="managerLabel" destination="4nf-Ob-QBL" id="rob-ue-Bws"/>
                 <outlet property="managerView" destination="ujH-Cj-wEb" id="zLn-nx-Z8P"/>
-                <outlet property="phoneNumberStackView" destination="aDu-B9-H6a" id="6Kb-0K-FZv"/>
                 <outlet property="phoneNumbersView" destination="eq4-HD-e8T" id="tS5-mm-InW"/>
+                <outlet property="secondPhoneNumberLabel" destination="mxR-DT-xRe" id="FHT-rd-1vn"/>
                 <outlet property="titleLabel" destination="ZE2-3l-ltq" id="Skm-Go-smi"/>
             </connections>
             <point key="canvasLocation" x="131.8840579710145" y="79.017857142857139"/>
@@ -216,6 +229,8 @@
     </objects>
     <resources>
         <image name="location_icon" width="42" height="70"/>
+        <image name="mail" width="24" height="24"/>
         <image name="phone_icon" width="54" height="55"/>
+        <image name="www" width="24" height="24"/>
     </resources>
 </document>

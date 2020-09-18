@@ -13,7 +13,7 @@ class KGHotLinesDetailVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = "Горячие Линии"
+        navigationItem.title = LocalizationManager.sharedInstance.localizedStringForKey(key: "bt_hot_line", comment: "")
     }
     
     @IBAction func callButtonTaped(_ sender: UIButton) {

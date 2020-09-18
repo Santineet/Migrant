@@ -19,17 +19,17 @@ enum RulesType {
     var localeKey: String {
         switch self {
         case .ru:
-            return "Порядок вьезда и пребывания граждан КР в РФ"
+            return LocalizationManager.sharedInstance.localizedStringForKey(key: "kr_to_rf", comment: "")
         case .kz:
-            return "Порядок вьезда и пребывания граждан КР в РК"
+            return LocalizationManager.sharedInstance.localizedStringForKey(key: "kr_to_rk", comment: "")
         case .otherCountries:
-            return "Порядок вьезда и пребывания граждан КР в других странах"
+            return LocalizationManager.sharedInstance.localizedStringForKey(key: "kr_to_oc", comment: "")
         case .eaeu:
-            return "Трудовая деятельность и социальное обеспечение в странах ЕАЭС"
+            return LocalizationManager.sharedInstance.localizedStringForKey(key: "kr_to_eaes", comment: "")
         case .news:
-            return "Новости миграции"
+            return LocalizationManager.sharedInstance.localizedStringForKey(key: "mig_news", comment: "")
         case .questions:
-            return "Часто задаваемые вопросы"
+            return LocalizationManager.sharedInstance.localizedStringForKey(key: "ch_voprosy", comment: "")
         }
     }
 }
@@ -55,7 +55,7 @@ class RulesOfStayVC: UIViewController {
     }
     
     private func setupNavigationItem() {
-        navigationItem.title = "Правила пребывания за рубежом"
+        navigationItem.title = LocalizationManager.sharedInstance.localizedStringForKey(key: "bt_abroad", comment: "")
     }
     
     private func setupView() {

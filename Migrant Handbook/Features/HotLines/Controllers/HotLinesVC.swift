@@ -21,7 +21,7 @@ class HotLinesVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = "Горячие Линии"
+        navigationItem.title = LocalizationManager.sharedInstance.localizedStringForKey(key: "bt_hot_line", comment: "")
         setupTableView()
         kgHotLineView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(tapedKGHotLineView)))
     }

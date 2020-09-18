@@ -15,7 +15,7 @@ class NewsTVC: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        navigationItem.title = "Новости"
+        navigationItem.title = LocalizationManager.sharedInstance.localizedStringForKey(key: "news", comment: "")
         tableView.separatorStyle = .none
         tableView.tableFooterView = UIView()
         tableView.register(NewsCell.nib, forCellReuseIdentifier: NewsCell.identifier)

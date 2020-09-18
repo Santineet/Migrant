@@ -23,7 +23,7 @@ class HotLinesDetailVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = "Горячие Линии"
+        navigationItem.title = LocalizationManager.sharedInstance.localizedStringForKey(key: "bt_hot_line", comment: "")
         guard let idNotNil = self.id else { return }
         let hotLine = hotLines.filter { hotLine in
             if hotLine.id == idNotNil {

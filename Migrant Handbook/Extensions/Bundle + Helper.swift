@@ -17,7 +17,7 @@ extension Bundle {
     }
     
     static func setAppLanguage(language: LanguageType) {
-        AppSettings.currentLanguage = language
+        AppSettings.currentLanguage = language.rawValue
         object_setClass(Bundle.main, PrivateBundle.self)
         objc_setAssociatedObject(Bundle.main, "bundlePath" ,Bundle.main.path(forResource: language.rawValue, ofType: "lproj"),.OBJC_ASSOCIATION_RETAIN_NONATOMIC)
     }

@@ -22,6 +22,9 @@
                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="nhv_Bo_ywc"/>
+                            </userDefinedRuntimeAttributes>
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c0Q-0B-LZI">
                             <rect key="frame" x="82" y="110" width="284" height="42"/>
@@ -32,11 +35,14 @@
                             <state key="normal" title="ПОДРОБНЕЕ">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="c0Q_0B_LZI.normalTitle"/>
+                            </userDefinedRuntimeAttributes>
                             <connections>
                                 <action selector="tapedMoreButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="N8m-FJ-KQg"/>
                             </connections>
                         </button>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GCJ-tq-Cew">
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paper" translatesAutoresizingMaskIntoConstraints="NO" id="GCJ-tq-Cew">
                             <rect key="frame" x="16" y="24" width="50" height="70"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="50" id="BLG-Uf-pTR"/>
@@ -78,6 +84,7 @@
         </view>
     </objects>
     <resources>
+        <image name="paper" width="20" height="20"/>
         <namedColor name="BlueColor">
             <color red="0.25098039215686274" green="0.40000000000000002" blue="0.72156862745098038" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
