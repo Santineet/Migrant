@@ -11,7 +11,8 @@ import UIKit
 class NewsTVC: UITableViewController {
 
     let rows = ["oes.kg", "traffikunet.kg", "mfa.gov.kg", "mlsp.gov.kg", "smm.gov.kg"]
-    
+    let rowUrls = ["http://oec.kg/", "https://traffikunet.kg/ru/", "https://mfa.gov.kg/ru", "https://mlsp.gov.kg/", "http://ssm.gov.kg/"]
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -32,6 +33,14 @@ class NewsTVC: UITableViewController {
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        guard let webURL = URL(string: rowUrls[indexPath.row]) else {
+            return
+        }
+        UIApplication.shared.open(webURL, options: [:], completionHandler: nil)
     }
     
 }

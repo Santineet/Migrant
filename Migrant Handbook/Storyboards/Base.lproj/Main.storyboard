@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dZH-vP-KT6">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dZH-vP-KT6">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -11,7 +11,7 @@
         <!--HomepageVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="HomepageVC" id="BYZ-38-t0r" customClass="HomepageVC" customModule="Migrant_Handbook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomepageVC" id="BYZ-38-t0r" customClass="HomepageVC" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -49,21 +49,11 @@
         <!--DetailTVC-->
         <scene sceneID="T8Y-P1-bxt">
             <objects>
-                <tableViewController storyboardIdentifier="NKODetailTVC" id="sMt-Ql-TmL" customClass="NKODetailTVC" customModule="Migrant_Handbook" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="NKODetailTVC" id="sMt-Ql-TmL" customClass="NKODetailTVC" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="sRo-MV-Tcy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="4rV-bX-jNR">
-                                <rect key="frame" x="0.0" y="28" width="414" height="43.666667938232422"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4rV-bX-jNR" id="cM1-jV-TfA">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.666667938232422"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
                         <connections>
                             <outlet property="dataSource" destination="sMt-Ql-TmL" id="RYY-jS-KDE"/>
                             <outlet property="delegate" destination="sMt-Ql-TmL" id="7dD-cN-uaK"/>
@@ -77,7 +67,7 @@
         <!--Human Trafficking DetailVC-->
         <scene sceneID="bIh-YS-XCN">
             <objects>
-                <viewController storyboardIdentifier="HumanTraffickingDetailVC" id="bGg-Wj-1wl" customClass="HumanTraffickingDetailVC" customModule="Migrant_Handbook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HumanTraffickingDetailVC" id="bGg-Wj-1wl" customClass="HumanTraffickingDetailVC" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nRi-tv-RiO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -92,21 +82,11 @@
         <!--List OfNKO CountryTVC-->
         <scene sceneID="3SY-aC-AvQ">
             <objects>
-                <tableViewController storyboardIdentifier="ListOfNKOCountryTVC" id="yqC-AT-D74" customClass="ListOfNKOCountryTVC" customModule="Migrant_Handbook" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="ListOfNKOCountryTVC" id="yqC-AT-D74" customClass="ListOfNKOCountryTVC" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="uUt-bb-pIO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="pM3-44-fJk">
-                                <rect key="frame" x="0.0" y="28" width="414" height="43.666667938232422"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pM3-44-fJk" id="yP2-Vy-dXN">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.666667938232422"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
                         <connections>
                             <outlet property="dataSource" destination="yqC-AT-D74" id="xSc-Kk-tKG"/>
                             <outlet property="delegate" destination="yqC-AT-D74" id="fYy-zx-98T"/>
@@ -120,21 +100,11 @@
         <!--Human TraffickingTVC-->
         <scene sceneID="hwh-op-BCC">
             <objects>
-                <tableViewController storyboardIdentifier="HumanTraffickingTVC" id="exq-oT-wY0" customClass="HumanTraffickingTVC" customModule="Migrant_Handbook" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="HumanTraffickingTVC" id="exq-oT-wY0" customClass="HumanTraffickingTVC" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="tny-CI-Hdc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="R0Y-Mu-bXK">
-                                <rect key="frame" x="0.0" y="28" width="414" height="43.666667938232422"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="R0Y-Mu-bXK" id="p7J-fo-b4c">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.666667938232422"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
                         <connections>
                             <outlet property="dataSource" destination="exq-oT-wY0" id="dl7-HE-2Xy"/>
                             <outlet property="delegate" destination="exq-oT-wY0" id="L3M-8Z-laW"/>
@@ -148,7 +118,7 @@
         <!--Embassies DetailTVC-->
         <scene sceneID="0Ea-FC-ytp">
             <objects>
-                <tableViewController storyboardIdentifier="EmbassiesDetailTVC" id="5p1-gO-aX2" customClass="EmbassiesDetailTVC" customModule="Migrant_Handbook" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="EmbassiesDetailTVC" id="5p1-gO-aX2" customClass="EmbassiesDetailTVC" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="82t-hS-NMg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -166,21 +136,11 @@
         <!--EmbassiesTVC-->
         <scene sceneID="hiH-pl-Uko">
             <objects>
-                <tableViewController storyboardIdentifier="EmbassiesTVC" id="jmg-yJ-zfh" customClass="EmbassiesTVC" customModule="Migrant_Handbook" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="EmbassiesTVC" id="jmg-yJ-zfh" customClass="EmbassiesTVC" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="hds-3X-YP4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="rje-P6-ivd">
-                                <rect key="frame" x="0.0" y="28" width="414" height="43.666667938232422"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rje-P6-ivd" id="YTq-9g-jYl">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.666667938232422"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
                         <connections>
                             <outlet property="dataSource" destination="jmg-yJ-zfh" id="7Ki-7L-818"/>
                             <outlet property="delegate" destination="jmg-yJ-zfh" id="6iV-gh-Pgw"/>
@@ -194,7 +154,7 @@
         <!--Rules Of Stay In Other CountriesTVC-->
         <scene sceneID="8aq-fk-n1B">
             <objects>
-                <tableViewController storyboardIdentifier="RulesOfStayInOtherCountriesTVC" id="VPg-Pz-6Dt" customClass="RulesOfStayInOtherCountriesTVC" customModule="Migrant_Handbook" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="RulesOfStayInOtherCountriesTVC" id="VPg-Pz-6Dt" customClass="RulesOfStayInOtherCountriesTVC" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="FAb-1H-Fc5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -223,7 +183,7 @@
                         <sections>
                             <tableViewSection id="N5O-1k-0yX">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="56" id="C8v-Kg-eKq" customClass="RulesOfOtherCountriesCell" customModule="Migrant_Handbook" customModuleProvider="target">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="56" id="C8v-Kg-eKq" customClass="RulesOfOtherCountriesCell" customModule="Справочник_мигранта" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="64" width="414" height="56"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="C8v-Kg-eKq" id="Woc-JM-G30">
@@ -275,7 +235,7 @@
                                         </tableViewCellContentView>
                                         <viewLayoutGuide key="safeArea" id="k8j-rU-lB3"/>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="56" id="vz6-wM-MPK" customClass="RulesOfOtherCountriesCell" customModule="Migrant_Handbook" customModuleProvider="target">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="56" id="vz6-wM-MPK" customClass="RulesOfOtherCountriesCell" customModule="Справочник_мигранта" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="120" width="414" height="56"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vz6-wM-MPK" id="S4k-XP-C9I">
@@ -327,7 +287,7 @@
                                         </tableViewCellContentView>
                                         <viewLayoutGuide key="safeArea" id="Qd1-bq-PEO"/>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="56" id="gyi-22-BaC" customClass="RulesOfOtherCountriesCell" customModule="Migrant_Handbook" customModuleProvider="target">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="56" id="gyi-22-BaC" customClass="RulesOfOtherCountriesCell" customModule="Справочник_мигранта" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="176" width="414" height="56"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gyi-22-BaC" id="wZc-EC-rc0">
@@ -379,7 +339,7 @@
                                         </tableViewCellContentView>
                                         <viewLayoutGuide key="safeArea" id="qqm-9I-H3Q"/>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="56" id="aGW-RZ-8Ki" customClass="RulesOfOtherCountriesCell" customModule="Migrant_Handbook" customModuleProvider="target">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="56" id="aGW-RZ-8Ki" customClass="RulesOfOtherCountriesCell" customModule="Справочник_мигранта" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="232" width="414" height="56"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aGW-RZ-8Ki" id="oMH-1F-ysz">
@@ -447,7 +407,7 @@
         <!--Hot Lines DetailVC-->
         <scene sceneID="g6c-7e-hap">
             <objects>
-                <viewController storyboardIdentifier="HotLinesDetailVC" id="DjJ-Mv-Jak" customClass="HotLinesDetailVC" customModule="Migrant_Handbook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HotLinesDetailVC" id="DjJ-Mv-Jak" customClass="HotLinesDetailVC" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="B5q-Rh-iFo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -540,7 +500,7 @@
         <!--Health And MigrationTVC-->
         <scene sceneID="zxZ-Qv-7SP">
             <objects>
-                <tableViewController storyboardIdentifier="HealthAndMigrationTVC" id="zHa-2a-Ie9" customClass="HealthAndMigrationTVC" customModule="Migrant_Handbook" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="HealthAndMigrationTVC" id="zHa-2a-Ie9" customClass="HealthAndMigrationTVC" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Vla-Ya-9ct">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -548,52 +508,8 @@
                         <sections>
                             <tableViewSection id="5Sl-Vy-zyQ">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="75" id="weR-RU-psN">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="75"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="weR-RU-psN" id="g47-LT-XCf">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="75"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tUa-ve-ff1">
-                                                    <rect key="frame" x="16" y="16" width="382" height="43"/>
-                                                    <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Covid-19" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YFK-0C-xRg">
-                                                            <rect key="frame" x="16" y="11" width="350" height="21"/>
-                                                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
-                                                            <color key="textColor" name="BlueColor"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                    </subviews>
-                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="trailing" secondItem="YFK-0C-xRg" secondAttribute="trailing" constant="16" id="4YP-Xx-yYU"/>
-                                                        <constraint firstItem="YFK-0C-xRg" firstAttribute="centerY" secondItem="tUa-ve-ff1" secondAttribute="centerY" id="d5X-cA-rLm"/>
-                                                        <constraint firstItem="YFK-0C-xRg" firstAttribute="leading" secondItem="tUa-ve-ff1" secondAttribute="leading" constant="16" id="il0-pw-6Ku"/>
-                                                    </constraints>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                            <real key="value" value="8"/>
-                                                        </userDefinedRuntimeAttribute>
-                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                            <real key="value" value="1"/>
-                                                        </userDefinedRuntimeAttribute>
-                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                            <color key="value" name="BlueColor"/>
-                                                        </userDefinedRuntimeAttribute>
-                                                    </userDefinedRuntimeAttributes>
-                                                </view>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="tUa-ve-ff1" secondAttribute="bottom" constant="16" id="JPO-Bu-aQR"/>
-                                                <constraint firstAttribute="trailing" secondItem="tUa-ve-ff1" secondAttribute="trailing" constant="16" id="ll4-61-2ae"/>
-                                                <constraint firstItem="tUa-ve-ff1" firstAttribute="leading" secondItem="g47-LT-XCf" secondAttribute="leading" constant="16" id="otP-rd-GiX"/>
-                                                <constraint firstItem="tUa-ve-ff1" firstAttribute="top" secondItem="g47-LT-XCf" secondAttribute="top" constant="16" id="qth-EB-FpE"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="75" id="NEd-ac-eWL">
-                                        <rect key="frame" x="0.0" y="103" width="414" height="75"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="NEd-ac-eWL" id="3Ls-ID-Dyi">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="75"/>
@@ -640,7 +556,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="75" id="feS-Qi-zkQ">
-                                        <rect key="frame" x="0.0" y="178" width="414" height="75"/>
+                                        <rect key="frame" x="0.0" y="103" width="414" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="feS-Qi-zkQ" id="d5W-xj-pcv">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="75"/>
@@ -699,84 +615,6 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="1579.6875"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="LT7-bN-YQj">
-            <objects>
-                <viewController id="zdN-V9-wtC" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="QEm-WS-h0g">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BxI-up-k87">
-                                <rect key="frame" x="16" y="60" width="382" height="120"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="grp-n3-6NZ">
-                                        <rect key="frame" x="16" y="16" width="30" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="DcN-7e-p6Q"/>
-                                            <constraint firstAttribute="width" constant="30" id="TpZ-EI-nWK"/>
-                                        </constraints>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Список НКО, работающих " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WLd-u0-wYB" userLabel="Список НКО, работающих">
-                                        <rect key="frame" x="54" y="16" width="312" height="50"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="WLd-u0-wYB.text"/>
-                                        </userDefinedRuntimeAttributes>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qvL-OZ-Ek5">
-                                        <rect key="frame" x="62" y="74" width="304" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="QZW-Zs-U7b"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
-                                        <state key="normal" title="Подробнее">
-                                            <color key="titleColor" name="BlueColor"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="8"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                <real key="value" value="1"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                <color key="value" name="BlueColor"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="qvL-OZ-Ek5.normalTitle"/>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstItem="grp-n3-6NZ" firstAttribute="top" secondItem="BxI-up-k87" secondAttribute="top" constant="16" id="9ck-eI-Pmn"/>
-                                    <constraint firstAttribute="trailing" secondItem="WLd-u0-wYB" secondAttribute="trailing" constant="16" id="BEi-1l-zTc"/>
-                                    <constraint firstAttribute="trailing" secondItem="qvL-OZ-Ek5" secondAttribute="trailing" constant="16" id="DUu-xJ-aQC"/>
-                                    <constraint firstItem="WLd-u0-wYB" firstAttribute="leading" secondItem="grp-n3-6NZ" secondAttribute="trailing" constant="8" id="FjI-sb-Fbg"/>
-                                    <constraint firstAttribute="bottom" secondItem="qvL-OZ-Ek5" secondAttribute="bottom" constant="16" id="Frl-9u-1iK"/>
-                                    <constraint firstItem="qvL-OZ-Ek5" firstAttribute="top" secondItem="WLd-u0-wYB" secondAttribute="bottom" constant="8" id="LMC-AJ-H2E"/>
-                                    <constraint firstAttribute="height" constant="120" id="SyD-vh-8p8"/>
-                                    <constraint firstItem="WLd-u0-wYB" firstAttribute="top" secondItem="BxI-up-k87" secondAttribute="top" constant="16" id="bre-LL-mt3"/>
-                                    <constraint firstItem="qvL-OZ-Ek5" firstAttribute="leading" secondItem="grp-n3-6NZ" secondAttribute="trailing" constant="16" id="l7S-3G-8t0"/>
-                                    <constraint firstItem="grp-n3-6NZ" firstAttribute="leading" secondItem="BxI-up-k87" secondAttribute="leading" constant="16" id="lEw-k3-DIv"/>
-                                </constraints>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="a18-Mx-fwu" firstAttribute="trailing" secondItem="BxI-up-k87" secondAttribute="trailing" constant="16" id="Czy-UN-L3C"/>
-                            <constraint firstItem="BxI-up-k87" firstAttribute="top" secondItem="a18-Mx-fwu" secondAttribute="top" constant="16" id="HwT-iA-lcr"/>
-                            <constraint firstItem="BxI-up-k87" firstAttribute="leading" secondItem="a18-Mx-fwu" secondAttribute="leading" constant="16" id="W6w-B9-onx"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="a18-Mx-fwu"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cxx-s9-xAo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1048" y="1580"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="g4p-dV-le0">
             <objects>
@@ -798,7 +636,7 @@
         <!--Web View Horizontal Scrolling-->
         <scene sceneID="Nf6-Qt-eHP">
             <objects>
-                <viewController storyboardIdentifier="WebViewHorizontalScrolling" id="v6L-Lo-wOk" customClass="WebViewHorizontalScrolling" customModule="Migrant_Handbook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WebViewHorizontalScrolling" id="v6L-Lo-wOk" customClass="WebViewHorizontalScrolling" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HR3-fV-Dc8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -847,7 +685,7 @@
         <!--About AppTVC-->
         <scene sceneID="BDD-hL-QGa">
             <objects>
-                <tableViewController storyboardIdentifier="AboutAppTVC" id="COM-fu-9dx" customClass="AboutAppTVC" customModule="Migrant_Handbook" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="AboutAppTVC" id="COM-fu-9dx" customClass="AboutAppTVC" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="SxI-SU-jsr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1097,7 +935,7 @@
         <!--Hot Lines DetailVC-->
         <scene sceneID="zWd-CK-y48">
             <objects>
-                <viewController storyboardIdentifier="KGHotLinesDetailVC" id="hwW-CR-CO8" customClass="KGHotLinesDetailVC" customModule="Migrant_Handbook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="KGHotLinesDetailVC" id="hwW-CR-CO8" customClass="KGHotLinesDetailVC" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mj0-zB-zkx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1232,7 +1070,7 @@
         <!--Hot LinesVC-->
         <scene sceneID="u4S-S1-PCy">
             <objects>
-                <viewController storyboardIdentifier="HotLinesVC" id="Bv4-Fn-Yjf" customClass="HotLinesVC" customModule="Migrant_Handbook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HotLinesVC" id="Bv4-Fn-Yjf" customClass="HotLinesVC" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ADe-Eo-9iL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1327,7 +1165,7 @@
         <!--MapVC-->
         <scene sceneID="9uv-mB-FDo">
             <objects>
-                <viewController storyboardIdentifier="MapVC" id="Lwt-zG-Fwq" customClass="MapVC" customModule="Migrant_Handbook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MapVC" id="Lwt-zG-Fwq" customClass="MapVC" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gmw-MX-hOL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1513,7 +1351,7 @@
         <!--Poling Place DetailVC-->
         <scene sceneID="RPw-il-vTg">
             <objects>
-                <viewController storyboardIdentifier="PolingPlaceDetailVC" id="8NE-GP-nTC" customClass="PolingPlaceDetailVC" customModule="Migrant_Handbook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PolingPlaceDetailVC" id="8NE-GP-nTC" customClass="PolingPlaceDetailVC" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gLP-rZ-axB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

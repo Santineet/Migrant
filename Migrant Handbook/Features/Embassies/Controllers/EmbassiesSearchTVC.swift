@@ -44,9 +44,7 @@ class EmbassiesSearchTVC: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if let delegate = self.delegate {
-            delegate.embassiesSearchDelegate(self, didSelectEmbassies: self.embassies[indexPath.row])
-        }
+        delegate?.embassiesSearchDelegate(self, didSelectEmbassies: self.embassies[indexPath.row])
     }
 }
 extension EmbassiesSearchTVC: UISearchResultsUpdating {
