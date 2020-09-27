@@ -107,10 +107,15 @@ class EmbassiesDetailTVC: UITableViewController {
     }
     
     private func openWebPage(url: String) {
-        guard let webURL = URL(string: url) else {
-            return
+        var httpUrl = url
+        if !url.contains("http://") {
+            httpUrl = "http://" + url
         }
-        UIApplication.shared.open(webURL, options: [:], completionHandler: nil)
+        if let webURL = URL(string: httpUrl), UIApplication.shared.canOpenURL(webURL) {
+            UIApplication.shared.open(webURL)
+        } else if let webURL = URL(string: "https://www.google.com.au/search?client=safari&channel=ipad_bm&source=hp&ei=PSrkWqHVDYrc8QXp85zoAw&q=\(httpUrl)&oq=example&gs_l=mobile-gws-wiz-hp.3..0l5.58620.59786..60164...0....334.1724.0j2j3j2..........1.......3..41j0i131.SurD5PmVspw%3D") {
+            UIApplication.shared.open(webURL)
+        }
     }
     
     private func getTableViewCell(indexPath: IndexPath, value: String, imageName: String) -> UITableViewCell {

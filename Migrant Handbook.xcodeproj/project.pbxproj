@@ -24,6 +24,7 @@
 		1A93091A250BE49C00997B96 /* HumanTraffickingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A930919250BE49C00997B96 /* HumanTraffickingHeaderView.swift */; };
 		1A930920250BE85B00997B96 /* ListOfNKOCountryTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93091F250BE85B00997B96 /* ListOfNKOCountryTVC.swift */; };
 		1A930922250BECF800997B96 /* RegionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A930921250BECF800997B96 /* RegionModel.swift */; };
+		1ADA8022251F8CC4006ACAA6 /* AboutTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA8021251F8CC4006ACAA6 /* AboutTVC.swift */; };
 		1AE5E8D3250F12A8003AE48A /* EmbassiesDetailTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5E8D1250F12A8003AE48A /* EmbassiesDetailTVCell.swift */; };
 		1AE5E8D4250F12A8003AE48A /* EmbassiesDetailTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AE5E8D2250F12A8003AE48A /* EmbassiesDetailTVCell.xib */; };
 		1AE5E8D6250F4B69003AE48A /* HotLineCountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5E8D5250F4B69003AE48A /* HotLineCountryModel.swift */; };
@@ -443,6 +444,7 @@
 		1A930919250BE49C00997B96 /* HumanTraffickingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanTraffickingHeaderView.swift; sourceTree = "<group>"; };
 		1A93091F250BE85B00997B96 /* ListOfNKOCountryTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfNKOCountryTVC.swift; sourceTree = "<group>"; };
 		1A930921250BECF800997B96 /* RegionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionModel.swift; sourceTree = "<group>"; };
+		1ADA8021251F8CC4006ACAA6 /* AboutTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTVC.swift; sourceTree = "<group>"; };
 		1AE5E8D1250F12A8003AE48A /* EmbassiesDetailTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbassiesDetailTVCell.swift; sourceTree = "<group>"; };
 		1AE5E8D2250F12A8003AE48A /* EmbassiesDetailTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmbassiesDetailTVCell.xib; sourceTree = "<group>"; };
 		1AE5E8D5250F4B69003AE48A /* HotLineCountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotLineCountryModel.swift; sourceTree = "<group>"; };
@@ -869,6 +871,7 @@
 			isa = PBXGroup;
 			children = (
 				1A4DD9382509D75A0040F209 /* AboutAppTVC.swift */,
+				1ADA8021251F8CC4006ACAA6 /* AboutTVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -2078,6 +2081,7 @@
 				2E1AA921250F6D25008F02F5 /* PolingPlaceResultModel.swift in Sources */,
 				1AE5E8D6250F4B69003AE48A /* HotLineCountryModel.swift in Sources */,
 				C9A99509250873F000B2C5D0 /* HotLinesModel.swift in Sources */,
+				1ADA8022251F8CC4006ACAA6 /* AboutTVC.swift in Sources */,
 				1A4DD93E2509F6820040F209 /* EmbassiesTVC.swift in Sources */,
 				1AEED8FE2511EB78007BF3D0 /* WebViewHorizontalScrolling.swift in Sources */,
 				2E413AFB24F5605F0064330B /* Parser.swift in Sources */,

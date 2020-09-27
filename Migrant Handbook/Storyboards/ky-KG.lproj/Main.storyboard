@@ -11,7 +11,7 @@
         <!--HomepageVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="HomepageVC" id="BYZ-38-t0r" customClass="HomepageVC" customModule="Migrant_Handbook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomepageVC" id="BYZ-38-t0r" customClass="HomepageVC" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -49,7 +49,7 @@
         <!--DetailTVC-->
         <scene sceneID="T8Y-P1-bxt">
             <objects>
-                <tableViewController storyboardIdentifier="NKODetailTVC" id="sMt-Ql-TmL" customClass="NKODetailTVC" customModule="Migrant_Handbook" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="NKODetailTVC" id="sMt-Ql-TmL" customClass="NKODetailTVC" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="sRo-MV-Tcy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -77,7 +77,7 @@
         <!--Human Trafficking DetailVC-->
         <scene sceneID="bIh-YS-XCN">
             <objects>
-                <viewController storyboardIdentifier="HumanTraffickingDetailVC" id="bGg-Wj-1wl" customClass="HumanTraffickingDetailVC" customModule="Migrant_Handbook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HumanTraffickingDetailVC" id="bGg-Wj-1wl" customClass="HumanTraffickingDetailVC" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nRi-tv-RiO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -92,7 +92,7 @@
         <!--List OfNKO CountryTVC-->
         <scene sceneID="3SY-aC-AvQ">
             <objects>
-                <tableViewController storyboardIdentifier="ListOfNKOCountryTVC" id="yqC-AT-D74" customClass="ListOfNKOCountryTVC" customModule="Migrant_Handbook" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="ListOfNKOCountryTVC" id="yqC-AT-D74" customClass="ListOfNKOCountryTVC" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="uUt-bb-pIO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -120,7 +120,7 @@
         <!--Human TraffickingTVC-->
         <scene sceneID="hwh-op-BCC">
             <objects>
-                <tableViewController storyboardIdentifier="HumanTraffickingTVC" id="exq-oT-wY0" customClass="HumanTraffickingTVC" customModule="Migrant_Handbook" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="HumanTraffickingTVC" id="exq-oT-wY0" customClass="HumanTraffickingTVC" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="tny-CI-Hdc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -148,7 +148,7 @@
         <!--Embassies DetailTVC-->
         <scene sceneID="0Ea-FC-ytp">
             <objects>
-                <tableViewController storyboardIdentifier="EmbassiesDetailTVC" id="5p1-gO-aX2" customClass="EmbassiesDetailTVC" customModule="Migrant_Handbook" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="EmbassiesDetailTVC" id="5p1-gO-aX2" customClass="EmbassiesDetailTVC" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="82t-hS-NMg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -166,7 +166,7 @@
         <!--EmbassiesTVC-->
         <scene sceneID="hiH-pl-Uko">
             <objects>
-                <tableViewController storyboardIdentifier="EmbassiesTVC" id="jmg-yJ-zfh" customClass="EmbassiesTVC" customModule="Migrant_Handbook" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="EmbassiesTVC" id="jmg-yJ-zfh" customClass="EmbassiesTVC" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="hds-3X-YP4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -194,7 +194,7 @@
         <!--Rules Of Stay In Other CountriesTVC-->
         <scene sceneID="8aq-fk-n1B">
             <objects>
-                <tableViewController storyboardIdentifier="RulesOfStayInOtherCountriesTVC" id="VPg-Pz-6Dt" customClass="RulesOfStayInOtherCountriesTVC" customModule="Migrant_Handbook" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="RulesOfStayInOtherCountriesTVC" id="VPg-Pz-6Dt" customClass="RulesOfStayInOtherCountriesTVC" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="FAb-1H-Fc5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -223,7 +223,7 @@
                         <sections>
                             <tableViewSection id="N5O-1k-0yX">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="56" id="C8v-Kg-eKq" customClass="RulesOfOtherCountriesCell" customModule="Migrant_Handbook" customModuleProvider="target">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="56" id="C8v-Kg-eKq" customClass="RulesOfOtherCountriesCell" customModule="Справочник_мигранта" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="64" width="414" height="56"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="C8v-Kg-eKq" id="Woc-JM-G30">
@@ -275,7 +275,7 @@
                                         </tableViewCellContentView>
                                         <viewLayoutGuide key="safeArea" id="k8j-rU-lB3"/>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="56" id="vz6-wM-MPK" customClass="RulesOfOtherCountriesCell" customModule="Migrant_Handbook" customModuleProvider="target">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="56" id="vz6-wM-MPK" customClass="RulesOfOtherCountriesCell" customModule="Справочник_мигранта" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="120" width="414" height="56"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vz6-wM-MPK" id="S4k-XP-C9I">
@@ -327,7 +327,7 @@
                                         </tableViewCellContentView>
                                         <viewLayoutGuide key="safeArea" id="Qd1-bq-PEO"/>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="56" id="gyi-22-BaC" customClass="RulesOfOtherCountriesCell" customModule="Migrant_Handbook" customModuleProvider="target">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="56" id="gyi-22-BaC" customClass="RulesOfOtherCountriesCell" customModule="Справочник_мигранта" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="176" width="414" height="56"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gyi-22-BaC" id="wZc-EC-rc0">
@@ -379,7 +379,7 @@
                                         </tableViewCellContentView>
                                         <viewLayoutGuide key="safeArea" id="qqm-9I-H3Q"/>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="56" id="aGW-RZ-8Ki" customClass="RulesOfOtherCountriesCell" customModule="Migrant_Handbook" customModuleProvider="target">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="56" id="aGW-RZ-8Ki" customClass="RulesOfOtherCountriesCell" customModule="Справочник_мигранта" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="232" width="414" height="56"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aGW-RZ-8Ki" id="oMH-1F-ysz">
@@ -447,7 +447,7 @@
         <!--Hot Lines DetailVC-->
         <scene sceneID="g6c-7e-hap">
             <objects>
-                <viewController storyboardIdentifier="HotLinesDetailVC" id="DjJ-Mv-Jak" customClass="HotLinesDetailVC" customModule="Migrant_Handbook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HotLinesDetailVC" id="DjJ-Mv-Jak" customClass="HotLinesDetailVC" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="B5q-Rh-iFo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -540,7 +540,7 @@
         <!--Health And MigrationTVC-->
         <scene sceneID="zxZ-Qv-7SP">
             <objects>
-                <tableViewController storyboardIdentifier="HealthAndMigrationTVC" id="zHa-2a-Ie9" customClass="HealthAndMigrationTVC" customModule="Migrant_Handbook" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="HealthAndMigrationTVC" id="zHa-2a-Ie9" customClass="HealthAndMigrationTVC" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Vla-Ya-9ct">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -798,7 +798,7 @@
         <!--Web View Horizontal Scrolling-->
         <scene sceneID="Nf6-Qt-eHP">
             <objects>
-                <viewController storyboardIdentifier="WebViewHorizontalScrolling" id="v6L-Lo-wOk" customClass="WebViewHorizontalScrolling" customModule="Migrant_Handbook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WebViewHorizontalScrolling" id="v6L-Lo-wOk" customClass="WebViewHorizontalScrolling" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HR3-fV-Dc8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -847,7 +847,7 @@
         <!--About AppTVC-->
         <scene sceneID="BDD-hL-QGa">
             <objects>
-                <tableViewController storyboardIdentifier="AboutAppTVC" id="COM-fu-9dx" customClass="AboutAppTVC" customModule="Migrant_Handbook" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="AboutAppTVC" id="COM-fu-9dx" customClass="AboutAppTVC" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="SxI-SU-jsr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1097,7 +1097,7 @@
         <!--Hot Lines DetailVC-->
         <scene sceneID="zWd-CK-y48">
             <objects>
-                <viewController storyboardIdentifier="KGHotLinesDetailVC" id="hwW-CR-CO8" customClass="KGHotLinesDetailVC" customModule="Migrant_Handbook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="KGHotLinesDetailVC" id="hwW-CR-CO8" customClass="KGHotLinesDetailVC" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mj0-zB-zkx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1232,7 +1232,7 @@
         <!--Hot LinesVC-->
         <scene sceneID="u4S-S1-PCy">
             <objects>
-                <viewController storyboardIdentifier="HotLinesVC" id="Bv4-Fn-Yjf" customClass="HotLinesVC" customModule="Migrant_Handbook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HotLinesVC" id="Bv4-Fn-Yjf" customClass="HotLinesVC" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ADe-Eo-9iL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1327,7 +1327,7 @@
         <!--MapVC-->
         <scene sceneID="9uv-mB-FDo">
             <objects>
-                <viewController storyboardIdentifier="MapVC" id="Lwt-zG-Fwq" customClass="MapVC" customModule="Migrant_Handbook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MapVC" id="Lwt-zG-Fwq" customClass="MapVC" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gmw-MX-hOL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1513,7 +1513,7 @@
         <!--Poling Place DetailVC-->
         <scene sceneID="RPw-il-vTg">
             <objects>
-                <viewController storyboardIdentifier="PolingPlaceDetailVC" id="8NE-GP-nTC" customClass="PolingPlaceDetailVC" customModule="Migrant_Handbook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PolingPlaceDetailVC" id="8NE-GP-nTC" customClass="PolingPlaceDetailVC" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gLP-rZ-axB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1684,12 +1684,210 @@
             </objects>
             <point key="canvasLocation" x="1826" y="873"/>
         </scene>
+        <!--About ProjectTVC-->
+        <scene sceneID="UyY-11-Hyn">
+            <objects>
+                <tableViewController storyboardIdentifier="AboutProjectTVC" id="Cad-PF-gWC" customClass="AboutProjectTVC" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="nzp-4o-JbE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <sections>
+                            <tableViewSection id="Y0F-X4-k3s">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="1464" id="Orf-eU-fFP">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="1464"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Orf-eU-fFP" id="jQP-m1-c3o">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="1464"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="y8N-na-9Bd">
+                                                    <rect key="frame" x="16" y="16" width="382" height="56"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IOM" translatesAutoresizingMaskIntoConstraints="NO" id="Ibw-Eq-Xk5">
+                                                            <rect key="frame" x="0.0" y="0.0" width="191" height="56"/>
+                                                        </imageView>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="goverment" translatesAutoresizingMaskIntoConstraints="NO" id="xd4-cf-Ffq">
+                                                            <rect key="frame" x="191" y="0.0" width="191" height="56"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="56" id="sGg-8p-VTs"/>
+                                                    </constraints>
+                                                </stackView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdx-8e-I1a">
+                                                    <rect key="frame" x="15" y="84" width="379" height="100.33333333333331"/>
+                                                    <string key="text">Мобильное приложение разработано в рамках программной деятельности Международной организации по миграции в партнерстве с Государственной службой миграции при Правительстве Кыргызской Республики при поддержке:</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="app_about_description"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Правительства Германии" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zTd-r2-egO">
+                                                    <rect key="frame" x="15" y="204.33333333333334" width="192.66666666666666" height="19.333333333333343"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.25098039220000001" green="0.40000000000000002" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="germany_goverment"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="german_coopertaion" translatesAutoresizingMaskIntoConstraints="NO" id="gBH-ex-OBY">
+                                                    <rect key="frame" x="99.666666666666686" y="257.66666666666669" width="215" height="117"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="117" id="N0f-qy-EjY"/>
+                                                        <constraint firstAttribute="width" constant="215" id="dUQ-hW-Jh2"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Офиса по мониторингу и борьбе с торговлей людьми Государственного департамента США " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mHE-8d-Jwo">
+                                                    <rect key="frame" x="15" y="398.66666666666669" width="356.33333333333331" height="38.333333333333314"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.25098039220000001" green="0.40000000000000002" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="iom"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IOM_large" translatesAutoresizingMaskIntoConstraints="NO" id="ihx-rR-6uK">
+                                                    <rect key="frame" x="115" y="466" width="184" height="115"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="115" id="PaZ-Yf-1Jk"/>
+                                                        <constraint firstAttribute="width" constant="184" id="TuM-1Y-ANp"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Министерства иностранных дел Норвегии" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TFK-Wf-bgC">
+                                                    <rect key="frame" x="15" y="623" width="323.33333333333331" height="19.333333333333371"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.25098039220000001" green="0.40000000000000002" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="norvergian"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="norvegian" translatesAutoresizingMaskIntoConstraints="NO" id="iHE-Iy-Pg2">
+                                                    <rect key="frame" x="104.66666666666669" y="674.33333333333337" width="205" height="93"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="205" id="CwW-Yb-3hN"/>
+                                                        <constraint firstAttribute="height" constant="93" id="VPM-dn-p4L"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Правительства Швейцарии" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JXQ-hP-NzW">
+                                                    <rect key="frame" x="15" y="823.33333333333337" width="206.66666666666666" height="19.333333333333371"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.25098039220000001" green="0.40000000000000002" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="schweizirian"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shweizer" translatesAutoresizingMaskIntoConstraints="NO" id="AsI-2q-Ucs">
+                                                    <rect key="frame" x="103" y="882.66666666666663" width="208" height="94"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="94" id="7hV-Ln-IIg"/>
+                                                        <constraint firstAttribute="width" constant="208" id="hWs-EC-8iJ"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Агентства США по международному развитию (USAID)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7w1-ms-yp2">
+                                                    <rect key="frame" x="15" y="1000.6666666666666" width="362.33333333333331" height="38.333333333333371"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.25098039220000001" green="0.40000000000000002" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="usaid"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="usaid" translatesAutoresizingMaskIntoConstraints="NO" id="gf7-uB-P4Q">
+                                                    <rect key="frame" x="81.666666666666686" y="1069" width="251" height="114"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="251" id="ECE-eW-q16"/>
+                                                        <constraint firstAttribute="height" constant="114" id="Gh1-pC-Ae1"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Программы развития Организации Объединенных Наций" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oc1-2h-FCt">
+                                                    <rect key="frame" x="15" y="1207" width="273.66666666666669" height="38.333333333333258"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.25098039220000001" green="0.40000000000000002" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="undp"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="UNDP" translatesAutoresizingMaskIntoConstraints="NO" id="Fz8-gf-GDX">
+                                                    <rect key="frame" x="178.66666666666666" y="1277.3333333333333" width="57" height="113"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="57" id="Eeu-wE-yX2"/>
+                                                        <constraint firstAttribute="height" constant="113" id="aMG-lk-9lX"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="7w1-ms-yp2" firstAttribute="leading" secondItem="jQP-m1-c3o" secondAttribute="leading" constant="15" id="2PY-Qo-ihw"/>
+                                                <constraint firstItem="ihx-rR-6uK" firstAttribute="centerX" secondItem="jQP-m1-c3o" secondAttribute="centerX" id="68Y-Ru-UqX"/>
+                                                <constraint firstItem="TFK-Wf-bgC" firstAttribute="top" secondItem="ihx-rR-6uK" secondAttribute="bottom" constant="42" id="73O-IZ-Dwr"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="zTd-r2-egO" secondAttribute="trailing" symbolic="YES" id="75l-gq-CNb"/>
+                                                <constraint firstItem="JXQ-hP-NzW" firstAttribute="top" secondItem="iHE-Iy-Pg2" secondAttribute="bottom" constant="56" id="8dl-UX-05X"/>
+                                                <constraint firstItem="zTd-r2-egO" firstAttribute="leading" secondItem="jQP-m1-c3o" secondAttribute="leading" constant="15" id="BOP-ai-k0G"/>
+                                                <constraint firstItem="JXQ-hP-NzW" firstAttribute="leading" secondItem="jQP-m1-c3o" secondAttribute="leading" constant="15" id="Cxd-Iv-5o2"/>
+                                                <constraint firstItem="mHE-8d-Jwo" firstAttribute="leading" secondItem="jQP-m1-c3o" secondAttribute="leading" constant="15" id="Ffi-wu-JO0"/>
+                                                <constraint firstItem="gBH-ex-OBY" firstAttribute="centerX" secondItem="jQP-m1-c3o" secondAttribute="centerX" id="JQ7-AL-sOF"/>
+                                                <constraint firstItem="y8N-na-9Bd" firstAttribute="top" secondItem="jQP-m1-c3o" secondAttribute="top" constant="16" id="KLD-Ul-hAm"/>
+                                                <constraint firstItem="gf7-uB-P4Q" firstAttribute="centerX" secondItem="jQP-m1-c3o" secondAttribute="centerX" id="NXp-83-fSJ"/>
+                                                <constraint firstItem="iHE-Iy-Pg2" firstAttribute="centerX" secondItem="jQP-m1-c3o" secondAttribute="centerX" id="R7z-VN-BWm"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="TFK-Wf-bgC" secondAttribute="trailing" constant="20" symbolic="YES" id="RnI-cY-e8d"/>
+                                                <constraint firstAttribute="trailing" secondItem="y8N-na-9Bd" secondAttribute="trailing" constant="16" id="Som-0b-wQL"/>
+                                                <constraint firstItem="mHE-8d-Jwo" firstAttribute="top" secondItem="gBH-ex-OBY" secondAttribute="bottom" constant="24" id="T2R-1P-qDW"/>
+                                                <constraint firstItem="7w1-ms-yp2" firstAttribute="top" secondItem="AsI-2q-Ucs" secondAttribute="bottom" constant="24" id="TzX-yW-IGN"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="JXQ-hP-NzW" secondAttribute="trailing" symbolic="YES" id="UfM-gZ-XGE"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="mHE-8d-Jwo" secondAttribute="trailing" symbolic="YES" id="YRV-41-Anm"/>
+                                                <constraint firstItem="AsI-2q-Ucs" firstAttribute="centerX" secondItem="jQP-m1-c3o" secondAttribute="centerX" id="YVB-zl-5Hr"/>
+                                                <constraint firstItem="oc1-2h-FCt" firstAttribute="leading" secondItem="jQP-m1-c3o" secondAttribute="leading" constant="15" id="ZFe-Ma-gbL"/>
+                                                <constraint firstItem="Fz8-gf-GDX" firstAttribute="centerX" secondItem="jQP-m1-c3o" secondAttribute="centerX" id="ZHv-n4-Tk7"/>
+                                                <constraint firstItem="gdx-8e-I1a" firstAttribute="leading" secondItem="jQP-m1-c3o" secondAttribute="leading" constant="15" id="aVU-Oa-Kci"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="7w1-ms-yp2" secondAttribute="trailing" constant="20" symbolic="YES" id="bBK-dI-Zsl"/>
+                                                <constraint firstItem="y8N-na-9Bd" firstAttribute="leading" secondItem="jQP-m1-c3o" secondAttribute="leading" constant="16" id="bJ1-mc-nHQ"/>
+                                                <constraint firstItem="TFK-Wf-bgC" firstAttribute="leading" secondItem="jQP-m1-c3o" secondAttribute="leading" constant="15" id="dJo-Wh-exf"/>
+                                                <constraint firstItem="gf7-uB-P4Q" firstAttribute="top" secondItem="7w1-ms-yp2" secondAttribute="bottom" constant="30" id="ftj-0i-hri"/>
+                                                <constraint firstItem="zTd-r2-egO" firstAttribute="top" secondItem="gdx-8e-I1a" secondAttribute="bottom" constant="20" id="gO8-Xo-2Qr"/>
+                                                <constraint firstItem="ihx-rR-6uK" firstAttribute="top" secondItem="mHE-8d-Jwo" secondAttribute="bottom" constant="29" id="j9p-Wp-sGg"/>
+                                                <constraint firstItem="gBH-ex-OBY" firstAttribute="top" secondItem="zTd-r2-egO" secondAttribute="bottom" constant="34" id="kfM-4O-uyv"/>
+                                                <constraint firstAttribute="trailing" secondItem="gdx-8e-I1a" secondAttribute="trailing" constant="20" symbolic="YES" id="kfR-RN-x94"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="oc1-2h-FCt" secondAttribute="trailing" symbolic="YES" id="moQ-2y-6ac"/>
+                                                <constraint firstItem="oc1-2h-FCt" firstAttribute="top" secondItem="gf7-uB-P4Q" secondAttribute="bottom" constant="24" id="n11-hh-v8b"/>
+                                                <constraint firstItem="AsI-2q-Ucs" firstAttribute="top" secondItem="JXQ-hP-NzW" secondAttribute="bottom" constant="40" id="oat-KP-NCd"/>
+                                                <constraint firstItem="Fz8-gf-GDX" firstAttribute="top" secondItem="oc1-2h-FCt" secondAttribute="bottom" constant="32" id="sC7-2T-0NW"/>
+                                                <constraint firstItem="iHE-Iy-Pg2" firstAttribute="top" secondItem="TFK-Wf-bgC" secondAttribute="bottom" constant="32" id="syS-nN-MAM"/>
+                                                <constraint firstItem="gdx-8e-I1a" firstAttribute="top" secondItem="y8N-na-9Bd" secondAttribute="bottom" constant="12" id="taD-n9-LnZ"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <inset key="separatorInset" minX="10000" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="Cad-PF-gWC" id="oW8-GS-1pq"/>
+                            <outlet property="delegate" destination="Cad-PF-gWC" id="n3O-ys-PY5"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mMv-94-Kg3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2669.5652173913045" y="2278.7946428571427"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="IOM" width="145" height="49.666667938232422"/>
+        <image name="IOM_large" width="184" height="116.33333587646484"/>
+        <image name="UNDP" width="57" height="113"/>
         <image name="emblem_for_about" width="1538" height="770"/>
         <image name="fb" width="24" height="24"/>
         <image name="flag_kg" width="150" height="150"/>
         <image name="flag_usa" width="272" height="143"/>
+        <image name="german_coopertaion" width="215.33332824707031" height="116.66666412353516"/>
+        <image name="goverment" width="164" height="56"/>
         <image name="ic_chevron" width="16" height="24"/>
         <image name="ic_logo" width="482" height="528"/>
         <image name="kyrgyzstan_gerb" width="200" height="200"/>
@@ -1697,8 +1895,11 @@
         <image name="m_korea" width="256" height="256"/>
         <image name="m_oae" width="256" height="256"/>
         <image name="m_turkey" width="256" height="256"/>
+        <image name="norvegian" width="206" height="94"/>
         <image name="phone_icon_dark" width="24" height="24"/>
+        <image name="shweizer" width="207.66667175292969" height="93.666664123535156"/>
         <image name="tg" width="24" height="24"/>
+        <image name="usaid" width="252" height="113.66666412353516"/>
         <image name="usaid_logo" width="240" height="108.66666412353516"/>
         <image name="wame" width="24" height="24"/>
         <namedColor name="BlackTextColor">

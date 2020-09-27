@@ -22,14 +22,17 @@ class WebViewVC: UIViewController {
     public var content: String = "" {
         didSet {
             let htmlContent = content.replacingOccurrences(of: "file:///android_res/raw/", with: "\"")
-            let setHeightUsingCSS = "<html><body><p><font size=16><head><style type=\"text/css\"> img{ max-height: \(self.view.frame.height)px; max-width: \(self.view.frame.size.width)px; !important; width='100%' height='100%'} </style> </head><body> \(htmlContent) <style>img{display: inline;height: auto;max-width: 100%;}</style></body>"
-            
+            let setHeightUsingCSS = """
+            <head><style type=\"text/css\">img{ display:block;
+            width: 100%;
+            } </style> </head><p><font size=16><body> \(htmlContent) </body>
+            """
             DispatchQueue.main.async {
                 self.webView.loadHTMLString(setHeightUsingCSS, baseURL: Bundle.main.bundleURL)
             }
         }
     }
-    
+
     private let barButtonTitleText = LocalizationManager.sharedInstance.localizedStringForKey(key: "book", comment: "")
     
     override func viewDidLoad() {

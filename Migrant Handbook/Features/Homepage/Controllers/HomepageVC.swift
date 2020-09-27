@@ -156,7 +156,7 @@ extension HomepageVC: UICollectionViewDelegate, UICollectionViewDataSource {
             let healthAndMigrationTVC = UIStoryboard.createVC(controllerType: HealthAndMigrationTVC.self, storyboard: .main)
             navigationController?.pushViewController(healthAndMigrationTVC, animated: true)
         case .aboutProject:
-            let aboutProjectVC = UIStoryboard.createVC(controllerType: AboutAppTVC.self, storyboard: .main)
+            let aboutProjectVC = UIStoryboard.createVC(controllerType: AboutProjectTVC.self, storyboard: .main)
             navigationController?.pushViewController(aboutProjectVC, animated: true)
             break
         }

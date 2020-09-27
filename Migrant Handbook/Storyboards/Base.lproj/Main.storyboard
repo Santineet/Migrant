@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dZH-vP-KT6">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dZH-vP-KT6">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -932,6 +932,199 @@
             </objects>
             <point key="canvasLocation" x="-2704.347826086957" y="1581.6964285714284"/>
         </scene>
+        <!--About ProjectTVC-->
+        <scene sceneID="nwf-SB-gLU">
+            <objects>
+                <tableViewController storyboardIdentifier="AboutProjectTVC" id="98A-i4-dEK" customClass="AboutProjectTVC" customModule="Справочник_мигранта" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ApD-2F-hCL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <sections>
+                            <tableViewSection id="5wY-sw-ec1">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="1464" id="ulI-yX-YWR">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="1464"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ulI-yX-YWR" id="fqW-rL-DC4">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="1464"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="unN-xb-bfW">
+                                                    <rect key="frame" x="16" y="16" width="382" height="56"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IOM" translatesAutoresizingMaskIntoConstraints="NO" id="22p-ef-WTh">
+                                                            <rect key="frame" x="0.0" y="0.0" width="191" height="56"/>
+                                                        </imageView>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="goverment" translatesAutoresizingMaskIntoConstraints="NO" id="8fZ-5g-pzJ">
+                                                            <rect key="frame" x="191" y="0.0" width="191" height="56"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="56" id="w4L-iH-bAC"/>
+                                                    </constraints>
+                                                </stackView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pCP-cH-iCp">
+                                                    <rect key="frame" x="15" y="84" width="379" height="100.33333333333331"/>
+                                                    <string key="text">Мобильное приложение разработано в рамках программной деятельности Международной организации по миграции в партнерстве с Государственной службой миграции при Правительстве Кыргызской Республики при поддержке:</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="app_about_description"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Правительства Германии" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ocB-BD-LEb">
+                                                    <rect key="frame" x="15" y="204.33333333333334" width="192.66666666666666" height="19.333333333333343"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.25098039215686274" green="0.40000000000000002" blue="0.72156862745098038" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="germany_goverment"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="german_coopertaion" translatesAutoresizingMaskIntoConstraints="NO" id="nrq-Wg-WxR">
+                                                    <rect key="frame" x="99.666666666666686" y="257.66666666666669" width="215" height="117"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="117" id="AeF-vx-5Kf"/>
+                                                        <constraint firstAttribute="width" constant="215" id="hoP-XR-jLM"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Офиса по мониторингу и борьбе с торговлей людьми Государственного департамента США " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YpQ-10-INt">
+                                                    <rect key="frame" x="15" y="398.66666666666669" width="356.33333333333331" height="38.333333333333314"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.25098039220000001" green="0.40000000000000002" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="iom"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IOM_large" translatesAutoresizingMaskIntoConstraints="NO" id="bNS-CE-I9R">
+                                                    <rect key="frame" x="115" y="466" width="184" height="115"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="184" id="5WG-Cg-n3c"/>
+                                                        <constraint firstAttribute="height" constant="115" id="H8I-RY-tac"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Министерства иностранных дел Норвегии" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p6m-io-cH0">
+                                                    <rect key="frame" x="15" y="623" width="323.33333333333331" height="19.333333333333371"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.25098039220000001" green="0.40000000000000002" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="norvergian"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="norvegian" translatesAutoresizingMaskIntoConstraints="NO" id="NM8-am-FE7">
+                                                    <rect key="frame" x="104.66666666666669" y="674.33333333333337" width="205" height="93"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="205" id="vxB-x5-gfu"/>
+                                                        <constraint firstAttribute="height" constant="93" id="yFb-f8-bL5"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Правительства Швейцарии" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zF4-ht-tIh">
+                                                    <rect key="frame" x="15" y="823.33333333333337" width="206.66666666666666" height="19.333333333333371"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.25098039220000001" green="0.40000000000000002" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="schweizirian"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shweizer" translatesAutoresizingMaskIntoConstraints="NO" id="SQi-YT-iTM">
+                                                    <rect key="frame" x="103" y="882.66666666666663" width="208" height="94"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="94" id="8gc-r4-bKG"/>
+                                                        <constraint firstAttribute="width" constant="208" id="J3i-8N-EKJ"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Агентства США по международному развитию (USAID)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vPH-GI-Nmk">
+                                                    <rect key="frame" x="15" y="1000.6666666666666" width="362.33333333333331" height="38.333333333333371"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.25098039220000001" green="0.40000000000000002" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="usaid"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="usaid" translatesAutoresizingMaskIntoConstraints="NO" id="TmX-sw-hMi">
+                                                    <rect key="frame" x="81.666666666666686" y="1069" width="251" height="114"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="114" id="ROF-Za-pnc"/>
+                                                        <constraint firstAttribute="width" constant="251" id="j9p-cN-iUV"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Программы развития Организации Объединенных Наций" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nfP-O0-ZaX">
+                                                    <rect key="frame" x="15" y="1207" width="273.66666666666669" height="38.333333333333258"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.25098039220000001" green="0.40000000000000002" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="undp"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="UNDP" translatesAutoresizingMaskIntoConstraints="NO" id="pHY-8J-aZq">
+                                                    <rect key="frame" x="178.66666666666666" y="1277.3333333333333" width="57" height="113"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="57" id="G5f-dC-pkz"/>
+                                                        <constraint firstAttribute="height" constant="113" id="kiS-3k-DNM"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="vPH-GI-Nmk" firstAttribute="top" secondItem="SQi-YT-iTM" secondAttribute="bottom" constant="24" id="0dy-og-6VP"/>
+                                                <constraint firstItem="pCP-cH-iCp" firstAttribute="leading" secondItem="fqW-rL-DC4" secondAttribute="leading" constant="15" id="2qQ-iy-QAm"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="zF4-ht-tIh" secondAttribute="trailing" symbolic="YES" id="76T-d9-NfE"/>
+                                                <constraint firstAttribute="trailing" secondItem="pCP-cH-iCp" secondAttribute="trailing" constant="20" symbolic="YES" id="7PG-gg-Yg7"/>
+                                                <constraint firstItem="YpQ-10-INt" firstAttribute="top" secondItem="nrq-Wg-WxR" secondAttribute="bottom" constant="24" id="7fw-lC-2BZ"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="p6m-io-cH0" secondAttribute="trailing" constant="20" symbolic="YES" id="969-0f-yce"/>
+                                                <constraint firstItem="ocB-BD-LEb" firstAttribute="leading" secondItem="fqW-rL-DC4" secondAttribute="leading" constant="15" id="AAv-DY-wpz"/>
+                                                <constraint firstItem="pCP-cH-iCp" firstAttribute="top" secondItem="unN-xb-bfW" secondAttribute="bottom" constant="12" id="BdP-Vh-ZXA"/>
+                                                <constraint firstItem="NM8-am-FE7" firstAttribute="top" secondItem="p6m-io-cH0" secondAttribute="bottom" constant="32" id="Dy2-oa-MYl"/>
+                                                <constraint firstItem="nfP-O0-ZaX" firstAttribute="top" secondItem="TmX-sw-hMi" secondAttribute="bottom" constant="24" id="H79-Mu-7I0"/>
+                                                <constraint firstItem="YpQ-10-INt" firstAttribute="leading" secondItem="fqW-rL-DC4" secondAttribute="leading" constant="15" id="Jfy-Jb-9bx"/>
+                                                <constraint firstItem="unN-xb-bfW" firstAttribute="leading" secondItem="fqW-rL-DC4" secondAttribute="leading" constant="16" id="KpM-B0-D9t"/>
+                                                <constraint firstItem="zF4-ht-tIh" firstAttribute="top" secondItem="NM8-am-FE7" secondAttribute="bottom" constant="56" id="L0i-GY-hHo"/>
+                                                <constraint firstItem="bNS-CE-I9R" firstAttribute="centerX" secondItem="fqW-rL-DC4" secondAttribute="centerX" id="O8v-FT-pUb"/>
+                                                <constraint firstItem="p6m-io-cH0" firstAttribute="top" secondItem="bNS-CE-I9R" secondAttribute="bottom" constant="42" id="OlX-eI-H8x"/>
+                                                <constraint firstAttribute="trailing" secondItem="unN-xb-bfW" secondAttribute="trailing" constant="16" id="PRf-Xs-qdi"/>
+                                                <constraint firstItem="ocB-BD-LEb" firstAttribute="top" secondItem="pCP-cH-iCp" secondAttribute="bottom" constant="20" id="QIV-oW-SA1"/>
+                                                <constraint firstItem="pHY-8J-aZq" firstAttribute="top" secondItem="nfP-O0-ZaX" secondAttribute="bottom" constant="32" id="Rdh-Jb-CUG"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="nfP-O0-ZaX" secondAttribute="trailing" symbolic="YES" id="VIf-7t-Q5c"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="vPH-GI-Nmk" secondAttribute="trailing" constant="20" symbolic="YES" id="Vwn-eW-urk"/>
+                                                <constraint firstItem="vPH-GI-Nmk" firstAttribute="leading" secondItem="fqW-rL-DC4" secondAttribute="leading" constant="15" id="WVd-Ah-jV4"/>
+                                                <constraint firstItem="TmX-sw-hMi" firstAttribute="top" secondItem="vPH-GI-Nmk" secondAttribute="bottom" constant="30" id="c2s-Ew-p0d"/>
+                                                <constraint firstItem="SQi-YT-iTM" firstAttribute="top" secondItem="zF4-ht-tIh" secondAttribute="bottom" constant="40" id="eX6-x5-h6P"/>
+                                                <constraint firstItem="NM8-am-FE7" firstAttribute="centerX" secondItem="fqW-rL-DC4" secondAttribute="centerX" id="hPf-nR-h3f"/>
+                                                <constraint firstItem="nrq-Wg-WxR" firstAttribute="centerX" secondItem="fqW-rL-DC4" secondAttribute="centerX" id="iAx-2O-EIE"/>
+                                                <constraint firstItem="bNS-CE-I9R" firstAttribute="top" secondItem="YpQ-10-INt" secondAttribute="bottom" constant="29" id="ie6-DW-M6X"/>
+                                                <constraint firstItem="zF4-ht-tIh" firstAttribute="leading" secondItem="fqW-rL-DC4" secondAttribute="leading" constant="15" id="igd-KP-fVp"/>
+                                                <constraint firstItem="SQi-YT-iTM" firstAttribute="centerX" secondItem="fqW-rL-DC4" secondAttribute="centerX" id="inQ-m1-7Hx"/>
+                                                <constraint firstItem="p6m-io-cH0" firstAttribute="leading" secondItem="fqW-rL-DC4" secondAttribute="leading" constant="15" id="lbF-T9-ukO"/>
+                                                <constraint firstItem="nfP-O0-ZaX" firstAttribute="leading" secondItem="fqW-rL-DC4" secondAttribute="leading" constant="15" id="mTa-oZ-4BB"/>
+                                                <constraint firstItem="unN-xb-bfW" firstAttribute="top" secondItem="fqW-rL-DC4" secondAttribute="top" constant="16" id="q02-zN-C8Z"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="YpQ-10-INt" secondAttribute="trailing" symbolic="YES" id="rll-b4-kTg"/>
+                                                <constraint firstItem="pHY-8J-aZq" firstAttribute="centerX" secondItem="fqW-rL-DC4" secondAttribute="centerX" id="wZv-pY-ePg"/>
+                                                <constraint firstItem="TmX-sw-hMi" firstAttribute="centerX" secondItem="fqW-rL-DC4" secondAttribute="centerX" id="xLC-35-kMS"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ocB-BD-LEb" secondAttribute="trailing" symbolic="YES" id="ycU-7R-kX2"/>
+                                                <constraint firstItem="nrq-Wg-WxR" firstAttribute="top" secondItem="ocB-BD-LEb" secondAttribute="bottom" constant="34" id="yoI-UE-VDt"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <inset key="separatorInset" minX="10000" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="98A-i4-dEK" id="3If-Hw-s2o"/>
+                            <outlet property="delegate" destination="98A-i4-dEK" id="FVa-vj-6sp"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q56-N6-ErS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2669.5652173913045" y="2278.7946428571427"/>
+        </scene>
         <!--Hot Lines DetailVC-->
         <scene sceneID="zWd-CK-y48">
             <objects>
@@ -1524,10 +1717,15 @@
         </scene>
     </scenes>
     <resources>
+        <image name="IOM" width="145" height="49.666667938232422"/>
+        <image name="IOM_large" width="184" height="116.33333587646484"/>
+        <image name="UNDP" width="57" height="113"/>
         <image name="emblem_for_about" width="1538" height="770"/>
         <image name="fb" width="24" height="24"/>
         <image name="flag_kg" width="150" height="150"/>
         <image name="flag_usa" width="272" height="143"/>
+        <image name="german_coopertaion" width="215.33332824707031" height="116.66666412353516"/>
+        <image name="goverment" width="164" height="56"/>
         <image name="ic_chevron" width="16" height="24"/>
         <image name="ic_logo" width="482" height="528"/>
         <image name="kyrgyzstan_gerb" width="200" height="200"/>
@@ -1535,8 +1733,11 @@
         <image name="m_korea" width="256" height="256"/>
         <image name="m_oae" width="256" height="256"/>
         <image name="m_turkey" width="256" height="256"/>
+        <image name="norvegian" width="206" height="94"/>
         <image name="phone_icon_dark" width="24" height="24"/>
+        <image name="shweizer" width="207.66667175292969" height="93.666664123535156"/>
         <image name="tg" width="24" height="24"/>
+        <image name="usaid" width="252" height="113.66666412353516"/>
         <image name="usaid_logo" width="240" height="108.66666412353516"/>
         <image name="wame" width="24" height="24"/>
         <namedColor name="BlackTextColor">
