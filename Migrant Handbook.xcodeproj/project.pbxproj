@@ -39,6 +39,7 @@
 		1AEF0559250C80CE00C97F70 /* ListNKOTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF0557250C80CE00C97F70 /* ListNKOTVCell.swift */; };
 		1AEF055A250C80CE00C97F70 /* ListNKOTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AEF0558250C80CE00C97F70 /* ListNKOTVCell.xib */; };
 		1AF74F0A2514510B00788CDA /* Localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF74F092514510B00788CDA /* Localize.swift */; };
+		20DFADB3121CBE5829C734E7 /* Pods_Migrant_Handbook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D54C0A09AC63EF752648C0 /* Pods_Migrant_Handbook.framework */; };
 		2E1AA917250F6CB2008F02F5 /* PolingPlaceDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1AA916250F6CB2008F02F5 /* PolingPlaceDetailVC.swift */; };
 		2E1AA91A250F6CD9008F02F5 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1AA919250F6CD9008F02F5 /* MapViewModel.swift */; };
 		2E1AA91F250F6D25008F02F5 /* CountryResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1AA91B250F6D22008F02F5 /* CountryResultModel.swift */; };
@@ -417,7 +418,6 @@
 		C975140D2507C29100F26630 /* HotLinesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C975140C2507C29100F26630 /* HotLinesVC.swift */; };
 		C975140F2507C81600F26630 /* KgHotLinesDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C975140E2507C81600F26630 /* KgHotLinesDetailVC.swift */; };
 		C9A99509250873F000B2C5D0 /* HotLinesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A99508250873F000B2C5D0 /* HotLinesModel.swift */; };
-		DF0ABE3B4F2BEF42F660BCDD /* Pods_Migrant_Handbook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15E9724BF52B143A1950E3C /* Pods_Migrant_Handbook.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -836,9 +836,9 @@
 		2EFBBB8724F46F25002FE9D4 /* AppStoryboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoryboards.swift; sourceTree = "<group>"; };
 		2EFBBB8924F46F62002FE9D4 /* UIResponder + Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder + Helper.swift"; sourceTree = "<group>"; };
 		2EFBBB9824F5459F002FE9D4 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
-		8FF573E9DBAD9893CC97AB5F /* Pods-Migrant Handbook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Migrant Handbook.debug.xcconfig"; path = "Target Support Files/Pods-Migrant Handbook/Pods-Migrant Handbook.debug.xcconfig"; sourceTree = "<group>"; };
-		B64D067DC3FFF51B6CF49CBC /* Pods-Migrant Handbook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Migrant Handbook.release.xcconfig"; path = "Target Support Files/Pods-Migrant Handbook/Pods-Migrant Handbook.release.xcconfig"; sourceTree = "<group>"; };
-		C15E9724BF52B143A1950E3C /* Pods_Migrant_Handbook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Migrant_Handbook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB762E3B899AF3CAF0F961A /* Pods-Migrant Handbook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Migrant Handbook.debug.xcconfig"; path = "Target Support Files/Pods-Migrant Handbook/Pods-Migrant Handbook.debug.xcconfig"; sourceTree = "<group>"; };
+		76D54C0A09AC63EF752648C0 /* Pods_Migrant_Handbook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Migrant_Handbook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1DBEA03811D9C3CF96FB563 /* Pods-Migrant Handbook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Migrant Handbook.release.xcconfig"; path = "Target Support Files/Pods-Migrant Handbook/Pods-Migrant Handbook.release.xcconfig"; sourceTree = "<group>"; };
 		C97514022507BC9400F26630 /* HotLinesTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotLinesTVCell.swift; sourceTree = "<group>"; };
 		C97514032507BC9400F26630 /* HotLinesTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HotLinesTVCell.xib; sourceTree = "<group>"; };
 		C97514062507BDB000F26630 /* HotLinesDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotLinesDetailVC.swift; sourceTree = "<group>"; };
@@ -852,7 +852,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF0ABE3B4F2BEF42F660BCDD /* Pods_Migrant_Handbook.framework in Frameworks */,
+				20DFADB3121CBE5829C734E7 /* Pods_Migrant_Handbook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1400,7 +1400,7 @@
 				2EFBBB4924F3FA2B002FE9D4 /* Migrant Handbook */,
 				2EFBBB4824F3FA2B002FE9D4 /* Products */,
 				DBA8367B518C4FD2A13B9AA3 /* Pods */,
-				60624E993D77F0068F59943E /* Frameworks */,
+				C09CF97354DC4808FBAC7123 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1555,10 +1555,10 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		60624E993D77F0068F59943E /* Frameworks */ = {
+		C09CF97354DC4808FBAC7123 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C15E9724BF52B143A1950E3C /* Pods_Migrant_Handbook.framework */,
+				76D54C0A09AC63EF752648C0 /* Pods_Migrant_Handbook.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1594,8 +1594,8 @@
 		DBA8367B518C4FD2A13B9AA3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8FF573E9DBAD9893CC97AB5F /* Pods-Migrant Handbook.debug.xcconfig */,
-				B64D067DC3FFF51B6CF49CBC /* Pods-Migrant Handbook.release.xcconfig */,
+				5CB762E3B899AF3CAF0F961A /* Pods-Migrant Handbook.debug.xcconfig */,
+				A1DBEA03811D9C3CF96FB563 /* Pods-Migrant Handbook.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -1607,11 +1607,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2EFBBB5B24F3FA2F002FE9D4 /* Build configuration list for PBXNativeTarget "Migrant Handbook" */;
 			buildPhases = (
-				242B7048D83A0CB05C527CC9 /* [CP] Check Pods Manifest.lock */,
+				D16180074B9347D379E8A3BE /* [CP] Check Pods Manifest.lock */,
 				2EFBBB4324F3FA2B002FE9D4 /* Sources */,
 				2EFBBB4424F3FA2B002FE9D4 /* Frameworks */,
 				2EFBBB4524F3FA2B002FE9D4 /* Resources */,
-				746BE4F7D0E55AFFB791BD07 /* [CP] Embed Pods Frameworks */,
+				BF5A55DCE7C1E9323A22316E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1992,7 +1992,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		242B7048D83A0CB05C527CC9 /* [CP] Check Pods Manifest.lock */ = {
+		BF5A55DCE7C1E9323A22316E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Migrant Handbook/Pods-Migrant Handbook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Migrant Handbook/Pods-Migrant Handbook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Migrant Handbook/Pods-Migrant Handbook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D16180074B9347D379E8A3BE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2012,23 +2029,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		746BE4F7D0E55AFFB791BD07 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Migrant Handbook/Pods-Migrant Handbook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Migrant Handbook/Pods-Migrant Handbook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Migrant Handbook/Pods-Migrant Handbook-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -2300,11 +2300,11 @@
 		};
 		2EFBBB5C24F3FA2F002FE9D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FF573E9DBAD9893CC97AB5F /* Pods-Migrant Handbook.debug.xcconfig */;
+			baseConfigurationReference = 5CB762E3B899AF3CAF0F961A /* Pods-Migrant Handbook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YDG37K9NRQ;
 				INFOPLIST_FILE = "Migrant Handbook/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
@@ -2312,7 +2312,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = pro.sunrisestudio.MigrantHandboo;
 				PRODUCT_NAME = "Справочник мигранта";
 				SWIFT_VERSION = 5.0;
@@ -2322,11 +2322,11 @@
 		};
 		2EFBBB5D24F3FA2F002FE9D4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B64D067DC3FFF51B6CF49CBC /* Pods-Migrant Handbook.release.xcconfig */;
+			baseConfigurationReference = A1DBEA03811D9C3CF96FB563 /* Pods-Migrant Handbook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YDG37K9NRQ;
 				INFOPLIST_FILE = "Migrant Handbook/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
@@ -2334,7 +2334,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = pro.sunrisestudio.MigrantHandboo;
 				PRODUCT_NAME = "Справочник мигранта";
 				SWIFT_VERSION = 5.0;

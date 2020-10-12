@@ -107,8 +107,9 @@ class EmbassiesDetailTVC: UITableViewController {
     }
     
     private func openWebPage(url: String) {
+        guard url != "" else { return }
         var httpUrl = url
-        if !url.contains("http://") {
+        if !url.contains("http") {
             httpUrl = "http://" + url
         }
         if let webURL = URL(string: httpUrl), UIApplication.shared.canOpenURL(webURL) {

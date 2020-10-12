@@ -44,6 +44,7 @@ class Database {
         let humanTraffickingPath = "json_human_traffic_\(AppSettings.currentLanguage)"
         let regionsPath = "json_region"
         let listNKOPath = "json_nko_\(AppSettings.currentLanguage)"
+       
         ///get json from file
         let rulesOfIncomitJson = Parser.json(with: rulesOfIncomitPath)
         let eaesRulesJson = Parser.json(with: eaesRulesPath)

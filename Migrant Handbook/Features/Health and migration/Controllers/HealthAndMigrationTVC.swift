@@ -19,8 +19,6 @@ class HealthAndMigrationTVC: UITableViewController {
                             didSelectRowAt indexPath: IndexPath) {
         let diseaseInfo = DiseaseTVC()
         switch indexPath.row {
-//        case 0:
-//            diseaseInfo.diseases = Database.shared.covidInfo
         case 0:
             diseaseInfo.diseases = Database.shared.tuberkulezInfo
         case 1:
